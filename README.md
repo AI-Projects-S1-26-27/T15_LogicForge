@@ -25,7 +25,7 @@ The two formulations are compared on the same instances. When no valid plan exis
 - **A\* admissible heuristic** — a lower bound on remaining terms, derived from remaining required credits and per-term credit capacity (`⌈remaining_credits / max_credits_per_term⌉`), plus a critical-path bound from the longest remaining prerequisite chain. This bounds the search; it is **not** a prediction of a student's actual graduation date, and is only as accurate as the admissibility proof holds for the final cost formulation.
 - **Propositional prerequisite logic** — prerequisites expressed as Boolean formulas (`CS F211 AND (MATH F211 OR MATH F213)`), evaluated by entailment against completed coursework.
 - **Independent verification** — every generated plan is re-checked by a verifier implemented separately from both solvers, by a team member who wrote neither.
-- **Infeasibility diagnosis** — when no plan exists, GraphMind identifies the constraints responsible for the infeasibility via deletion-based conflict extraction. This explains *which* constraints are in conflict; it does not currently guarantee the conflict set returned is of minimum size, and the README/report will not claim minimality unless that property is implemented and tested.
+- **Infeasibility diagnosis** — when no plan exists, GraphMind identifies the constraints responsible for the infeasibility via deletion-based conflict extraction. This explains *which* constraints are in conflict and suggests a relaxation for each, re-solving to confirm it works. The returned set is *minimal* (dropping any one rule makes a plan possible), checked against brute force on small random instances in `tests/test_infeasibility_analyzer.py`. It is not guaranteed to be the *smallest* conflict when several exist; if a solver call times out the report says the set may not be minimal.
 - **Branch-aware curriculum data** — common courses, branch-specific requirements, and minor requirements are kept as separate data, so branches can be added or validated independently (see [`docs/data_schema.md`](./docs/data_schema.md)).
 
 ## 3. Architecture
@@ -147,10 +147,10 @@ Week 5 is intended to be a complete, if narrow, working system — everything af
 | CSP solver (backtracking + FC + AC‑3 + ordering) | Pair B | Returns a valid plan on sample transcripts; propagation techniques independently toggleable for E2 | ⬜ Not yet started |
 | A* planner + heuristics | Pair C | Returns a plan on the same instances as the CSP solver; heuristic admissibility holds on test cases | ⬜ Not yet started |
 | Learned heuristic | Pair C | Trained on self-supervised data; evaluated against hand-crafted heuristics in E3 | ⬜ Not yet started |
-| Independent verifier | Pair D | Re-checks every constraint from a plan + model with no imports from `csp/` or `astar/` | ⬜ Not yet started |
-| Infeasibility analyzer | Pair D | Returns a non-empty, re-checkable conflicting-constraint set on a known-infeasible instance | ⬜ Not yet started |
-| Streamlit frontend | Pair D | Transcript in → verified plan or infeasibility report out, via `planning_service.py` | ⬜ Not yet started |
-| Benchmark + experiments E1–E5 | Pair D (+ owning pair per experiment, see `docs/experiments.md`) | Each experiment runs and produces the output defined in `docs/experiments.md` | ⬜ Not yet started |
+| Independent verifier | Pair D | Re-checks every constraint from a plan + model with no imports from `csp/` or `astar/` | ✅ `backend/verification/plan_checker.py`, 23 tests incl. an import-independence test |
+| Infeasibility analyzer | Pair D | Returns a non-empty, re-checkable conflicting-constraint set on a known-infeasible instance | ✅ `backend/explanations/infeasibility_analyzer.py`, minimality checked by brute force |
+| Streamlit frontend | Pair D | Transcript in → verified plan or infeasibility report out, via `planning_service.py` | 🟡 `frontend/app.py` + `planning_service.py` built; service tested end to end on CSE, Streamlit UI not yet run |
+| Benchmark + experiments E1–E5 | Pair D (+ owning pair per experiment, see `docs/experiments.md`) | Each experiment runs and produces the output defined in `docs/experiments.md` | 🟡 200-student benchmark, stats and E4 done (CSP only, A* not on `main`); E5 form ready, no users yet |
 
 ## 7. Documentation
 
