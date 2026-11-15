@@ -31,6 +31,8 @@ Implemented in `experiments/heuristic_comparison.py` (Pair C). Runs A* with each
 
 Every plan produced by either solver is re-validated by `backend/verification/plan_checker.py` (Pair D), which checks each prerequisite, requirement, credit, and semester constraint independently of the solver that produced the plan. E4 reports the plan validity rate and any constraint violations the verifier catches — this is the system's defense against "the CSP solver and A* both agree, so it must be right," since both could share an undetected bug in a part of the model they both rely on.
 
+Implemented in `experiments/e4_verification.py` (Pair D) over the 200-student benchmark from `experiments/benchmark.py`. It also runs a **sensitivity check**: each valid plan is deliberately broken four ways (prerequisite in the same term, odd/even course shifted, required course dropped, everything in one semester) and the verifier must flag each with the right rule. With `--diagnose`, UNSAT instances are passed to the infeasibility analyser. Results: `experiments/results/e4_summary.md` and `e4_verification.csv`.
+
 ## E5 — End-user evaluation
 
 6–10 volunteer students (team members and classmates, per the proposal — no third-party academic records are collected or stored) run their **own** transcripts through GraphMind and report on plan correctness and usefulness. This is the Application track's realistic-user requirement (course guidelines, Appendix A). Results and any consent/data-handling notes live under `experiments/results/`.
