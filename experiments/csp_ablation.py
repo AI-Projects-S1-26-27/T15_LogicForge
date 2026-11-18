@@ -28,12 +28,13 @@ from requirement_resolver import RequirementResolver
 
 def get_ablation_configs(timeout_s: float = 30.0) -> List[Tuple[str, SolverConfig]]:
     return [
-        ("plain", SolverConfig(mrv=False, forward_checking=False, ac3=False, degree_tiebreak=False, timeout_s=timeout_s)),
-        ("+mrv", SolverConfig(mrv=True, forward_checking=False, ac3=False, degree_tiebreak=False, timeout_s=timeout_s)),
-        ("+fc", SolverConfig(mrv=False, forward_checking=True, ac3=False, degree_tiebreak=False, timeout_s=timeout_s)),
-        ("+fc+mrv", SolverConfig(mrv=True, forward_checking=True, ac3=False, degree_tiebreak=False, timeout_s=timeout_s)),
-        ("+ac3", SolverConfig(mrv=False, forward_checking=False, ac3=True, degree_tiebreak=False, timeout_s=timeout_s)),
-        ("all", SolverConfig(mrv=True, forward_checking=True, ac3=True, degree_tiebreak=True, timeout_s=timeout_s)),
+        ("plain", SolverConfig(mrv=False, forward_checking=False, ac3=False, degree_tiebreak=False, lcv=False, timeout_s=timeout_s)),
+        ("+fc", SolverConfig(mrv=False, forward_checking=True, ac3=False, degree_tiebreak=False, lcv=False, timeout_s=timeout_s)),
+        ("+ac3", SolverConfig(mrv=False, forward_checking=False, ac3=True, degree_tiebreak=False, lcv=False, timeout_s=timeout_s)),
+        ("+mrv", SolverConfig(mrv=True, forward_checking=False, ac3=False, degree_tiebreak=False, lcv=False, timeout_s=timeout_s)),
+        ("+fc+mrv", SolverConfig(mrv=True, forward_checking=True, ac3=False, degree_tiebreak=False, lcv=False, timeout_s=timeout_s)),
+        ("+mrv+lcv", SolverConfig(mrv=True, forward_checking=False, ac3=False, degree_tiebreak=True, lcv=True, timeout_s=timeout_s)),
+        ("all", SolverConfig(mrv=True, forward_checking=True, ac3=True, degree_tiebreak=True, lcv=True, timeout_s=timeout_s)),
     ]
 
 

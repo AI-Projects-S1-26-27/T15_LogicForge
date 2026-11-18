@@ -1,12 +1,8 @@
-"""Experiment E3 — ablation of the admissible heuristics.
+"""Experiment E3 — ablation of the heuristics (admissible + learned).
 
-Runs A* with the credit bound, the critical-path bound, and their
-pointwise maximum. Reports nodes expanded and the term-count gap against
-the composite run. On these instances the composite heuristic is admissible,
-so a gap of zero means that heuristic also found a minimum-term plan.
-
-The learned heuristic is intentionally absent. It is not a lower bound, and
-it is a later Pair C slice.
+Runs A* with the credit bound, the critical-path bound, their pointwise maximum
+(composite), and the learned heuristic. Reports nodes expanded, runtime, and the
+term-count optimality gap against the composite run.
 """
 
 from __future__ import annotations
@@ -22,7 +18,7 @@ if _REPO_ROOT not in sys.path:
 from backend.astar import AStarConfig, solve  # noqa: E402
 from experiments.solver_comparison import instances  # noqa: E402
 
-HEURISTICS = ("credit_bound", "critical_path", "composite")
+HEURISTICS = ("credit_bound", "critical_path", "composite", "learned")
 
 
 def run() -> list[dict]:

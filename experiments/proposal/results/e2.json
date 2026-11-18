@@ -1,0 +1,6562 @@
+[
+  {
+    "id": 0,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 1241,
+    "backtracks": 1196,
+    "constraint_checks": 1986,
+    "prunings": 312,
+    "time_s": 0.01193775700085098
+  },
+  {
+    "id": 0,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 51,
+    "backtracks": 6,
+    "constraint_checks": 491,
+    "prunings": 44,
+    "time_s": 0.004705150000518188
+  },
+  {
+    "id": 0,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 51,
+    "backtracks": 6,
+    "constraint_checks": 526,
+    "prunings": 44,
+    "time_s": 0.004310301999794319
+  },
+  {
+    "id": 0,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 46,
+    "backtracks": 1,
+    "constraint_checks": 503,
+    "prunings": 32,
+    "time_s": 0.0042091300019819755
+  },
+  {
+    "id": 1,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 14136,
+    "backtracks": 14104,
+    "constraint_checks": 18715,
+    "prunings": 4768,
+    "time_s": 0.10001732599994284
+  },
+  {
+    "id": 1,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 57,
+    "backtracks": 12,
+    "constraint_checks": 571,
+    "prunings": 87,
+    "time_s": 0.00453749199732556
+  },
+  {
+    "id": 1,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 57,
+    "backtracks": 12,
+    "constraint_checks": 606,
+    "prunings": 87,
+    "time_s": 0.004550711997580947
+  },
+  {
+    "id": 1,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 558,
+    "prunings": 43,
+    "time_s": 0.004713383001217153
+  },
+  {
+    "id": 2,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 15608,
+    "backtracks": 15591,
+    "constraint_checks": 19487,
+    "prunings": 5852,
+    "time_s": 0.10001896399990073
+  },
+  {
+    "id": 2,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 663,
+    "backtracks": 663,
+    "constraint_checks": 4044,
+    "prunings": 2174,
+    "time_s": 0.02860657299970626
+  },
+  {
+    "id": 2,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 663,
+    "backtracks": 663,
+    "constraint_checks": 4072,
+    "prunings": 2174,
+    "time_s": 0.030485201001283713
+  },
+  {
+    "id": 2,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 240,
+    "backtracks": 240,
+    "constraint_checks": 1253,
+    "prunings": 414,
+    "time_s": 0.012679676001425833
+  },
+  {
+    "id": 3,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 16204,
+    "backtracks": 16182,
+    "constraint_checks": 19888,
+    "prunings": 5095,
+    "time_s": 0.10001285899852519
+  },
+  {
+    "id": 3,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 52,
+    "backtracks": 7,
+    "constraint_checks": 539,
+    "prunings": 66,
+    "time_s": 0.004193370001303265
+  },
+  {
+    "id": 3,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 52,
+    "backtracks": 7,
+    "constraint_checks": 564,
+    "prunings": 66,
+    "time_s": 0.004199389997666003
+  },
+  {
+    "id": 3,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 540,
+    "prunings": 43,
+    "time_s": 0.0043765240006905515
+  },
+  {
+    "id": 4,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 19406,
+    "backtracks": 19393,
+    "constraint_checks": 25354,
+    "prunings": 14356,
+    "time_s": 0.10000946700165514
+  },
+  {
+    "id": 4,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 3816,
+    "backtracks": 3801,
+    "constraint_checks": 15647,
+    "prunings": 6954,
+    "time_s": 0.10002038399761659
+  },
+  {
+    "id": 4,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 3292,
+    "backtracks": 3275,
+    "constraint_checks": 13536,
+    "prunings": 5998,
+    "time_s": 0.11567687999922782
+  },
+  {
+    "id": 4,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 3819,
+    "backtracks": 3796,
+    "constraint_checks": 9188,
+    "prunings": 15198,
+    "time_s": 0.10006228199927136
+  },
+  {
+    "id": 5,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 18287,
+    "backtracks": 18275,
+    "constraint_checks": 22135,
+    "prunings": 20954,
+    "time_s": 0.10001540099983686
+  },
+  {
+    "id": 5,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 49,
+    "backtracks": 19,
+    "constraint_checks": 237,
+    "prunings": 142,
+    "time_s": 0.0019347250017744955
+  },
+  {
+    "id": 5,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 49,
+    "backtracks": 19,
+    "constraint_checks": 254,
+    "prunings": 142,
+    "time_s": 0.0016863390010257717
+  },
+  {
+    "id": 5,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 0,
+    "constraint_checks": 218,
+    "prunings": 53,
+    "time_s": 0.0017772980027075391
+  },
+  {
+    "id": 6,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 21332,
+    "backtracks": 21316,
+    "constraint_checks": 28139,
+    "prunings": 20274,
+    "time_s": 0.10001150600146502
+  },
+  {
+    "id": 6,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 72,
+    "backtracks": 41,
+    "constraint_checks": 255,
+    "prunings": 188,
+    "time_s": 0.0017607020017749164
+  },
+  {
+    "id": 6,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 72,
+    "backtracks": 41,
+    "constraint_checks": 267,
+    "prunings": 188,
+    "time_s": 0.0018959160006488673
+  },
+  {
+    "id": 6,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 37,
+    "backtracks": 6,
+    "constraint_checks": 192,
+    "prunings": 66,
+    "time_s": 0.0015088910004124045
+  },
+  {
+    "id": 7,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 24426,
+    "backtracks": 24410,
+    "constraint_checks": 28445,
+    "prunings": 32574,
+    "time_s": 0.10001416500017513
+  },
+  {
+    "id": 7,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 61,
+    "backtracks": 30,
+    "constraint_checks": 269,
+    "prunings": 199,
+    "time_s": 0.00170360100310063
+  },
+  {
+    "id": 7,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 61,
+    "backtracks": 30,
+    "constraint_checks": 278,
+    "prunings": 199,
+    "time_s": 0.0018744699991657399
+  },
+  {
+    "id": 7,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 33,
+    "backtracks": 2,
+    "constraint_checks": 214,
+    "prunings": 63,
+    "time_s": 0.0014873030013404787
+  },
+  {
+    "id": 8,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 24421,
+    "backtracks": 24409,
+    "constraint_checks": 30312,
+    "prunings": 22731,
+    "time_s": 0.10000832299920148
+  },
+  {
+    "id": 8,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 5147,
+    "backtracks": 5128,
+    "constraint_checks": 15879,
+    "prunings": 8365,
+    "time_s": 0.1000105960010842
+  },
+  {
+    "id": 8,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 4509,
+    "backtracks": 4490,
+    "constraint_checks": 13797,
+    "prunings": 7441,
+    "time_s": 0.10000928500085138
+  },
+  {
+    "id": 8,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 5404,
+    "backtracks": 5381,
+    "constraint_checks": 10479,
+    "prunings": 16160,
+    "time_s": 0.10002281500055688
+  },
+  {
+    "id": 9,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 26154,
+    "backtracks": 26142,
+    "constraint_checks": 26521,
+    "prunings": 36259,
+    "time_s": 0.1000129999993078
+  },
+  {
+    "id": 9,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 42,
+    "backtracks": 17,
+    "constraint_checks": 164,
+    "prunings": 105,
+    "time_s": 0.001174738001282094
+  },
+  {
+    "id": 9,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 42,
+    "backtracks": 17,
+    "constraint_checks": 182,
+    "prunings": 105,
+    "time_s": 0.0010902600006374996
+  },
+  {
+    "id": 9,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 25,
+    "backtracks": 0,
+    "constraint_checks": 156,
+    "prunings": 43,
+    "time_s": 0.001126815001043724
+  },
+  {
+    "id": 10,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 26006,
+    "backtracks": 25989,
+    "constraint_checks": 27190,
+    "prunings": 23861,
+    "time_s": 0.10001324000040768
+  },
+  {
+    "id": 10,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 4779,
+    "backtracks": 4779,
+    "constraint_checks": 9232,
+    "prunings": 12612,
+    "time_s": 0.07928444000208401
+  },
+  {
+    "id": 10,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 4779,
+    "backtracks": 4779,
+    "constraint_checks": 9245,
+    "prunings": 12612,
+    "time_s": 0.06587222199959797
+  },
+  {
+    "id": 10,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 1417,
+    "backtracks": 1417,
+    "constraint_checks": 2745,
+    "prunings": 4204,
+    "time_s": 0.025938805996702285
+  },
+  {
+    "id": 11,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 23462,
+    "backtracks": 23449,
+    "constraint_checks": 23550,
+    "prunings": 28074,
+    "time_s": 0.1000965310013271
+  },
+  {
+    "id": 11,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 19,
+    "constraint_checks": 173,
+    "prunings": 111,
+    "time_s": 0.0013349399996513966
+  },
+  {
+    "id": 11,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 19,
+    "constraint_checks": 183,
+    "prunings": 111,
+    "time_s": 0.0012550700012070592
+  },
+  {
+    "id": 11,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 27,
+    "backtracks": 1,
+    "constraint_checks": 153,
+    "prunings": 48,
+    "time_s": 0.001088226999854669
+  },
+  {
+    "id": 13,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 4583,
+    "backtracks": 4564,
+    "constraint_checks": 5946,
+    "prunings": 4278,
+    "time_s": 0.018526952997490298
+  },
+  {
+    "id": 13,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 28,
+    "backtracks": 9,
+    "constraint_checks": 96,
+    "prunings": 62,
+    "time_s": 0.0009358360002806876
+  },
+  {
+    "id": 13,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 28,
+    "backtracks": 9,
+    "constraint_checks": 106,
+    "prunings": 62,
+    "time_s": 0.000701701999787474
+  },
+  {
+    "id": 13,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 94,
+    "prunings": 35,
+    "time_s": 0.0008148730012180749
+  },
+  {
+    "id": 14,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 26602,
+    "backtracks": 26596,
+    "constraint_checks": 32894,
+    "prunings": 16856,
+    "time_s": 0.10000846399998409
+  },
+  {
+    "id": 14,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 657,
+    "backtracks": 657,
+    "constraint_checks": 1278,
+    "prunings": 1044,
+    "time_s": 0.008780266998655861
+  },
+  {
+    "id": 14,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 657,
+    "backtracks": 657,
+    "constraint_checks": 1283,
+    "prunings": 1044,
+    "time_s": 0.008411709000938572
+  },
+  {
+    "id": 14,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 383,
+    "backtracks": 383,
+    "constraint_checks": 600,
+    "prunings": 750,
+    "time_s": 0.005706595999072306
+  },
+  {
+    "id": 15,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 28263,
+    "backtracks": 28248,
+    "constraint_checks": 28302,
+    "prunings": 36103,
+    "time_s": 0.10001131800163421
+  },
+  {
+    "id": 15,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 32,
+    "backtracks": 13,
+    "constraint_checks": 103,
+    "prunings": 70,
+    "time_s": 0.0007910770000307821
+  },
+  {
+    "id": 15,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 32,
+    "backtracks": 13,
+    "constraint_checks": 107,
+    "prunings": 70,
+    "time_s": 0.0008983799998532049
+  },
+  {
+    "id": 15,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 88,
+    "prunings": 35,
+    "time_s": 0.0006687120003334712
+  },
+  {
+    "id": 17,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 12978,
+    "backtracks": 12978,
+    "constraint_checks": 13893,
+    "prunings": 9456,
+    "time_s": 0.039060260001861025
+  },
+  {
+    "id": 17,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 3922,
+    "backtracks": 3922,
+    "constraint_checks": 5872,
+    "prunings": 5572,
+    "time_s": 0.0408336340005917
+  },
+  {
+    "id": 17,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 3922,
+    "backtracks": 3922,
+    "constraint_checks": 5875,
+    "prunings": 5572,
+    "time_s": 0.04398035000122036
+  },
+  {
+    "id": 17,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 510,
+    "backtracks": 510,
+    "constraint_checks": 733,
+    "prunings": 1008,
+    "time_s": 0.008122645002003992
+  },
+  {
+    "id": 19,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 11607,
+    "backtracks": 11607,
+    "constraint_checks": 13554,
+    "prunings": 8898,
+    "time_s": 0.03329291500267573
+  },
+  {
+    "id": 19,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 1844,
+    "backtracks": 1844,
+    "constraint_checks": 2536,
+    "prunings": 2984,
+    "time_s": 0.018484907999663847
+  },
+  {
+    "id": 19,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 1844,
+    "backtracks": 1844,
+    "constraint_checks": 2539,
+    "prunings": 2984,
+    "time_s": 0.02432407900050748
+  },
+  {
+    "id": 19,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 510,
+    "backtracks": 510,
+    "constraint_checks": 733,
+    "prunings": 1008,
+    "time_s": 0.007470329001080245
+  },
+  {
+    "id": 20,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 13324,
+    "backtracks": 13292,
+    "constraint_checks": 20955,
+    "prunings": 3386,
+    "time_s": 0.10011371799919289
+  },
+  {
+    "id": 20,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 1890,
+    "backtracks": 1855,
+    "constraint_checks": 13950,
+    "prunings": 1858,
+    "time_s": 0.1000110829991172
+  },
+  {
+    "id": 20,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 1796,
+    "backtracks": 1764,
+    "constraint_checks": 13308,
+    "prunings": 1768,
+    "time_s": 0.10008768899933784
+  },
+  {
+    "id": 20,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 786,
+    "backtracks": 786,
+    "constraint_checks": 3543,
+    "prunings": 1506,
+    "time_s": 0.031200800000078743
+  },
+  {
+    "id": 21,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 14729,
+    "backtracks": 14693,
+    "constraint_checks": 23148,
+    "prunings": 12540,
+    "time_s": 0.10002320199782844
+  },
+  {
+    "id": 21,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 56,
+    "backtracks": 11,
+    "constraint_checks": 561,
+    "prunings": 100,
+    "time_s": 0.0055495929991593584
+  },
+  {
+    "id": 21,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 56,
+    "backtracks": 11,
+    "constraint_checks": 605,
+    "prunings": 97,
+    "time_s": 0.005043237997597316
+  },
+  {
+    "id": 21,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 573,
+    "prunings": 50,
+    "time_s": 0.00510760500037577
+  },
+  {
+    "id": 22,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 11080,
+    "backtracks": 11080,
+    "constraint_checks": 14030,
+    "prunings": 3678,
+    "time_s": 0.05785928000113927
+  },
+  {
+    "id": 22,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 1962,
+    "backtracks": 1941,
+    "constraint_checks": 13477,
+    "prunings": 2844,
+    "time_s": 0.1000439119998191
+  },
+  {
+    "id": 22,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 1779,
+    "backtracks": 1752,
+    "constraint_checks": 12269,
+    "prunings": 1878,
+    "time_s": 0.1000795059990196
+  },
+  {
+    "id": 22,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 179,
+    "backtracks": 179,
+    "constraint_checks": 989,
+    "prunings": 492,
+    "time_s": 0.010758091000752756
+  },
+  {
+    "id": 23,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 20004,
+    "backtracks": 19979,
+    "constraint_checks": 31090,
+    "prunings": 20509,
+    "time_s": 0.10002993099988089
+  },
+  {
+    "id": 23,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 75,
+    "backtracks": 30,
+    "constraint_checks": 664,
+    "prunings": 203,
+    "time_s": 0.005721263001760235
+  },
+  {
+    "id": 23,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 73,
+    "backtracks": 28,
+    "constraint_checks": 686,
+    "prunings": 166,
+    "time_s": 0.005679199999576667
+  },
+  {
+    "id": 23,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 50,
+    "backtracks": 5,
+    "constraint_checks": 574,
+    "prunings": 75,
+    "time_s": 0.0053260349995980505
+  },
+  {
+    "id": 24,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 23588,
+    "backtracks": 23572,
+    "constraint_checks": 29092,
+    "prunings": 22824,
+    "time_s": 0.10001337599896942
+  },
+  {
+    "id": 24,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 146,
+    "backtracks": 116,
+    "constraint_checks": 578,
+    "prunings": 282,
+    "time_s": 0.004011586999695282
+  },
+  {
+    "id": 24,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 146,
+    "backtracks": 116,
+    "constraint_checks": 603,
+    "prunings": 282,
+    "time_s": 0.004277059000742156
+  },
+  {
+    "id": 24,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 36,
+    "backtracks": 6,
+    "constraint_checks": 208,
+    "prunings": 68,
+    "time_s": 0.0017507679986010771
+  },
+  {
+    "id": 25,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 24150,
+    "backtracks": 24136,
+    "constraint_checks": 28266,
+    "prunings": 33796,
+    "time_s": 0.10001714300233289
+  },
+  {
+    "id": 25,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 50,
+    "backtracks": 20,
+    "constraint_checks": 235,
+    "prunings": 159,
+    "time_s": 0.0016176480021385942
+  },
+  {
+    "id": 25,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 50,
+    "backtracks": 20,
+    "constraint_checks": 252,
+    "prunings": 159,
+    "time_s": 0.0014901649992680177
+  },
+  {
+    "id": 25,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 0,
+    "constraint_checks": 218,
+    "prunings": 61,
+    "time_s": 0.0014597790031984914
+  },
+  {
+    "id": 26,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 27108,
+    "backtracks": 27095,
+    "constraint_checks": 32781,
+    "prunings": 37000,
+    "time_s": 0.10001234100127476
+  },
+  {
+    "id": 26,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 4901,
+    "backtracks": 4901,
+    "constraint_checks": 14398,
+    "prunings": 18480,
+    "time_s": 0.08613837500161026
+  },
+  {
+    "id": 26,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 4901,
+    "backtracks": 4901,
+    "constraint_checks": 14410,
+    "prunings": 18480,
+    "time_s": 0.08890043099745526
+  },
+  {
+    "id": 26,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 4580,
+    "backtracks": 4552,
+    "constraint_checks": 10887,
+    "prunings": 18240,
+    "time_s": 0.10001968299911823
+  },
+  {
+    "id": 27,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 26214,
+    "backtracks": 26198,
+    "constraint_checks": 26222,
+    "prunings": 47102,
+    "time_s": 0.1000250210017839
+  },
+  {
+    "id": 27,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 56,
+    "backtracks": 25,
+    "constraint_checks": 249,
+    "prunings": 186,
+    "time_s": 0.0017533110003569163
+  },
+  {
+    "id": 27,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 56,
+    "backtracks": 25,
+    "constraint_checks": 258,
+    "prunings": 186,
+    "time_s": 0.0017779480003810022
+  },
+  {
+    "id": 27,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 31,
+    "backtracks": 0,
+    "constraint_checks": 211,
+    "prunings": 61,
+    "time_s": 0.0016309860002365895
+  },
+  {
+    "id": 28,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 26049,
+    "backtracks": 26037,
+    "constraint_checks": 31615,
+    "prunings": 26624,
+    "time_s": 0.10008130599817378
+  },
+  {
+    "id": 28,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 3417,
+    "backtracks": 3417,
+    "constraint_checks": 9091,
+    "prunings": 8288,
+    "time_s": 0.05379574499966111
+  },
+  {
+    "id": 28,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 3417,
+    "backtracks": 3417,
+    "constraint_checks": 9105,
+    "prunings": 8288,
+    "time_s": 0.05109325000012177
+  },
+  {
+    "id": 28,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 1327,
+    "backtracks": 1327,
+    "constraint_checks": 2610,
+    "prunings": 3930,
+    "time_s": 0.02529612400030601
+  },
+  {
+    "id": 29,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 28244,
+    "backtracks": 28229,
+    "constraint_checks": 28253,
+    "prunings": 33821,
+    "time_s": 0.10001350099992123
+  },
+  {
+    "id": 29,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 46,
+    "backtracks": 21,
+    "constraint_checks": 175,
+    "prunings": 124,
+    "time_s": 0.0013954220012237784
+  },
+  {
+    "id": 29,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 46,
+    "backtracks": 21,
+    "constraint_checks": 189,
+    "prunings": 124,
+    "time_s": 0.0011071959997934755
+  },
+  {
+    "id": 29,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 26,
+    "backtracks": 1,
+    "constraint_checks": 153,
+    "prunings": 47,
+    "time_s": 0.0011346569990564603
+  },
+  {
+    "id": 31,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 1,
+    "prunings": 0,
+    "time_s": 0.0001095650004572235
+  },
+  {
+    "id": 31,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 1,
+    "prunings": 0,
+    "time_s": 0.00012387699825922027
+  },
+  {
+    "id": 31,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 8,
+    "prunings": 0,
+    "time_s": 0.00012528899969765916
+  },
+  {
+    "id": 31,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 8,
+    "prunings": 0,
+    "time_s": 0.00013689700062968768
+  },
+  {
+    "id": 33,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 1151,
+    "backtracks": 1132,
+    "constraint_checks": 1436,
+    "prunings": 1070,
+    "time_s": 0.004312193999794545
+  },
+  {
+    "id": 33,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 98,
+    "prunings": 62,
+    "time_s": 0.0006185860002005938
+  },
+  {
+    "id": 33,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 112,
+    "prunings": 62,
+    "time_s": 0.0007172650002758019
+  },
+  {
+    "id": 33,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 98,
+    "prunings": 33,
+    "time_s": 0.0006892019991937559
+  },
+  {
+    "id": 34,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 27058,
+    "backtracks": 27045,
+    "constraint_checks": 34200,
+    "prunings": 15188,
+    "time_s": 0.10000845499962452
+  },
+  {
+    "id": 34,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 883,
+    "backtracks": 883,
+    "constraint_checks": 1308,
+    "prunings": 1568,
+    "time_s": 0.009313517002738081
+  },
+  {
+    "id": 34,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 883,
+    "backtracks": 883,
+    "constraint_checks": 1317,
+    "prunings": 1568,
+    "time_s": 0.010098303999257041
+  },
+  {
+    "id": 34,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 260,
+    "backtracks": 260,
+    "constraint_checks": 397,
+    "prunings": 502,
+    "time_s": 0.003977314998337533
+  },
+  {
+    "id": 35,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 2179,
+    "backtracks": 2160,
+    "constraint_checks": 2232,
+    "prunings": 2501,
+    "time_s": 0.006814076998125529
+  },
+  {
+    "id": 35,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 98,
+    "prunings": 62,
+    "time_s": 0.0006200380012160167
+  },
+  {
+    "id": 35,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 106,
+    "prunings": 62,
+    "time_s": 0.0008549330013920553
+  },
+  {
+    "id": 35,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 92,
+    "prunings": 33,
+    "time_s": 0.0007021119999990333
+  },
+  {
+    "id": 37,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 21707,
+    "backtracks": 21707,
+    "constraint_checks": 22622,
+    "prunings": 15259,
+    "time_s": 0.06471601800149074
+  },
+  {
+    "id": 37,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 2925,
+    "backtracks": 2925,
+    "constraint_checks": 3924,
+    "prunings": 4410,
+    "time_s": 0.027037725001719082
+  },
+  {
+    "id": 37,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 2925,
+    "backtracks": 2925,
+    "constraint_checks": 3928,
+    "prunings": 4410,
+    "time_s": 0.027528607999556698
+  },
+  {
+    "id": 37,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 151,
+    "backtracks": 151,
+    "constraint_checks": 221,
+    "prunings": 286,
+    "time_s": 0.002074607997201383
+  },
+  {
+    "id": 39,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 29153,
+    "backtracks": 29153,
+    "constraint_checks": 31664,
+    "prunings": 23580,
+    "time_s": 0.07703258100082166
+  },
+  {
+    "id": 39,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 7232,
+    "backtracks": 7232,
+    "constraint_checks": 9586,
+    "prunings": 10664,
+    "time_s": 0.06537335199755034
+  },
+  {
+    "id": 39,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 7232,
+    "backtracks": 7232,
+    "constraint_checks": 9587,
+    "prunings": 10664,
+    "time_s": 0.06871996500194655
+  },
+  {
+    "id": 39,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 510,
+    "backtracks": 510,
+    "constraint_checks": 731,
+    "prunings": 1008,
+    "time_s": 0.007343830002355389
+  },
+  {
+    "id": 40,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 14238,
+    "backtracks": 14222,
+    "constraint_checks": 21531,
+    "prunings": 5298,
+    "time_s": 0.10001148599985754
+  },
+  {
+    "id": 40,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 208,
+    "backtracks": 208,
+    "constraint_checks": 1327,
+    "prunings": 604,
+    "time_s": 0.008682495001266943
+  },
+  {
+    "id": 40,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 208,
+    "backtracks": 208,
+    "constraint_checks": 1362,
+    "prunings": 604,
+    "time_s": 0.008833813997625839
+  },
+  {
+    "id": 40,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 135,
+    "backtracks": 135,
+    "constraint_checks": 828,
+    "prunings": 204,
+    "time_s": 0.007252182000229368
+  },
+  {
+    "id": 41,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 5586,
+    "backtracks": 5541,
+    "constraint_checks": 8227,
+    "prunings": 3880,
+    "time_s": 0.04120169199813972
+  },
+  {
+    "id": 41,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 59,
+    "backtracks": 14,
+    "constraint_checks": 572,
+    "prunings": 111,
+    "time_s": 0.0055856200015114155
+  },
+  {
+    "id": 41,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 59,
+    "backtracks": 14,
+    "constraint_checks": 606,
+    "prunings": 111,
+    "time_s": 0.005201969997870037
+  },
+  {
+    "id": 41,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 46,
+    "backtracks": 1,
+    "constraint_checks": 559,
+    "prunings": 53,
+    "time_s": 0.004862485999183264
+  },
+  {
+    "id": 42,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 15283,
+    "backtracks": 15259,
+    "constraint_checks": 19598,
+    "prunings": 5230,
+    "time_s": 0.10001159900275525
+  },
+  {
+    "id": 42,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 791,
+    "backtracks": 791,
+    "constraint_checks": 4830,
+    "prunings": 2150,
+    "time_s": 0.03400035699814907
+  },
+  {
+    "id": 42,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 791,
+    "backtracks": 791,
+    "constraint_checks": 4861,
+    "prunings": 2150,
+    "time_s": 0.033727182999427896
+  },
+  {
+    "id": 42,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 207,
+    "backtracks": 207,
+    "constraint_checks": 1124,
+    "prunings": 546,
+    "time_s": 0.009544706997985486
+  },
+  {
+    "id": 43,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 19489,
+    "backtracks": 19462,
+    "constraint_checks": 27326,
+    "prunings": 16374,
+    "time_s": 0.1000141660006193
+  },
+  {
+    "id": 43,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 443,
+    "backtracks": 398,
+    "constraint_checks": 3252,
+    "prunings": 957,
+    "time_s": 0.02188064499932807
+  },
+  {
+    "id": 43,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 443,
+    "backtracks": 398,
+    "constraint_checks": 3281,
+    "prunings": 957,
+    "time_s": 0.021828185999765992
+  },
+  {
+    "id": 43,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 54,
+    "backtracks": 9,
+    "constraint_checks": 584,
+    "prunings": 93,
+    "time_s": 0.004331041000114055
+  },
+  {
+    "id": 45,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 23659,
+    "backtracks": 23645,
+    "constraint_checks": 29525,
+    "prunings": 36326,
+    "time_s": 0.10001289399951929
+  },
+  {
+    "id": 45,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 60,
+    "backtracks": 30,
+    "constraint_checks": 279,
+    "prunings": 209,
+    "time_s": 0.0020284979982534423
+  },
+  {
+    "id": 45,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 60,
+    "backtracks": 30,
+    "constraint_checks": 303,
+    "prunings": 200,
+    "time_s": 0.001696515999356052
+  },
+  {
+    "id": 45,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 35,
+    "backtracks": 5,
+    "constraint_checks": 242,
+    "prunings": 83,
+    "time_s": 0.0020624890021281317
+  },
+  {
+    "id": 46,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 47358,
+    "backtracks": 47329,
+    "constraint_checks": 53138,
+    "prunings": 46709,
+    "time_s": 0.10002674499992281
+  },
+  {
+    "id": 46,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 5188,
+    "backtracks": 5162,
+    "constraint_checks": 14348,
+    "prunings": 17735,
+    "time_s": 0.10002153700042982
+  },
+  {
+    "id": 46,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 4996,
+    "backtracks": 4969,
+    "constraint_checks": 13557,
+    "prunings": 16352,
+    "time_s": 0.10001549799926579
+  },
+  {
+    "id": 46,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 4831,
+    "backtracks": 4802,
+    "constraint_checks": 11385,
+    "prunings": 19244,
+    "time_s": 0.10001939299763762
+  },
+  {
+    "id": 47,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 30369,
+    "backtracks": 30354,
+    "constraint_checks": 45352,
+    "prunings": 39897,
+    "time_s": 0.10003901299933204
+  },
+  {
+    "id": 47,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 60,
+    "backtracks": 29,
+    "constraint_checks": 274,
+    "prunings": 207,
+    "time_s": 0.0020039920018462
+  },
+  {
+    "id": 47,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 60,
+    "backtracks": 29,
+    "constraint_checks": 290,
+    "prunings": 198,
+    "time_s": 0.0018657420005183667
+  },
+  {
+    "id": 47,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 31,
+    "backtracks": 0,
+    "constraint_checks": 226,
+    "prunings": 58,
+    "time_s": 0.0015814619982847944
+  },
+  {
+    "id": 48,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 24857,
+    "backtracks": 24844,
+    "constraint_checks": 30206,
+    "prunings": 25283,
+    "time_s": 0.10001107500283979
+  },
+  {
+    "id": 48,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 3417,
+    "backtracks": 3417,
+    "constraint_checks": 9091,
+    "prunings": 8288,
+    "time_s": 0.059728586002165684
+  },
+  {
+    "id": 48,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 3417,
+    "backtracks": 3417,
+    "constraint_checks": 9105,
+    "prunings": 8288,
+    "time_s": 0.07328760800010059
+  },
+  {
+    "id": 48,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 1327,
+    "backtracks": 1327,
+    "constraint_checks": 2610,
+    "prunings": 3930,
+    "time_s": 0.023073115000443067
+  },
+  {
+    "id": 49,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 25483,
+    "backtracks": 25469,
+    "constraint_checks": 25508,
+    "prunings": 40137,
+    "time_s": 0.1000130780012114
+  },
+  {
+    "id": 49,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 41,
+    "backtracks": 16,
+    "constraint_checks": 161,
+    "prunings": 113,
+    "time_s": 0.0011798349987657275
+  },
+  {
+    "id": 49,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 41,
+    "backtracks": 16,
+    "constraint_checks": 175,
+    "prunings": 113,
+    "time_s": 0.0012460149991966318
+  },
+  {
+    "id": 49,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 25,
+    "backtracks": 0,
+    "constraint_checks": 152,
+    "prunings": 49,
+    "time_s": 0.0013144279982952867
+  },
+  {
+    "id": 50,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 29792,
+    "backtracks": 29778,
+    "constraint_checks": 29867,
+    "prunings": 39168,
+    "time_s": 0.10003109500030405
+  },
+  {
+    "id": 50,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 5498,
+    "backtracks": 5488,
+    "constraint_checks": 12330,
+    "prunings": 14439,
+    "time_s": 0.10001053399901139
+  },
+  {
+    "id": 50,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 5854,
+    "backtracks": 5842,
+    "constraint_checks": 13111,
+    "prunings": 15396,
+    "time_s": 0.10001375299907522
+  },
+  {
+    "id": 50,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 2682,
+    "backtracks": 2661,
+    "constraint_checks": 5212,
+    "prunings": 8004,
+    "time_s": 0.1001371249985823
+  },
+  {
+    "id": 51,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 19545,
+    "backtracks": 19531,
+    "constraint_checks": 19556,
+    "prunings": 34478,
+    "time_s": 0.10054314700028044
+  },
+  {
+    "id": 51,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 48,
+    "backtracks": 22,
+    "constraint_checks": 178,
+    "prunings": 135,
+    "time_s": 0.0011383519995433744
+  },
+  {
+    "id": 51,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 48,
+    "backtracks": 22,
+    "constraint_checks": 184,
+    "prunings": 135,
+    "time_s": 0.009749081000336446
+  },
+  {
+    "id": 51,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 26,
+    "backtracks": 0,
+    "constraint_checks": 148,
+    "prunings": 50,
+    "time_s": 0.0017803320006350987
+  },
+  {
+    "id": 52,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 12638,
+    "backtracks": 12638,
+    "constraint_checks": 18082,
+    "prunings": 7410,
+    "time_s": 0.06622258499919553
+  },
+  {
+    "id": 52,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 872,
+    "backtracks": 872,
+    "constraint_checks": 1823,
+    "prunings": 1374,
+    "time_s": 0.010669933999452041
+  },
+  {
+    "id": 52,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 6,
+    "prunings": 1,
+    "time_s": 0.0001872630018624477
+  },
+  {
+    "id": 52,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 6,
+    "prunings": 1,
+    "time_s": 0.0001274919995921664
+  },
+  {
+    "id": 53,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 8999,
+    "backtracks": 8980,
+    "constraint_checks": 10125,
+    "prunings": 8763,
+    "time_s": 0.030849193997710245
+  },
+  {
+    "id": 53,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 33,
+    "backtracks": 14,
+    "constraint_checks": 103,
+    "prunings": 73,
+    "time_s": 0.0006588359974557534
+  },
+  {
+    "id": 53,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 33,
+    "backtracks": 14,
+    "constraint_checks": 113,
+    "prunings": 73,
+    "time_s": 0.0007674110020161606
+  },
+  {
+    "id": 53,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 22,
+    "backtracks": 3,
+    "constraint_checks": 98,
+    "prunings": 42,
+    "time_s": 0.0007475400016119238
+  },
+  {
+    "id": 55,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 20184,
+    "backtracks": 20165,
+    "constraint_checks": 20220,
+    "prunings": 24336,
+    "time_s": 0.07105933999991976
+  },
+  {
+    "id": 55,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 98,
+    "prunings": 64,
+    "time_s": 0.0006254559993976727
+  },
+  {
+    "id": 55,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 102,
+    "prunings": 64,
+    "time_s": 0.0006290710007306188
+  },
+  {
+    "id": 55,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 88,
+    "prunings": 33,
+    "time_s": 0.0009338819982076529
+  },
+  {
+    "id": 57,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 3243,
+    "backtracks": 3243,
+    "constraint_checks": 3365,
+    "prunings": 2504,
+    "time_s": 0.00855840599979274
+  },
+  {
+    "id": 57,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 645,
+    "backtracks": 645,
+    "constraint_checks": 977,
+    "prunings": 1060,
+    "time_s": 0.006526352000946645
+  },
+  {
+    "id": 57,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 2,
+    "prunings": 1,
+    "time_s": 7.670599734410644e-05
+  },
+  {
+    "id": 57,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 2,
+    "prunings": 1,
+    "time_s": 5.66060007258784e-05
+  },
+  {
+    "id": 59,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 695,
+    "backtracks": 679,
+    "constraint_checks": 792,
+    "prunings": 637,
+    "time_s": 0.0022225419997994322
+  },
+  {
+    "id": 59,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 22,
+    "backtracks": 6,
+    "constraint_checks": 60,
+    "prunings": 33,
+    "time_s": 0.00040807700133882463
+  },
+  {
+    "id": 59,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 22,
+    "backtracks": 6,
+    "constraint_checks": 63,
+    "prunings": 33,
+    "time_s": 0.00037511800110223703
+  },
+  {
+    "id": 59,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 17,
+    "backtracks": 1,
+    "constraint_checks": 58,
+    "prunings": 23,
+    "time_s": 0.00042476299859117717
+  },
+  {
+    "id": 60,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 14066,
+    "backtracks": 14028,
+    "constraint_checks": 22093,
+    "prunings": 3620,
+    "time_s": 0.10001442499924451
+  },
+  {
+    "id": 60,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 1281,
+    "backtracks": 1256,
+    "constraint_checks": 9427,
+    "prunings": 1310,
+    "time_s": 0.10021764599878225
+  },
+  {
+    "id": 60,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 1755,
+    "backtracks": 1737,
+    "constraint_checks": 12990,
+    "prunings": 1746,
+    "time_s": 0.10004109500005143
+  },
+  {
+    "id": 60,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 786,
+    "backtracks": 786,
+    "constraint_checks": 3543,
+    "prunings": 1506,
+    "time_s": 0.031996051999158226
+  },
+  {
+    "id": 61,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 16512,
+    "backtracks": 16488,
+    "constraint_checks": 22950,
+    "prunings": 9618,
+    "time_s": 0.1000602929998422
+  },
+  {
+    "id": 61,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 58,
+    "backtracks": 13,
+    "constraint_checks": 567,
+    "prunings": 102,
+    "time_s": 0.004341646999819204
+  },
+  {
+    "id": 61,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 58,
+    "backtracks": 13,
+    "constraint_checks": 602,
+    "prunings": 102,
+    "time_s": 0.004310429998440668
+  },
+  {
+    "id": 61,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 558,
+    "prunings": 48,
+    "time_s": 0.00437597899872344
+  },
+  {
+    "id": 62,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 18023,
+    "backtracks": 18002,
+    "constraint_checks": 23561,
+    "prunings": 9472,
+    "time_s": 0.1000136239999847
+  },
+  {
+    "id": 62,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 1265,
+    "backtracks": 1265,
+    "constraint_checks": 6999,
+    "prunings": 4006,
+    "time_s": 0.048175132000324083
+  },
+  {
+    "id": 62,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 1265,
+    "backtracks": 1265,
+    "constraint_checks": 7027,
+    "prunings": 4006,
+    "time_s": 0.04799084199839854
+  },
+  {
+    "id": 62,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 207,
+    "backtracks": 207,
+    "constraint_checks": 1119,
+    "prunings": 546,
+    "time_s": 0.00985280099848751
+  },
+  {
+    "id": 63,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 14596,
+    "backtracks": 14572,
+    "constraint_checks": 20122,
+    "prunings": 8196,
+    "time_s": 0.10001994200138142
+  },
+  {
+    "id": 63,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 61,
+    "backtracks": 16,
+    "constraint_checks": 576,
+    "prunings": 111,
+    "time_s": 0.004307314000470797
+  },
+  {
+    "id": 63,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 61,
+    "backtracks": 16,
+    "constraint_checks": 601,
+    "prunings": 111,
+    "time_s": 0.0046407279987761285
+  },
+  {
+    "id": 63,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 540,
+    "prunings": 46,
+    "time_s": 0.0040601210021122824
+  },
+  {
+    "id": 64,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 25219,
+    "backtracks": 25204,
+    "constraint_checks": 31064,
+    "prunings": 24298,
+    "time_s": 0.10001294199901167
+  },
+  {
+    "id": 64,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 146,
+    "backtracks": 116,
+    "constraint_checks": 578,
+    "prunings": 282,
+    "time_s": 0.00431562700032373
+  },
+  {
+    "id": 64,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 146,
+    "backtracks": 116,
+    "constraint_checks": 603,
+    "prunings": 282,
+    "time_s": 0.004207133999443613
+  },
+  {
+    "id": 64,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 33,
+    "backtracks": 3,
+    "constraint_checks": 202,
+    "prunings": 56,
+    "time_s": 0.0013993360007589217
+  },
+  {
+    "id": 65,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 22687,
+    "backtracks": 22674,
+    "constraint_checks": 27802,
+    "prunings": 27034,
+    "time_s": 0.10013412500120467
+  },
+  {
+    "id": 65,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 54,
+    "backtracks": 24,
+    "constraint_checks": 245,
+    "prunings": 175,
+    "time_s": 0.0020294489986554254
+  },
+  {
+    "id": 65,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 54,
+    "backtracks": 24,
+    "constraint_checks": 260,
+    "prunings": 175,
+    "time_s": 0.0017404630016244482
+  },
+  {
+    "id": 65,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 31,
+    "backtracks": 1,
+    "constraint_checks": 214,
+    "prunings": 63,
+    "time_s": 0.0018131020005967002
+  },
+  {
+    "id": 66,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 21671,
+    "backtracks": 21645,
+    "constraint_checks": 28640,
+    "prunings": 19892,
+    "time_s": 0.10001332100000582
+  },
+  {
+    "id": 66,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 3751,
+    "backtracks": 3734,
+    "constraint_checks": 14898,
+    "prunings": 6582,
+    "time_s": 0.10001274000023841
+  },
+  {
+    "id": 66,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 3431,
+    "backtracks": 3408,
+    "constraint_checks": 13638,
+    "prunings": 6024,
+    "time_s": 0.10006766299920855
+  },
+  {
+    "id": 66,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 3631,
+    "backtracks": 3603,
+    "constraint_checks": 8920,
+    "prunings": 14445,
+    "time_s": 0.10002781299772323
+  },
+  {
+    "id": 67,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 25181,
+    "backtracks": 25168,
+    "constraint_checks": 35579,
+    "prunings": 56624,
+    "time_s": 0.10001832999842009
+  },
+  {
+    "id": 67,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 4955,
+    "backtracks": 4943,
+    "constraint_checks": 16869,
+    "prunings": 16372,
+    "time_s": 0.10001090899822884
+  },
+  {
+    "id": 67,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 8,
+    "prunings": 1,
+    "time_s": 0.00021080899750813842
+  },
+  {
+    "id": 67,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 8,
+    "prunings": 1,
+    "time_s": 0.0002044989996647928
+  },
+  {
+    "id": 68,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 25281,
+    "backtracks": 25267,
+    "constraint_checks": 32238,
+    "prunings": 22467,
+    "time_s": 0.10000950500034378
+  },
+  {
+    "id": 68,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 5320,
+    "backtracks": 5308,
+    "constraint_checks": 16938,
+    "prunings": 7735,
+    "time_s": 0.10001211000053445
+  },
+  {
+    "id": 68,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 5223,
+    "backtracks": 5199,
+    "constraint_checks": 16635,
+    "prunings": 7597,
+    "time_s": 0.10001158800150733
+  },
+  {
+    "id": 68,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 5920,
+    "backtracks": 5895,
+    "constraint_checks": 11448,
+    "prunings": 17714,
+    "time_s": 0.10001606600053492
+  },
+  {
+    "id": 69,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 29377,
+    "backtracks": 29364,
+    "constraint_checks": 29384,
+    "prunings": 43167,
+    "time_s": 0.10000993699941318
+  },
+  {
+    "id": 69,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 44,
+    "backtracks": 19,
+    "constraint_checks": 175,
+    "prunings": 123,
+    "time_s": 0.0011589329988055397
+  },
+  {
+    "id": 69,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 44,
+    "backtracks": 19,
+    "constraint_checks": 198,
+    "prunings": 119,
+    "time_s": 0.0012518539988377597
+  },
+  {
+    "id": 69,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 25,
+    "backtracks": 0,
+    "constraint_checks": 164,
+    "prunings": 46,
+    "time_s": 0.004706389001512434
+  },
+  {
+    "id": 70,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 37802,
+    "backtracks": 37778,
+    "constraint_checks": 41647,
+    "prunings": 24855,
+    "time_s": 0.10000832399964565
+  },
+  {
+    "id": 70,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 5642,
+    "backtracks": 5629,
+    "constraint_checks": 15957,
+    "prunings": 13315,
+    "time_s": 0.1000250489996688
+  },
+  {
+    "id": 70,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 5429,
+    "backtracks": 5421,
+    "constraint_checks": 15534,
+    "prunings": 11652,
+    "time_s": 0.10001633700085222
+  },
+  {
+    "id": 70,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 516,
+    "backtracks": 516,
+    "constraint_checks": 1020,
+    "prunings": 1505,
+    "time_s": 0.009108625999942888
+  },
+  {
+    "id": 71,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 1,
+    "prunings": 0,
+    "time_s": 0.00014576000103261322
+  },
+  {
+    "id": 71,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 1,
+    "prunings": 0,
+    "time_s": 0.00010792299872264266
+  },
+  {
+    "id": 71,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 17,
+    "prunings": 2,
+    "time_s": 0.00014854400069452822
+  },
+  {
+    "id": 71,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 17,
+    "prunings": 2,
+    "time_s": 0.0001410530021530576
+  },
+  {
+    "id": 73,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 8465,
+    "backtracks": 8446,
+    "constraint_checks": 10123,
+    "prunings": 8226,
+    "time_s": 0.02768765499786241
+  },
+  {
+    "id": 73,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 32,
+    "backtracks": 13,
+    "constraint_checks": 102,
+    "prunings": 76,
+    "time_s": 0.0007225720000860747
+  },
+  {
+    "id": 73,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 32,
+    "backtracks": 13,
+    "constraint_checks": 112,
+    "prunings": 76,
+    "time_s": 0.0006908550021762494
+  },
+  {
+    "id": 73,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 94,
+    "prunings": 37,
+    "time_s": 0.0007117759996617679
+  },
+  {
+    "id": 74,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 14916,
+    "backtracks": 14916,
+    "constraint_checks": 16763,
+    "prunings": 13042,
+    "time_s": 0.047569774000294274
+  },
+  {
+    "id": 74,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 410,
+    "backtracks": 410,
+    "constraint_checks": 932,
+    "prunings": 750,
+    "time_s": 0.004740099000628106
+  },
+  {
+    "id": 74,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 410,
+    "backtracks": 410,
+    "constraint_checks": 937,
+    "prunings": 750,
+    "time_s": 0.0047812320008233655
+  },
+  {
+    "id": 74,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 382,
+    "backtracks": 382,
+    "constraint_checks": 583,
+    "prunings": 750,
+    "time_s": 0.0050019749978673644
+  },
+  {
+    "id": 75,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 37843,
+    "backtracks": 37831,
+    "constraint_checks": 37921,
+    "prunings": 45296,
+    "time_s": 0.1000089740009571
+  },
+  {
+    "id": 75,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 34,
+    "backtracks": 15,
+    "constraint_checks": 105,
+    "prunings": 82,
+    "time_s": 0.0006881110020913184
+  },
+  {
+    "id": 75,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 34,
+    "backtracks": 15,
+    "constraint_checks": 109,
+    "prunings": 82,
+    "time_s": 0.0006499030023405794
+  },
+  {
+    "id": 75,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 22,
+    "backtracks": 3,
+    "constraint_checks": 92,
+    "prunings": 46,
+    "time_s": 0.0006736389987054281
+  },
+  {
+    "id": 77,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 328,
+    "backtracks": 311,
+    "constraint_checks": 351,
+    "prunings": 258,
+    "time_s": 0.0011710510007105768
+  },
+  {
+    "id": 77,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 23,
+    "backtracks": 6,
+    "constraint_checks": 63,
+    "prunings": 34,
+    "time_s": 0.00041250299909734167
+  },
+  {
+    "id": 77,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 23,
+    "backtracks": 6,
+    "constraint_checks": 67,
+    "prunings": 34,
+    "time_s": 0.0007593890004500281
+  },
+  {
+    "id": 77,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 18,
+    "backtracks": 1,
+    "constraint_checks": 62,
+    "prunings": 24,
+    "time_s": 0.0006091909999668133
+  },
+  {
+    "id": 79,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 27119,
+    "backtracks": 27119,
+    "constraint_checks": 30944,
+    "prunings": 19254,
+    "time_s": 0.0944195080010104
+  },
+  {
+    "id": 79,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 1747,
+    "backtracks": 1747,
+    "constraint_checks": 2754,
+    "prunings": 3078,
+    "time_s": 0.018068360001052497
+  },
+  {
+    "id": 79,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 1747,
+    "backtracks": 1747,
+    "constraint_checks": 2755,
+    "prunings": 3078,
+    "time_s": 0.01768855699992855
+  },
+  {
+    "id": 79,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 1390,
+    "backtracks": 1390,
+    "constraint_checks": 2074,
+    "prunings": 2768,
+    "time_s": 0.01671595700099715
+  },
+  {
+    "id": 80,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 13929,
+    "backtracks": 13894,
+    "constraint_checks": 21881,
+    "prunings": 3578,
+    "time_s": 0.10002215699933004
+  },
+  {
+    "id": 80,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 1941,
+    "backtracks": 1910,
+    "constraint_checks": 14330,
+    "prunings": 1900,
+    "time_s": 0.10004839600151172
+  },
+  {
+    "id": 80,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 1521,
+    "backtracks": 1491,
+    "constraint_checks": 11285,
+    "prunings": 1492,
+    "time_s": 0.10003804000007221
+  },
+  {
+    "id": 80,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 786,
+    "backtracks": 786,
+    "constraint_checks": 3543,
+    "prunings": 1506,
+    "time_s": 0.04772736200175132
+  },
+  {
+    "id": 81,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 12141,
+    "backtracks": 12120,
+    "constraint_checks": 19025,
+    "prunings": 5588,
+    "time_s": 0.10001616700174054
+  },
+  {
+    "id": 81,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 57,
+    "backtracks": 12,
+    "constraint_checks": 567,
+    "prunings": 87,
+    "time_s": 0.0054973100013739895
+  },
+  {
+    "id": 81,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 57,
+    "backtracks": 12,
+    "constraint_checks": 610,
+    "prunings": 87,
+    "time_s": 0.004358617999969283
+  },
+  {
+    "id": 81,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 572,
+    "prunings": 45,
+    "time_s": 0.005177766997803701
+  },
+  {
+    "id": 82,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 17843,
+    "backtracks": 17809,
+    "constraint_checks": 24910,
+    "prunings": 8538,
+    "time_s": 0.10001536499839858
+  },
+  {
+    "id": 82,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 1790,
+    "backtracks": 1773,
+    "constraint_checks": 12545,
+    "prunings": 1560,
+    "time_s": 0.10001434600053472
+  },
+  {
+    "id": 82,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 1811,
+    "backtracks": 1777,
+    "constraint_checks": 12726,
+    "prunings": 1576,
+    "time_s": 0.10003362299903529
+  },
+  {
+    "id": 82,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 2698,
+    "backtracks": 2654,
+    "constraint_checks": 11105,
+    "prunings": 10586,
+    "time_s": 0.10009028100103023
+  },
+  {
+    "id": 83,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 16696,
+    "backtracks": 16674,
+    "constraint_checks": 23129,
+    "prunings": 9511,
+    "time_s": 0.10001349400045001
+  },
+  {
+    "id": 83,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 56,
+    "backtracks": 11,
+    "constraint_checks": 551,
+    "prunings": 89,
+    "time_s": 0.004049311002745526
+  },
+  {
+    "id": 83,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 56,
+    "backtracks": 11,
+    "constraint_checks": 584,
+    "prunings": 89,
+    "time_s": 0.004349955001089256
+  },
+  {
+    "id": 83,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 554,
+    "prunings": 47,
+    "time_s": 0.0042301040011807345
+  },
+  {
+    "id": 84,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 21384,
+    "backtracks": 21375,
+    "constraint_checks": 28001,
+    "prunings": 15616,
+    "time_s": 0.10000913899784791
+  },
+  {
+    "id": 84,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 3652,
+    "backtracks": 3634,
+    "constraint_checks": 14957,
+    "prunings": 6682,
+    "time_s": 0.10002678399905562
+  },
+  {
+    "id": 84,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 3798,
+    "backtracks": 3775,
+    "constraint_checks": 15602,
+    "prunings": 6912,
+    "time_s": 0.10001176199875772
+  },
+  {
+    "id": 84,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 4628,
+    "backtracks": 4602,
+    "constraint_checks": 11092,
+    "prunings": 18430,
+    "time_s": 0.10001859199837781
+  },
+  {
+    "id": 85,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 22015,
+    "backtracks": 22003,
+    "constraint_checks": 26078,
+    "prunings": 29098,
+    "time_s": 0.10002046500085271
+  },
+  {
+    "id": 85,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 48,
+    "backtracks": 18,
+    "constraint_checks": 231,
+    "prunings": 143,
+    "time_s": 0.0017420660005882382
+  },
+  {
+    "id": 85,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 48,
+    "backtracks": 18,
+    "constraint_checks": 248,
+    "prunings": 143,
+    "time_s": 0.0015068809989315923
+  },
+  {
+    "id": 85,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 0,
+    "constraint_checks": 218,
+    "prunings": 58,
+    "time_s": 0.0016525609971722588
+  },
+  {
+    "id": 86,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 25535,
+    "backtracks": 25523,
+    "constraint_checks": 34139,
+    "prunings": 54147,
+    "time_s": 0.10001236500102095
+  },
+  {
+    "id": 86,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 5037,
+    "backtracks": 5031,
+    "constraint_checks": 12630,
+    "prunings": 19068,
+    "time_s": 0.10000719700110494
+  },
+  {
+    "id": 86,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 3,
+    "prunings": 1,
+    "time_s": 0.00025881900000968017
+  },
+  {
+    "id": 86,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 3,
+    "prunings": 1,
+    "time_s": 0.0001473520023864694
+  },
+  {
+    "id": 87,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 21104,
+    "backtracks": 21089,
+    "constraint_checks": 22937,
+    "prunings": 33039,
+    "time_s": 0.10009349299798487
+  },
+  {
+    "id": 87,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 65,
+    "backtracks": 34,
+    "constraint_checks": 275,
+    "prunings": 216,
+    "time_s": 0.002784357999189524
+  },
+  {
+    "id": 87,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 65,
+    "backtracks": 34,
+    "constraint_checks": 284,
+    "prunings": 216,
+    "time_s": 0.0025126680011453573
+  },
+  {
+    "id": 87,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 31,
+    "backtracks": 0,
+    "constraint_checks": 211,
+    "prunings": 58,
+    "time_s": 0.0019208129997423384
+  },
+  {
+    "id": 89,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 26074,
+    "backtracks": 26059,
+    "constraint_checks": 26091,
+    "prunings": 30765,
+    "time_s": 0.10001239200209966
+  },
+  {
+    "id": 89,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 42,
+    "backtracks": 17,
+    "constraint_checks": 164,
+    "prunings": 113,
+    "time_s": 0.0012440409991540946
+  },
+  {
+    "id": 89,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 42,
+    "backtracks": 17,
+    "constraint_checks": 176,
+    "prunings": 113,
+    "time_s": 0.0012356780025584158
+  },
+  {
+    "id": 89,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 25,
+    "backtracks": 0,
+    "constraint_checks": 150,
+    "prunings": 47,
+    "time_s": 0.0010230459993181285
+  },
+  {
+    "id": 90,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 27382,
+    "backtracks": 27369,
+    "constraint_checks": 28722,
+    "prunings": 23739,
+    "time_s": 0.10001018899856717
+  },
+  {
+    "id": 90,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 5252,
+    "backtracks": 5233,
+    "constraint_checks": 16608,
+    "prunings": 7235,
+    "time_s": 0.1000153480017616
+  },
+  {
+    "id": 90,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 5076,
+    "backtracks": 5067,
+    "constraint_checks": 16059,
+    "prunings": 6993,
+    "time_s": 0.1000209950034332
+  },
+  {
+    "id": 90,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 4715,
+    "backtracks": 4715,
+    "constraint_checks": 9125,
+    "prunings": 14102,
+    "time_s": 0.0816495209983259
+  },
+  {
+    "id": 91,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 32381,
+    "backtracks": 32365,
+    "constraint_checks": 34792,
+    "prunings": 48016,
+    "time_s": 0.10001029900013236
+  },
+  {
+    "id": 91,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 77,
+    "backtracks": 51,
+    "constraint_checks": 251,
+    "prunings": 219,
+    "time_s": 0.0016075710009317845
+  },
+  {
+    "id": 91,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 77,
+    "backtracks": 51,
+    "constraint_checks": 261,
+    "prunings": 219,
+    "time_s": 0.001703715002804529
+  },
+  {
+    "id": 91,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 32,
+    "backtracks": 6,
+    "constraint_checks": 164,
+    "prunings": 71,
+    "time_s": 0.0011887470027431846
+  },
+  {
+    "id": 93,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 2450,
+    "backtracks": 2431,
+    "constraint_checks": 3024,
+    "prunings": 2164,
+    "time_s": 0.01318597600038629
+  },
+  {
+    "id": 93,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 36,
+    "backtracks": 17,
+    "constraint_checks": 119,
+    "prunings": 93,
+    "time_s": 0.0008203100005630404
+  },
+  {
+    "id": 93,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 34,
+    "backtracks": 15,
+    "constraint_checks": 128,
+    "prunings": 74,
+    "time_s": 0.0007863690007070545
+  },
+  {
+    "id": 93,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 22,
+    "backtracks": 3,
+    "constraint_checks": 107,
+    "prunings": 44,
+    "time_s": 0.0009836669996730052
+  },
+  {
+    "id": 94,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 14761,
+    "backtracks": 14761,
+    "constraint_checks": 16022,
+    "prunings": 8764,
+    "time_s": 0.03572534100021585
+  },
+  {
+    "id": 94,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 1765,
+    "backtracks": 1765,
+    "constraint_checks": 3744,
+    "prunings": 3136,
+    "time_s": 0.023226954999699956
+  },
+  {
+    "id": 94,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 1667,
+    "backtracks": 1667,
+    "constraint_checks": 3382,
+    "prunings": 2404,
+    "time_s": 0.022542521001014393
+  },
+  {
+    "id": 94,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 5,
+    "backtracks": 5,
+    "constraint_checks": 28,
+    "prunings": 2,
+    "time_s": 0.0003348160025780089
+  },
+  {
+    "id": 95,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 3939,
+    "backtracks": 3920,
+    "constraint_checks": 5314,
+    "prunings": 3979,
+    "time_s": 0.01377906199923018
+  },
+  {
+    "id": 95,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 27,
+    "backtracks": 8,
+    "constraint_checks": 98,
+    "prunings": 60,
+    "time_s": 0.0007065380013955291
+  },
+  {
+    "id": 95,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 27,
+    "backtracks": 8,
+    "constraint_checks": 107,
+    "prunings": 57,
+    "time_s": 0.0006504140001197811
+  },
+  {
+    "id": 95,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 97,
+    "prunings": 35,
+    "time_s": 0.0007247149987961166
+  },
+  {
+    "id": 97,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 19155,
+    "backtracks": 19155,
+    "constraint_checks": 19158,
+    "prunings": 15820,
+    "time_s": 0.04699713199806865
+  },
+  {
+    "id": 97,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 6941,
+    "backtracks": 6941,
+    "constraint_checks": 9216,
+    "prunings": 10298,
+    "time_s": 0.05829869900117046
+  },
+  {
+    "id": 97,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 6941,
+    "backtracks": 6941,
+    "constraint_checks": 9220,
+    "prunings": 10298,
+    "time_s": 0.05923007700039307
+  },
+  {
+    "id": 97,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 633,
+    "backtracks": 633,
+    "constraint_checks": 940,
+    "prunings": 1256,
+    "time_s": 0.008362101998500293
+  },
+  {
+    "id": 99,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 4816,
+    "backtracks": 4800,
+    "constraint_checks": 5063,
+    "prunings": 4531,
+    "time_s": 0.013205293998908019
+  },
+  {
+    "id": 99,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 24,
+    "backtracks": 8,
+    "constraint_checks": 62,
+    "prunings": 41,
+    "time_s": 0.0003948169978684746
+  },
+  {
+    "id": 99,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 24,
+    "backtracks": 8,
+    "constraint_checks": 63,
+    "prunings": 41,
+    "time_s": 0.0004917539990856312
+  },
+  {
+    "id": 99,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 17,
+    "backtracks": 1,
+    "constraint_checks": 56,
+    "prunings": 27,
+    "time_s": 0.00045471699922927655
+  },
+  {
+    "id": 100,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 12674,
+    "backtracks": 12656,
+    "constraint_checks": 19936,
+    "prunings": 3216,
+    "time_s": 0.10001260399803868
+  },
+  {
+    "id": 100,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 1699,
+    "backtracks": 1674,
+    "constraint_checks": 12572,
+    "prunings": 1676,
+    "time_s": 0.1000169899998582
+  },
+  {
+    "id": 100,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 1711,
+    "backtracks": 1676,
+    "constraint_checks": 12685,
+    "prunings": 1682,
+    "time_s": 0.10007237500030897
+  },
+  {
+    "id": 100,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 786,
+    "backtracks": 786,
+    "constraint_checks": 3543,
+    "prunings": 1506,
+    "time_s": 0.03227811899705557
+  },
+  {
+    "id": 101,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 15281,
+    "backtracks": 15259,
+    "constraint_checks": 20909,
+    "prunings": 8699,
+    "time_s": 0.1002353799995035
+  },
+  {
+    "id": 101,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 66,
+    "backtracks": 21,
+    "constraint_checks": 604,
+    "prunings": 140,
+    "time_s": 0.0051364959981583524
+  },
+  {
+    "id": 101,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 66,
+    "backtracks": 21,
+    "constraint_checks": 639,
+    "prunings": 140,
+    "time_s": 0.005102113998873392
+  },
+  {
+    "id": 101,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 46,
+    "backtracks": 1,
+    "constraint_checks": 561,
+    "prunings": 52,
+    "time_s": 0.004639714999939315
+  },
+  {
+    "id": 102,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 16374,
+    "backtracks": 16352,
+    "constraint_checks": 22666,
+    "prunings": 6898,
+    "time_s": 0.10001749200091581
+  },
+  {
+    "id": 102,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 69,
+    "backtracks": 24,
+    "constraint_checks": 580,
+    "prunings": 104,
+    "time_s": 0.00473825399967609
+  },
+  {
+    "id": 102,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 69,
+    "backtracks": 24,
+    "constraint_checks": 608,
+    "prunings": 104,
+    "time_s": 0.004697552001744043
+  },
+  {
+    "id": 102,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 48,
+    "backtracks": 3,
+    "constraint_checks": 493,
+    "prunings": 48,
+    "time_s": 0.004590870998072205
+  },
+  {
+    "id": 103,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 17336,
+    "backtracks": 17312,
+    "constraint_checks": 24066,
+    "prunings": 9733,
+    "time_s": 0.10001948499848368
+  },
+  {
+    "id": 103,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 57,
+    "backtracks": 12,
+    "constraint_checks": 552,
+    "prunings": 99,
+    "time_s": 0.004903803997876821
+  },
+  {
+    "id": 103,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 57,
+    "backtracks": 12,
+    "constraint_checks": 577,
+    "prunings": 99,
+    "time_s": 0.00432429700231296
+  },
+  {
+    "id": 103,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 540,
+    "prunings": 47,
+    "time_s": 0.0038908220012672246
+  },
+  {
+    "id": 105,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 22991,
+    "backtracks": 22978,
+    "constraint_checks": 26513,
+    "prunings": 32265,
+    "time_s": 0.10001362699767924
+  },
+  {
+    "id": 105,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 60,
+    "backtracks": 30,
+    "constraint_checks": 265,
+    "prunings": 190,
+    "time_s": 0.0018911000006482936
+  },
+  {
+    "id": 105,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 60,
+    "backtracks": 30,
+    "constraint_checks": 288,
+    "prunings": 190,
+    "time_s": 0.0018855409980460536
+  },
+  {
+    "id": 105,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 35,
+    "backtracks": 5,
+    "constraint_checks": 233,
+    "prunings": 80,
+    "time_s": 0.001676874999247957
+  },
+  {
+    "id": 107,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 24730,
+    "backtracks": 24714,
+    "constraint_checks": 28366,
+    "prunings": 35015,
+    "time_s": 0.10001589999956195
+  },
+  {
+    "id": 107,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 60,
+    "backtracks": 29,
+    "constraint_checks": 259,
+    "prunings": 188,
+    "time_s": 0.0018032859989034478
+  },
+  {
+    "id": 107,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 60,
+    "backtracks": 29,
+    "constraint_checks": 274,
+    "prunings": 188,
+    "time_s": 0.0016632150000077672
+  },
+  {
+    "id": 107,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 31,
+    "backtracks": 0,
+    "constraint_checks": 217,
+    "prunings": 55,
+    "time_s": 0.001677135001955321
+  },
+  {
+    "id": 108,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 24868,
+    "backtracks": 24845,
+    "constraint_checks": 31687,
+    "prunings": 22193,
+    "time_s": 0.10001077199922292
+  },
+  {
+    "id": 108,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 5251,
+    "backtracks": 5228,
+    "constraint_checks": 16709,
+    "prunings": 7638,
+    "time_s": 0.100010572001338
+  },
+  {
+    "id": 108,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 5101,
+    "backtracks": 5088,
+    "constraint_checks": 16224,
+    "prunings": 7451,
+    "time_s": 0.10006162900026538
+  },
+  {
+    "id": 108,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 5668,
+    "backtracks": 5643,
+    "constraint_checks": 10953,
+    "prunings": 16958,
+    "time_s": 0.10002499400070519
+  },
+  {
+    "id": 109,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 29301,
+    "backtracks": 29287,
+    "constraint_checks": 29314,
+    "prunings": 47831,
+    "time_s": 0.10001153399934992
+  },
+  {
+    "id": 109,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 20,
+    "constraint_checks": 170,
+    "prunings": 125,
+    "time_s": 0.0011148249977850355
+  },
+  {
+    "id": 109,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 20,
+    "constraint_checks": 184,
+    "prunings": 125,
+    "time_s": 0.0013238020001153927
+  },
+  {
+    "id": 109,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 25,
+    "backtracks": 0,
+    "constraint_checks": 152,
+    "prunings": 47,
+    "time_s": 0.0011415059998398647
+  },
+  {
+    "id": 110,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 31626,
+    "backtracks": 31612,
+    "constraint_checks": 31639,
+    "prunings": 39882,
+    "time_s": 0.1000107020008727
+  },
+  {
+    "id": 110,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 5755,
+    "backtracks": 5755,
+    "constraint_checks": 12273,
+    "prunings": 15292,
+    "time_s": 0.07813153400275041
+  },
+  {
+    "id": 110,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 5755,
+    "backtracks": 5755,
+    "constraint_checks": 12282,
+    "prunings": 15292,
+    "time_s": 0.079402654999285
+  },
+  {
+    "id": 110,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 4715,
+    "backtracks": 4715,
+    "constraint_checks": 9123,
+    "prunings": 14102,
+    "time_s": 0.0797627400024794
+  },
+  {
+    "id": 111,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 32257,
+    "backtracks": 32243,
+    "constraint_checks": 32275,
+    "prunings": 55472,
+    "time_s": 0.10001208900212077
+  },
+  {
+    "id": 111,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 52,
+    "backtracks": 26,
+    "constraint_checks": 187,
+    "prunings": 143,
+    "time_s": 0.001192132996948203
+  },
+  {
+    "id": 111,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 52,
+    "backtracks": 26,
+    "constraint_checks": 194,
+    "prunings": 143,
+    "time_s": 0.0011729630023182835
+  },
+  {
+    "id": 111,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 27,
+    "backtracks": 1,
+    "constraint_checks": 152,
+    "prunings": 51,
+    "time_s": 0.0012035100007778965
+  },
+  {
+    "id": 113,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 3579,
+    "backtracks": 3560,
+    "constraint_checks": 4431,
+    "prunings": 3057,
+    "time_s": 0.01212739699985832
+  },
+  {
+    "id": 113,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 89,
+    "backtracks": 70,
+    "constraint_checks": 273,
+    "prunings": 131,
+    "time_s": 0.0015631530004611704
+  },
+  {
+    "id": 113,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 89,
+    "backtracks": 70,
+    "constraint_checks": 281,
+    "prunings": 131,
+    "time_s": 0.0016074209997896105
+  },
+  {
+    "id": 113,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 20,
+    "backtracks": 1,
+    "constraint_checks": 93,
+    "prunings": 38,
+    "time_s": 0.0006949809976504184
+  },
+  {
+    "id": 114,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 22045,
+    "backtracks": 22045,
+    "constraint_checks": 29732,
+    "prunings": 10316,
+    "time_s": 0.08781675900172559
+  },
+  {
+    "id": 114,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 473,
+    "backtracks": 473,
+    "constraint_checks": 814,
+    "prunings": 852,
+    "time_s": 0.005207713998970576
+  },
+  {
+    "id": 114,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 473,
+    "backtracks": 473,
+    "constraint_checks": 820,
+    "prunings": 852,
+    "time_s": 0.006078730999433901
+  },
+  {
+    "id": 114,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 383,
+    "backtracks": 383,
+    "constraint_checks": 601,
+    "prunings": 750,
+    "time_s": 0.005483499997353647
+  },
+  {
+    "id": 115,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 1271,
+    "backtracks": 1252,
+    "constraint_checks": 1408,
+    "prunings": 1409,
+    "time_s": 0.004460895001102472
+  },
+  {
+    "id": 115,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 100,
+    "prunings": 64,
+    "time_s": 0.0008397500023420434
+  },
+  {
+    "id": 115,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 106,
+    "prunings": 64,
+    "time_s": 0.0006808190009905957
+  },
+  {
+    "id": 115,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 90,
+    "prunings": 35,
+    "time_s": 0.0006565330004377756
+  },
+  {
+    "id": 117,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 7185,
+    "backtracks": 7185,
+    "constraint_checks": 8172,
+    "prunings": 4518,
+    "time_s": 0.021009076001064386
+  },
+  {
+    "id": 117,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 684,
+    "backtracks": 684,
+    "constraint_checks": 1178,
+    "prunings": 1230,
+    "time_s": 0.006937729998753639
+  },
+  {
+    "id": 117,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 533,
+    "backtracks": 533,
+    "constraint_checks": 958,
+    "prunings": 804,
+    "time_s": 0.006127283999376232
+  },
+  {
+    "id": 117,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 366,
+    "backtracks": 366,
+    "constraint_checks": 544,
+    "prunings": 720,
+    "time_s": 0.004660966998926597
+  },
+  {
+    "id": 119,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 3826,
+    "backtracks": 3810,
+    "constraint_checks": 5005,
+    "prunings": 3331,
+    "time_s": 0.01182385699939914
+  },
+  {
+    "id": 119,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 53,
+    "backtracks": 37,
+    "constraint_checks": 110,
+    "prunings": 105,
+    "time_s": 0.0009058700015884824
+  },
+  {
+    "id": 119,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 23,
+    "backtracks": 7,
+    "constraint_checks": 68,
+    "prunings": 37,
+    "time_s": 0.0004296100014471449
+  },
+  {
+    "id": 119,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 17,
+    "backtracks": 1,
+    "constraint_checks": 62,
+    "prunings": 25,
+    "time_s": 0.00041299499935121275
+  },
+  {
+    "id": 120,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 14266,
+    "backtracks": 14250,
+    "constraint_checks": 21998,
+    "prunings": 4762,
+    "time_s": 0.10006361699925037
+  },
+  {
+    "id": 120,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 1947,
+    "backtracks": 1932,
+    "constraint_checks": 13961,
+    "prunings": 2772,
+    "time_s": 0.1000119589989481
+  },
+  {
+    "id": 120,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 2011,
+    "backtracks": 1996,
+    "constraint_checks": 14415,
+    "prunings": 2908,
+    "time_s": 0.1000242670015723
+  },
+  {
+    "id": 120,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 408,
+    "backtracks": 408,
+    "constraint_checks": 1961,
+    "prunings": 750,
+    "time_s": 0.016690946999005973
+  },
+  {
+    "id": 121,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 2135,
+    "backtracks": 2090,
+    "constraint_checks": 3230,
+    "prunings": 825,
+    "time_s": 0.016660671000863658
+  },
+  {
+    "id": 121,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 50,
+    "backtracks": 5,
+    "constraint_checks": 536,
+    "prunings": 60,
+    "time_s": 0.004043133001687238
+  },
+  {
+    "id": 121,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 50,
+    "backtracks": 5,
+    "constraint_checks": 571,
+    "prunings": 60,
+    "time_s": 0.004295966002246132
+  },
+  {
+    "id": 121,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 558,
+    "prunings": 43,
+    "time_s": 0.004857353997067548
+  },
+  {
+    "id": 122,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 19271,
+    "backtracks": 19244,
+    "constraint_checks": 24394,
+    "prunings": 6136,
+    "time_s": 0.1000137389964948
+  },
+  {
+    "id": 122,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 2330,
+    "backtracks": 2314,
+    "constraint_checks": 15452,
+    "prunings": 5432,
+    "time_s": 0.10002505599914002
+  },
+  {
+    "id": 122,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 2026,
+    "backtracks": 2010,
+    "constraint_checks": 13450,
+    "prunings": 4726,
+    "time_s": 0.10004874199876213
+  },
+  {
+    "id": 122,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 408,
+    "backtracks": 408,
+    "constraint_checks": 1946,
+    "prunings": 750,
+    "time_s": 0.01739517000169144
+  },
+  {
+    "id": 123,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 18718,
+    "backtracks": 18690,
+    "constraint_checks": 23243,
+    "prunings": 7326,
+    "time_s": 0.10014170199792716
+  },
+  {
+    "id": 123,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 62,
+    "backtracks": 17,
+    "constraint_checks": 589,
+    "prunings": 108,
+    "time_s": 0.005348976999812294
+  },
+  {
+    "id": 123,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 62,
+    "backtracks": 17,
+    "constraint_checks": 614,
+    "prunings": 108,
+    "time_s": 0.004694568000559229
+  },
+  {
+    "id": 123,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 50,
+    "backtracks": 5,
+    "constraint_checks": 559,
+    "prunings": 68,
+    "time_s": 0.007003498001722619
+  },
+  {
+    "id": 124,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 24836,
+    "backtracks": 24814,
+    "constraint_checks": 30612,
+    "prunings": 23912,
+    "time_s": 0.10001534199909656
+  },
+  {
+    "id": 124,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 146,
+    "backtracks": 116,
+    "constraint_checks": 578,
+    "prunings": 282,
+    "time_s": 0.004199479000817519
+  },
+  {
+    "id": 124,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 146,
+    "backtracks": 116,
+    "constraint_checks": 603,
+    "prunings": 282,
+    "time_s": 0.003995079998276196
+  },
+  {
+    "id": 124,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 33,
+    "backtracks": 3,
+    "constraint_checks": 202,
+    "prunings": 56,
+    "time_s": 0.0019048089998250362
+  },
+  {
+    "id": 125,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 21596,
+    "backtracks": 21580,
+    "constraint_checks": 25112,
+    "prunings": 26961,
+    "time_s": 0.10001448999901186
+  },
+  {
+    "id": 125,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 59,
+    "backtracks": 29,
+    "constraint_checks": 267,
+    "prunings": 191,
+    "time_s": 0.0020047109974257182
+  },
+  {
+    "id": 125,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 59,
+    "backtracks": 29,
+    "constraint_checks": 284,
+    "prunings": 191,
+    "time_s": 0.001972302001377102
+  },
+  {
+    "id": 125,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 35,
+    "backtracks": 5,
+    "constraint_checks": 227,
+    "prunings": 78,
+    "time_s": 0.002082538998365635
+  },
+  {
+    "id": 127,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 2,
+    "prunings": 0,
+    "time_s": 0.00014595099855796434
+  },
+  {
+    "id": 127,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 2,
+    "prunings": 0,
+    "time_s": 0.0001291150001634378
+  },
+  {
+    "id": 127,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 11,
+    "prunings": 0,
+    "time_s": 0.0002811049998854287
+  },
+  {
+    "id": 127,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 11,
+    "prunings": 0,
+    "time_s": 0.0001621249975869432
+  },
+  {
+    "id": 128,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 25623,
+    "backtracks": 25609,
+    "constraint_checks": 31812,
+    "prunings": 23813,
+    "time_s": 0.1000089310000476
+  },
+  {
+    "id": 128,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 5510,
+    "backtracks": 5492,
+    "constraint_checks": 16994,
+    "prunings": 8951,
+    "time_s": 0.10001423300127499
+  },
+  {
+    "id": 128,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 5641,
+    "backtracks": 5629,
+    "constraint_checks": 17445,
+    "prunings": 9132,
+    "time_s": 0.10000962199774222
+  },
+  {
+    "id": 128,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 6051,
+    "backtracks": 6028,
+    "constraint_checks": 11749,
+    "prunings": 18104,
+    "time_s": 0.10002121900106431
+  },
+  {
+    "id": 129,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 27253,
+    "backtracks": 27240,
+    "constraint_checks": 27692,
+    "prunings": 34807,
+    "time_s": 0.10003543100174284
+  },
+  {
+    "id": 129,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 43,
+    "backtracks": 18,
+    "constraint_checks": 167,
+    "prunings": 109,
+    "time_s": 0.0018501370032026898
+  },
+  {
+    "id": 129,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 43,
+    "backtracks": 18,
+    "constraint_checks": 185,
+    "prunings": 109,
+    "time_s": 0.003483276999759255
+  },
+  {
+    "id": 129,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 25,
+    "backtracks": 0,
+    "constraint_checks": 156,
+    "prunings": 43,
+    "time_s": 0.0012604650000866968
+  },
+  {
+    "id": 130,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 28590,
+    "backtracks": 28579,
+    "constraint_checks": 30543,
+    "prunings": 22306,
+    "time_s": 0.10000672699970892
+  },
+  {
+    "id": 130,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 2445,
+    "backtracks": 2445,
+    "constraint_checks": 4708,
+    "prunings": 6188,
+    "time_s": 0.034568122999189654
+  },
+  {
+    "id": 130,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 2445,
+    "backtracks": 2445,
+    "constraint_checks": 4721,
+    "prunings": 6188,
+    "time_s": 0.03188069899988477
+  },
+  {
+    "id": 130,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 437,
+    "backtracks": 437,
+    "constraint_checks": 875,
+    "prunings": 1264,
+    "time_s": 0.00733133399990038
+  },
+  {
+    "id": 131,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 28811,
+    "backtracks": 28796,
+    "constraint_checks": 35106,
+    "prunings": 33838,
+    "time_s": 0.10001384700080962
+  },
+  {
+    "id": 131,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 19,
+    "constraint_checks": 173,
+    "prunings": 111,
+    "time_s": 0.001136647999373963
+  },
+  {
+    "id": 131,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 19,
+    "constraint_checks": 185,
+    "prunings": 111,
+    "time_s": 0.0011292369999864604
+  },
+  {
+    "id": 131,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 27,
+    "backtracks": 1,
+    "constraint_checks": 155,
+    "prunings": 48,
+    "time_s": 0.0010487059989827685
+  },
+  {
+    "id": 132,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 11271,
+    "backtracks": 11271,
+    "constraint_checks": 15567,
+    "prunings": 7408,
+    "time_s": 0.044447839998611016
+  },
+  {
+    "id": 132,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 872,
+    "backtracks": 872,
+    "constraint_checks": 1823,
+    "prunings": 1374,
+    "time_s": 0.010275074000674067
+  },
+  {
+    "id": 132,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 5,
+    "prunings": 1,
+    "time_s": 0.00014861499948892742
+  },
+  {
+    "id": 132,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 5,
+    "prunings": 1,
+    "time_s": 0.00011856000128318556
+  },
+  {
+    "id": 133,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 15428,
+    "backtracks": 15409,
+    "constraint_checks": 19322,
+    "prunings": 15308,
+    "time_s": 0.053462148000107845
+  },
+  {
+    "id": 133,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 99,
+    "prunings": 68,
+    "time_s": 0.0006517850015370641
+  },
+  {
+    "id": 133,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 109,
+    "prunings": 68,
+    "time_s": 0.0008096240017039236
+  },
+  {
+    "id": 133,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 94,
+    "prunings": 35,
+    "time_s": 0.0007769149997329805
+  },
+  {
+    "id": 134,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 29629,
+    "backtracks": 29611,
+    "constraint_checks": 37312,
+    "prunings": 15652,
+    "time_s": 0.10000681399833411
+  },
+  {
+    "id": 134,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 1060,
+    "backtracks": 1060,
+    "constraint_checks": 1905,
+    "prunings": 1800,
+    "time_s": 0.011877616001584101
+  },
+  {
+    "id": 134,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 1060,
+    "backtracks": 1060,
+    "constraint_checks": 1910,
+    "prunings": 1800,
+    "time_s": 0.011637814001005609
+  },
+  {
+    "id": 134,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 761,
+    "backtracks": 761,
+    "constraint_checks": 1160,
+    "prunings": 1506,
+    "time_s": 0.009783231998881092
+  },
+  {
+    "id": 135,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 10989,
+    "backtracks": 10970,
+    "constraint_checks": 11140,
+    "prunings": 12314,
+    "time_s": 0.03378266399886343
+  },
+  {
+    "id": 135,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 26,
+    "constraint_checks": 127,
+    "prunings": 101,
+    "time_s": 0.0009041459998115897
+  },
+  {
+    "id": 135,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 26,
+    "constraint_checks": 131,
+    "prunings": 101,
+    "time_s": 0.0007843140010663774
+  },
+  {
+    "id": 135,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 88,
+    "prunings": 35,
+    "time_s": 0.0006238220012164675
+  },
+  {
+    "id": 137,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 12779,
+    "backtracks": 12779,
+    "constraint_checks": 13878,
+    "prunings": 8852,
+    "time_s": 0.03742852300274535
+  },
+  {
+    "id": 137,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 2644,
+    "backtracks": 2644,
+    "constraint_checks": 3984,
+    "prunings": 3622,
+    "time_s": 0.02536222100025043
+  },
+  {
+    "id": 137,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 2644,
+    "backtracks": 2644,
+    "constraint_checks": 3987,
+    "prunings": 3622,
+    "time_s": 0.026890870001807343
+  },
+  {
+    "id": 137,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 151,
+    "backtracks": 151,
+    "constraint_checks": 220,
+    "prunings": 286,
+    "time_s": 0.0019997820018033963
+  },
+  {
+    "id": 139,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 9111,
+    "backtracks": 9111,
+    "constraint_checks": 10122,
+    "prunings": 6786,
+    "time_s": 0.022366925000824267
+  },
+  {
+    "id": 139,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 1443,
+    "backtracks": 1443,
+    "constraint_checks": 1971,
+    "prunings": 2310,
+    "time_s": 0.012716203000309179
+  },
+  {
+    "id": 139,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 1443,
+    "backtracks": 1443,
+    "constraint_checks": 1974,
+    "prunings": 2310,
+    "time_s": 0.013286654997500591
+  },
+  {
+    "id": 139,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 120,
+    "backtracks": 120,
+    "constraint_checks": 177,
+    "prunings": 228,
+    "time_s": 0.0016048350007622503
+  },
+  {
+    "id": 140,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 13631,
+    "backtracks": 13596,
+    "constraint_checks": 21420,
+    "prunings": 3498,
+    "time_s": 0.10010709600101109
+  },
+  {
+    "id": 140,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 1937,
+    "backtracks": 1910,
+    "constraint_checks": 14300,
+    "prunings": 1900,
+    "time_s": 0.10002670500034583
+  },
+  {
+    "id": 140,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 1879,
+    "backtracks": 1848,
+    "constraint_checks": 13934,
+    "prunings": 1842,
+    "time_s": 0.10002256799998577
+  },
+  {
+    "id": 140,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 786,
+    "backtracks": 786,
+    "constraint_checks": 3543,
+    "prunings": 1506,
+    "time_s": 0.029503769001166802
+  },
+  {
+    "id": 141,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 16450,
+    "backtracks": 16415,
+    "constraint_checks": 25037,
+    "prunings": 13805,
+    "time_s": 0.1000229790006415
+  },
+  {
+    "id": 141,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 58,
+    "backtracks": 13,
+    "constraint_checks": 573,
+    "prunings": 115,
+    "time_s": 0.004019423002318945
+  },
+  {
+    "id": 141,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 58,
+    "backtracks": 13,
+    "constraint_checks": 616,
+    "prunings": 109,
+    "time_s": 0.004517405999649782
+  },
+  {
+    "id": 141,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 573,
+    "prunings": 50,
+    "time_s": 0.004298684998502722
+  },
+  {
+    "id": 142,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 22288,
+    "backtracks": 22251,
+    "constraint_checks": 30402,
+    "prunings": 19632,
+    "time_s": 0.10001539699806017
+  },
+  {
+    "id": 142,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 2455,
+    "backtracks": 2418,
+    "constraint_checks": 12271,
+    "prunings": 7528,
+    "time_s": 0.10002043499844149
+  },
+  {
+    "id": 142,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 2228,
+    "backtracks": 2194,
+    "constraint_checks": 11178,
+    "prunings": 6490,
+    "time_s": 0.10003384499941603
+  },
+  {
+    "id": 142,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 2477,
+    "backtracks": 2433,
+    "constraint_checks": 10313,
+    "prunings": 9740,
+    "time_s": 0.10010000500187743
+  },
+  {
+    "id": 143,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 18906,
+    "backtracks": 18867,
+    "constraint_checks": 28448,
+    "prunings": 12122,
+    "time_s": 0.10008369700153708
+  },
+  {
+    "id": 143,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 56,
+    "backtracks": 11,
+    "constraint_checks": 553,
+    "prunings": 102,
+    "time_s": 0.004238154000631766
+  },
+  {
+    "id": 143,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 56,
+    "backtracks": 11,
+    "constraint_checks": 587,
+    "prunings": 99,
+    "time_s": 0.0044169549983053
+  },
+  {
+    "id": 143,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 555,
+    "prunings": 50,
+    "time_s": 0.004908446997433202
+  },
+  {
+    "id": 144,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 22217,
+    "backtracks": 22200,
+    "constraint_checks": 29157,
+    "prunings": 16076,
+    "time_s": 0.10000989599939203
+  },
+  {
+    "id": 144,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 4104,
+    "backtracks": 4086,
+    "constraint_checks": 16824,
+    "prunings": 7488,
+    "time_s": 0.10002888500093832
+  },
+  {
+    "id": 144,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 4127,
+    "backtracks": 4118,
+    "constraint_checks": 16934,
+    "prunings": 7524,
+    "time_s": 0.10000797300017439
+  },
+  {
+    "id": 144,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 4796,
+    "backtracks": 4771,
+    "constraint_checks": 11481,
+    "prunings": 19106,
+    "time_s": 0.10003955000138376
+  },
+  {
+    "id": 145,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 21867,
+    "backtracks": 21854,
+    "constraint_checks": 23731,
+    "prunings": 36661,
+    "time_s": 0.10001753699907567
+  },
+  {
+    "id": 145,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 54,
+    "backtracks": 24,
+    "constraint_checks": 247,
+    "prunings": 178,
+    "time_s": 0.0015891910006757826
+  },
+  {
+    "id": 145,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 54,
+    "backtracks": 24,
+    "constraint_checks": 264,
+    "prunings": 178,
+    "time_s": 0.0022259239995037206
+  },
+  {
+    "id": 145,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 0,
+    "constraint_checks": 218,
+    "prunings": 61,
+    "time_s": 0.0016583569995418657
+  },
+  {
+    "id": 146,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 21660,
+    "backtracks": 21647,
+    "constraint_checks": 25515,
+    "prunings": 34792,
+    "time_s": 0.10001242400176125
+  },
+  {
+    "id": 146,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 3328,
+    "backtracks": 3302,
+    "constraint_checks": 11954,
+    "prunings": 7708,
+    "time_s": 0.10001439299958292
+  },
+  {
+    "id": 146,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 3496,
+    "backtracks": 3483,
+    "constraint_checks": 12505,
+    "prunings": 8184,
+    "time_s": 0.100022385999182
+  },
+  {
+    "id": 146,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 3640,
+    "backtracks": 3610,
+    "constraint_checks": 8790,
+    "prunings": 14480,
+    "time_s": 0.10003968199816882
+  },
+  {
+    "id": 147,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 14234,
+    "backtracks": 14219,
+    "constraint_checks": 18855,
+    "prunings": 19901,
+    "time_s": 0.10001885000019684
+  },
+  {
+    "id": 147,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 3935,
+    "backtracks": 3920,
+    "constraint_checks": 13043,
+    "prunings": 13806,
+    "time_s": 0.10002970700224978
+  },
+  {
+    "id": 147,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 4,
+    "prunings": 1,
+    "time_s": 0.00020587000108207576
+  },
+  {
+    "id": 147,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 4,
+    "prunings": 1,
+    "time_s": 0.0002755859968601726
+  },
+  {
+    "id": 148,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 24854,
+    "backtracks": 24839,
+    "constraint_checks": 31666,
+    "prunings": 22189,
+    "time_s": 0.10001185800138046
+  },
+  {
+    "id": 148,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 4714,
+    "backtracks": 4703,
+    "constraint_checks": 14899,
+    "prunings": 6961,
+    "time_s": 0.10002398500000709
+  },
+  {
+    "id": 148,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 4966,
+    "backtracks": 4946,
+    "constraint_checks": 15790,
+    "prunings": 7261,
+    "time_s": 0.10002841200184776
+  },
+  {
+    "id": 148,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 4160,
+    "backtracks": 4137,
+    "constraint_checks": 8038,
+    "prunings": 12437,
+    "time_s": 0.10769312900083605
+  },
+  {
+    "id": 149,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 28904,
+    "backtracks": 28889,
+    "constraint_checks": 28913,
+    "prunings": 34470,
+    "time_s": 0.10001428100076737
+  },
+  {
+    "id": 149,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 46,
+    "backtracks": 21,
+    "constraint_checks": 175,
+    "prunings": 124,
+    "time_s": 0.0015751909995742608
+  },
+  {
+    "id": 149,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 46,
+    "backtracks": 21,
+    "constraint_checks": 189,
+    "prunings": 124,
+    "time_s": 0.0013721639988943934
+  },
+  {
+    "id": 149,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 26,
+    "backtracks": 1,
+    "constraint_checks": 153,
+    "prunings": 47,
+    "time_s": 0.0011306989981676452
+  },
+  {
+    "id": 150,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 27561,
+    "backtracks": 27538,
+    "constraint_checks": 29299,
+    "prunings": 20157,
+    "time_s": 0.100010273999942
+  },
+  {
+    "id": 150,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 6089,
+    "backtracks": 6071,
+    "constraint_checks": 16035,
+    "prunings": 11299,
+    "time_s": 0.10002222299954155
+  },
+  {
+    "id": 150,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 5887,
+    "backtracks": 5877,
+    "constraint_checks": 15544,
+    "prunings": 10895,
+    "time_s": 0.10000997499810182
+  },
+  {
+    "id": 150,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 5868,
+    "backtracks": 5846,
+    "constraint_checks": 11246,
+    "prunings": 17558,
+    "time_s": 0.10002332300064154
+  },
+  {
+    "id": 151,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 29600,
+    "backtracks": 29585,
+    "constraint_checks": 29606,
+    "prunings": 45704,
+    "time_s": 0.10001440500127501
+  },
+  {
+    "id": 151,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 44,
+    "backtracks": 18,
+    "constraint_checks": 173,
+    "prunings": 112,
+    "time_s": 0.0022516659992106725
+  },
+  {
+    "id": 151,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 44,
+    "backtracks": 18,
+    "constraint_checks": 180,
+    "prunings": 112,
+    "time_s": 0.0010725030006142333
+  },
+  {
+    "id": 151,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 26,
+    "backtracks": 0,
+    "constraint_checks": 151,
+    "prunings": 43,
+    "time_s": 0.0009981000002881046
+  },
+  {
+    "id": 152,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 22249,
+    "backtracks": 22238,
+    "constraint_checks": 34751,
+    "prunings": 9914,
+    "time_s": 0.10000575199956074
+  },
+  {
+    "id": 152,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 932,
+    "backtracks": 932,
+    "constraint_checks": 1923,
+    "prunings": 1494,
+    "time_s": 0.011427033998188563
+  },
+  {
+    "id": 152,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 704,
+    "backtracks": 704,
+    "constraint_checks": 1534,
+    "prunings": 1129,
+    "time_s": 0.008881583999027498
+  },
+  {
+    "id": 152,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 217,
+    "backtracks": 217,
+    "constraint_checks": 363,
+    "prunings": 415,
+    "time_s": 0.0031497039999521803
+  },
+  {
+    "id": 153,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 1151,
+    "backtracks": 1132,
+    "constraint_checks": 1436,
+    "prunings": 1070,
+    "time_s": 0.003997556999820517
+  },
+  {
+    "id": 153,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 98,
+    "prunings": 62,
+    "time_s": 0.0006795869994675741
+  },
+  {
+    "id": 153,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 112,
+    "prunings": 62,
+    "time_s": 0.0008401810009672772
+  },
+  {
+    "id": 153,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 98,
+    "prunings": 33,
+    "time_s": 0.0007685119999223389
+  },
+  {
+    "id": 154,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 23160,
+    "backtracks": 23160,
+    "constraint_checks": 29380,
+    "prunings": 12434,
+    "time_s": 0.08934595999744488
+  },
+  {
+    "id": 154,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 589,
+    "backtracks": 589,
+    "constraint_checks": 881,
+    "prunings": 1022,
+    "time_s": 0.006089375001465669
+  },
+  {
+    "id": 154,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 589,
+    "backtracks": 589,
+    "constraint_checks": 890,
+    "prunings": 1022,
+    "time_s": 0.006599126001674449
+  },
+  {
+    "id": 154,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 176,
+    "backtracks": 176,
+    "constraint_checks": 278,
+    "prunings": 334,
+    "time_s": 0.002744238001469057
+  },
+  {
+    "id": 155,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 2179,
+    "backtracks": 2160,
+    "constraint_checks": 2232,
+    "prunings": 2501,
+    "time_s": 0.007261857001140015
+  },
+  {
+    "id": 155,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 98,
+    "prunings": 62,
+    "time_s": 0.0006594970000151079
+  },
+  {
+    "id": 155,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 106,
+    "prunings": 62,
+    "time_s": 0.0006946000030438881
+  },
+  {
+    "id": 155,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 92,
+    "prunings": 33,
+    "time_s": 0.0006147589992906433
+  },
+  {
+    "id": 157,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 4474,
+    "backtracks": 4457,
+    "constraint_checks": 4602,
+    "prunings": 3696,
+    "time_s": 0.013515932001610054
+  },
+  {
+    "id": 157,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 68,
+    "backtracks": 51,
+    "constraint_checks": 126,
+    "prunings": 105,
+    "time_s": 0.0008292929996969178
+  },
+  {
+    "id": 157,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 68,
+    "backtracks": 51,
+    "constraint_checks": 130,
+    "prunings": 105,
+    "time_s": 0.0008167749983840622
+  },
+  {
+    "id": 157,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 18,
+    "backtracks": 1,
+    "constraint_checks": 62,
+    "prunings": 27,
+    "time_s": 0.0004959700017934665
+  },
+  {
+    "id": 159,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 19813,
+    "backtracks": 19813,
+    "constraint_checks": 19816,
+    "prunings": 15946,
+    "time_s": 0.04382300400175154
+  },
+  {
+    "id": 159,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 7077,
+    "backtracks": 7077,
+    "constraint_checks": 9370,
+    "prunings": 10374,
+    "time_s": 0.060257244997046655
+  },
+  {
+    "id": 159,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 7077,
+    "backtracks": 7077,
+    "constraint_checks": 9371,
+    "prunings": 10374,
+    "time_s": 0.05948036100016907
+  },
+  {
+    "id": 159,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 375,
+    "backtracks": 375,
+    "constraint_checks": 542,
+    "prunings": 738,
+    "time_s": 0.004465029000130016
+  },
+  {
+    "id": 160,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 14647,
+    "backtracks": 14627,
+    "constraint_checks": 22597,
+    "prunings": 4882,
+    "time_s": 0.10001259099954041
+  },
+  {
+    "id": 160,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 2045,
+    "backtracks": 2031,
+    "constraint_checks": 14631,
+    "prunings": 2956,
+    "time_s": 0.10008928599927458
+  },
+  {
+    "id": 160,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 2105,
+    "backtracks": 2089,
+    "constraint_checks": 15116,
+    "prunings": 3016,
+    "time_s": 0.1000208429977647
+  },
+  {
+    "id": 160,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 408,
+    "backtracks": 408,
+    "constraint_checks": 1961,
+    "prunings": 750,
+    "time_s": 0.016275822003080975
+  },
+  {
+    "id": 161,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 12053,
+    "backtracks": 12008,
+    "constraint_checks": 16396,
+    "prunings": 5644,
+    "time_s": 0.0723431750011514
+  },
+  {
+    "id": 161,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 81,
+    "backtracks": 36,
+    "constraint_checks": 736,
+    "prunings": 135,
+    "time_s": 0.005251820002740715
+  },
+  {
+    "id": 161,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 81,
+    "backtracks": 36,
+    "constraint_checks": 770,
+    "prunings": 135,
+    "time_s": 0.005639954997604946
+  },
+  {
+    "id": 161,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 47,
+    "backtracks": 2,
+    "constraint_checks": 563,
+    "prunings": 58,
+    "time_s": 0.004203584001515992
+  },
+  {
+    "id": 162,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 14389,
+    "backtracks": 14346,
+    "constraint_checks": 21087,
+    "prunings": 6037,
+    "time_s": 0.10003300099924672
+  },
+  {
+    "id": 162,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 1625,
+    "backtracks": 1580,
+    "constraint_checks": 11050,
+    "prunings": 2300,
+    "time_s": 0.08182591800141381
+  },
+  {
+    "id": 162,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 1625,
+    "backtracks": 1580,
+    "constraint_checks": 11081,
+    "prunings": 2300,
+    "time_s": 0.08246080900062225
+  },
+  {
+    "id": 162,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 51,
+    "backtracks": 6,
+    "constraint_checks": 510,
+    "prunings": 59,
+    "time_s": 0.004897442002402386
+  },
+  {
+    "id": 163,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 15297,
+    "backtracks": 15272,
+    "constraint_checks": 21267,
+    "prunings": 7386,
+    "time_s": 0.10001547499996377
+  },
+  {
+    "id": 163,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 59,
+    "backtracks": 14,
+    "constraint_checks": 567,
+    "prunings": 111,
+    "time_s": 0.004158627001743298
+  },
+  {
+    "id": 163,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 59,
+    "backtracks": 14,
+    "constraint_checks": 596,
+    "prunings": 111,
+    "time_s": 0.004467093000130262
+  },
+  {
+    "id": 163,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 46,
+    "backtracks": 1,
+    "constraint_checks": 550,
+    "prunings": 53,
+    "time_s": 0.0043174259990337305
+  },
+  {
+    "id": 165,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 21459,
+    "backtracks": 21446,
+    "constraint_checks": 28966,
+    "prunings": 26181,
+    "time_s": 0.10001682700021775
+  },
+  {
+    "id": 165,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 47,
+    "backtracks": 17,
+    "constraint_checks": 238,
+    "prunings": 143,
+    "time_s": 0.0015512950012634974
+  },
+  {
+    "id": 165,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 47,
+    "backtracks": 17,
+    "constraint_checks": 263,
+    "prunings": 137,
+    "time_s": 0.0016674500002409332
+  },
+  {
+    "id": 165,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 0,
+    "constraint_checks": 233,
+    "prunings": 58,
+    "time_s": 0.0014804480015300214
+  },
+  {
+    "id": 166,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 25056,
+    "backtracks": 25056,
+    "constraint_checks": 35325,
+    "prunings": 52792,
+    "time_s": 0.09064169299745117
+  },
+  {
+    "id": 166,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 1996,
+    "backtracks": 1996,
+    "constraint_checks": 5222,
+    "prunings": 6510,
+    "time_s": 0.03650952799944207
+  },
+  {
+    "id": 166,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 3,
+    "prunings": 1,
+    "time_s": 0.0001969580007425975
+  },
+  {
+    "id": 166,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 3,
+    "prunings": 1,
+    "time_s": 0.00014324600124382414
+  },
+  {
+    "id": 167,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 28613,
+    "backtracks": 28596,
+    "constraint_checks": 44358,
+    "prunings": 36358,
+    "time_s": 0.10001493600066169
+  },
+  {
+    "id": 167,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 51,
+    "backtracks": 20,
+    "constraint_checks": 245,
+    "prunings": 160,
+    "time_s": 0.001640078000491485
+  },
+  {
+    "id": 167,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 51,
+    "backtracks": 20,
+    "constraint_checks": 262,
+    "prunings": 154,
+    "time_s": 0.0016283400000247639
+  },
+  {
+    "id": 167,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 31,
+    "backtracks": 0,
+    "constraint_checks": 226,
+    "prunings": 58,
+    "time_s": 0.0014681790016766172
+  },
+  {
+    "id": 168,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 25740,
+    "backtracks": 25727,
+    "constraint_checks": 31956,
+    "prunings": 23933,
+    "time_s": 0.1000093080001534
+  },
+  {
+    "id": 168,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 3884,
+    "backtracks": 3876,
+    "constraint_checks": 11888,
+    "prunings": 6401,
+    "time_s": 0.10023139899931266
+  },
+  {
+    "id": 168,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 4883,
+    "backtracks": 4867,
+    "constraint_checks": 15010,
+    "prunings": 7997,
+    "time_s": 0.10002738500043051
+  },
+  {
+    "id": 168,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 5841,
+    "backtracks": 5821,
+    "constraint_checks": 11327,
+    "prunings": 17474,
+    "time_s": 0.10002922799685621
+  },
+  {
+    "id": 169,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 28580,
+    "backtracks": 28567,
+    "constraint_checks": 28609,
+    "prunings": 47364,
+    "time_s": 0.10015303699765354
+  },
+  {
+    "id": 169,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 46,
+    "backtracks": 21,
+    "constraint_checks": 172,
+    "prunings": 133,
+    "time_s": 0.001158038001449313
+  },
+  {
+    "id": 169,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 46,
+    "backtracks": 21,
+    "constraint_checks": 186,
+    "prunings": 133,
+    "time_s": 0.0013624429993797094
+  },
+  {
+    "id": 169,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 25,
+    "backtracks": 0,
+    "constraint_checks": 152,
+    "prunings": 49,
+    "time_s": 0.001197616002173163
+  },
+  {
+    "id": 170,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 30352,
+    "backtracks": 30338,
+    "constraint_checks": 30467,
+    "prunings": 33762,
+    "time_s": 0.10001207700042869
+  },
+  {
+    "id": 170,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 3977,
+    "backtracks": 3977,
+    "constraint_checks": 9651,
+    "prunings": 11088,
+    "time_s": 0.05894083800012595
+  },
+  {
+    "id": 170,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 3977,
+    "backtracks": 3977,
+    "constraint_checks": 9660,
+    "prunings": 11088,
+    "time_s": 0.057985211999039166
+  },
+  {
+    "id": 170,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 3709,
+    "backtracks": 3709,
+    "constraint_checks": 7136,
+    "prunings": 11088,
+    "time_s": 0.06536484999742243
+  },
+  {
+    "id": 171,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 1,
+    "prunings": 0,
+    "time_s": 0.00016827099898364395
+  },
+  {
+    "id": 171,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 1,
+    "prunings": 0,
+    "time_s": 0.0002561820001574233
+  },
+  {
+    "id": 171,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 8,
+    "prunings": 0,
+    "time_s": 0.00014032000035513192
+  },
+  {
+    "id": 171,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 8,
+    "prunings": 0,
+    "time_s": 0.00012578699897858314
+  },
+  {
+    "id": 173,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 9796,
+    "backtracks": 9777,
+    "constraint_checks": 11713,
+    "prunings": 9555,
+    "time_s": 0.03374468000038178
+  },
+  {
+    "id": 173,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 98,
+    "prunings": 64,
+    "time_s": 0.0006277370011957828
+  },
+  {
+    "id": 173,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 108,
+    "prunings": 64,
+    "time_s": 0.0007025880004221108
+  },
+  {
+    "id": 173,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 94,
+    "prunings": 33,
+    "time_s": 0.0012353929996606894
+  },
+  {
+    "id": 175,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 20184,
+    "backtracks": 20165,
+    "constraint_checks": 20220,
+    "prunings": 24336,
+    "time_s": 0.06263349599976209
+  },
+  {
+    "id": 175,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 98,
+    "prunings": 64,
+    "time_s": 0.0007027930005278904
+  },
+  {
+    "id": 175,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 30,
+    "backtracks": 11,
+    "constraint_checks": 102,
+    "prunings": 64,
+    "time_s": 0.0006031320008332841
+  },
+  {
+    "id": 175,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 19,
+    "backtracks": 0,
+    "constraint_checks": 88,
+    "prunings": 33,
+    "time_s": 0.0006128469976829365
+  },
+  {
+    "id": 177,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 22898,
+    "backtracks": 22887,
+    "constraint_checks": 30729,
+    "prunings": 13954,
+    "time_s": 0.10005130199715495
+  },
+  {
+    "id": 177,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 2215,
+    "backtracks": 2215,
+    "constraint_checks": 4160,
+    "prunings": 3078,
+    "time_s": 0.028636619997996604
+  },
+  {
+    "id": 177,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 2215,
+    "backtracks": 2215,
+    "constraint_checks": 4167,
+    "prunings": 3078,
+    "time_s": 0.028872565999336075
+  },
+  {
+    "id": 177,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 1391,
+    "backtracks": 1391,
+    "constraint_checks": 2083,
+    "prunings": 2768,
+    "time_s": 0.01939368899911642
+  },
+  {
+    "id": 179,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 760,
+    "backtracks": 744,
+    "constraint_checks": 922,
+    "prunings": 637,
+    "time_s": 0.0024770409982011188
+  },
+  {
+    "id": 179,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 22,
+    "backtracks": 6,
+    "constraint_checks": 60,
+    "prunings": 33,
+    "time_s": 0.0003870330001518596
+  },
+  {
+    "id": 179,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 22,
+    "backtracks": 6,
+    "constraint_checks": 63,
+    "prunings": 33,
+    "time_s": 0.0003741629989235662
+  },
+  {
+    "id": 179,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 17,
+    "backtracks": 1,
+    "constraint_checks": 58,
+    "prunings": 23,
+    "time_s": 0.00046774499787716195
+  },
+  {
+    "id": 180,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 14749,
+    "backtracks": 14730,
+    "constraint_checks": 22756,
+    "prunings": 4908,
+    "time_s": 0.10001853900030255
+  },
+  {
+    "id": 180,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 1999,
+    "backtracks": 1968,
+    "constraint_checks": 14323,
+    "prunings": 2884,
+    "time_s": 0.10004959599973517
+  },
+  {
+    "id": 180,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 2050,
+    "backtracks": 2034,
+    "constraint_checks": 14685,
+    "prunings": 2970,
+    "time_s": 0.10001533500326332
+  },
+  {
+    "id": 180,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 408,
+    "backtracks": 408,
+    "constraint_checks": 1961,
+    "prunings": 750,
+    "time_s": 0.016880243998457445
+  },
+  {
+    "id": 181,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 16563,
+    "backtracks": 16540,
+    "constraint_checks": 22982,
+    "prunings": 9599,
+    "time_s": 0.10001699699932942
+  },
+  {
+    "id": 181,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 63,
+    "backtracks": 18,
+    "constraint_checks": 591,
+    "prunings": 123,
+    "time_s": 0.004622381999070058
+  },
+  {
+    "id": 181,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 63,
+    "backtracks": 18,
+    "constraint_checks": 626,
+    "prunings": 123,
+    "time_s": 0.004781381001521368
+  },
+  {
+    "id": 181,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 558,
+    "prunings": 48,
+    "time_s": 0.0043378419977671
+  },
+  {
+    "id": 182,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 18532,
+    "backtracks": 18508,
+    "constraint_checks": 24243,
+    "prunings": 9763,
+    "time_s": 0.10043014900293201
+  },
+  {
+    "id": 182,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 1265,
+    "backtracks": 1265,
+    "constraint_checks": 6999,
+    "prunings": 4006,
+    "time_s": 0.04659689999971306
+  },
+  {
+    "id": 182,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 1265,
+    "backtracks": 1265,
+    "constraint_checks": 7027,
+    "prunings": 4006,
+    "time_s": 0.047443655003007734
+  },
+  {
+    "id": 182,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 207,
+    "backtracks": 207,
+    "constraint_checks": 1119,
+    "prunings": 546,
+    "time_s": 0.009142449001956265
+  },
+  {
+    "id": 183,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 15525,
+    "backtracks": 15488,
+    "constraint_checks": 21617,
+    "prunings": 7890,
+    "time_s": 0.10002933600117103
+  },
+  {
+    "id": 183,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 52,
+    "backtracks": 7,
+    "constraint_checks": 532,
+    "prunings": 74,
+    "time_s": 0.004284473001462175
+  },
+  {
+    "id": 183,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 52,
+    "backtracks": 7,
+    "constraint_checks": 557,
+    "prunings": 74,
+    "time_s": 0.004152864999923622
+  },
+  {
+    "id": 183,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 45,
+    "backtracks": 0,
+    "constraint_checks": 540,
+    "prunings": 46,
+    "time_s": 0.0040131050009222236
+  },
+  {
+    "id": 184,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 22581,
+    "backtracks": 22565,
+    "constraint_checks": 27865,
+    "prunings": 21840,
+    "time_s": 0.1000136319999001
+  },
+  {
+    "id": 184,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 146,
+    "backtracks": 116,
+    "constraint_checks": 578,
+    "prunings": 282,
+    "time_s": 0.0037305180012481287
+  },
+  {
+    "id": 184,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 146,
+    "backtracks": 116,
+    "constraint_checks": 603,
+    "prunings": 282,
+    "time_s": 0.005619573999865679
+  },
+  {
+    "id": 184,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 36,
+    "backtracks": 6,
+    "constraint_checks": 208,
+    "prunings": 68,
+    "time_s": 0.001680690998909995
+  },
+  {
+    "id": 185,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 23862,
+    "backtracks": 23848,
+    "constraint_checks": 29014,
+    "prunings": 28368,
+    "time_s": 0.10001173799901153
+  },
+  {
+    "id": 185,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 75,
+    "backtracks": 45,
+    "constraint_checks": 353,
+    "prunings": 201,
+    "time_s": 0.002191399998991983
+  },
+  {
+    "id": 185,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 75,
+    "backtracks": 45,
+    "constraint_checks": 368,
+    "prunings": 201,
+    "time_s": 0.0022583009995287284
+  },
+  {
+    "id": 185,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 35,
+    "backtracks": 5,
+    "constraint_checks": 222,
+    "prunings": 83,
+    "time_s": 0.0016358239990950096
+  },
+  {
+    "id": 186,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 21992,
+    "backtracks": 21979,
+    "constraint_checks": 28287,
+    "prunings": 24692,
+    "time_s": 0.10000913299882086
+  },
+  {
+    "id": 186,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 3379,
+    "backtracks": 3379,
+    "constraint_checks": 8261,
+    "prunings": 13320,
+    "time_s": 0.061578241002280265
+  },
+  {
+    "id": 186,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 3379,
+    "backtracks": 3379,
+    "constraint_checks": 8276,
+    "prunings": 13320,
+    "time_s": 0.05787312200118322
+  },
+  {
+    "id": 186,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 966,
+    "backtracks": 966,
+    "constraint_checks": 2399,
+    "prunings": 3782,
+    "time_s": 0.024999987999763107
+  },
+  {
+    "id": 187,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 20911,
+    "backtracks": 20896,
+    "constraint_checks": 24727,
+    "prunings": 38009,
+    "time_s": 0.10007828199741198
+  },
+  {
+    "id": 187,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 3796,
+    "backtracks": 3785,
+    "constraint_checks": 14109,
+    "prunings": 11689,
+    "time_s": 0.1000172999993083
+  },
+  {
+    "id": 187,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 3918,
+    "backtracks": 3908,
+    "constraint_checks": 14536,
+    "prunings": 12096,
+    "time_s": 0.10001782999825082
+  },
+  {
+    "id": 187,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 4044,
+    "backtracks": 4013,
+    "constraint_checks": 11315,
+    "prunings": 20119,
+    "time_s": 0.10003503700136207
+  },
+  {
+    "id": 188,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 24450,
+    "backtracks": 24437,
+    "constraint_checks": 30348,
+    "prunings": 22757,
+    "time_s": 0.10001103000104195
+  },
+  {
+    "id": 188,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 5449,
+    "backtracks": 5440,
+    "constraint_checks": 16788,
+    "prunings": 8864,
+    "time_s": 0.10000652300004731
+  },
+  {
+    "id": 188,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 5263,
+    "backtracks": 5244,
+    "constraint_checks": 16242,
+    "prunings": 8565,
+    "time_s": 0.10001860199918156
+  },
+  {
+    "id": 188,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 5735,
+    "backtracks": 5712,
+    "constraint_checks": 11123,
+    "prunings": 17153,
+    "time_s": 0.10001688999909675
+  },
+  {
+    "id": 189,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 28673,
+    "backtracks": 28659,
+    "constraint_checks": 28678,
+    "prunings": 45301,
+    "time_s": 0.10001195199947688
+  },
+  {
+    "id": 189,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 43,
+    "backtracks": 18,
+    "constraint_checks": 172,
+    "prunings": 119,
+    "time_s": 0.0011547319991223048
+  },
+  {
+    "id": 189,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 43,
+    "backtracks": 18,
+    "constraint_checks": 195,
+    "prunings": 115,
+    "time_s": 0.0011510859985719435
+  },
+  {
+    "id": 189,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 25,
+    "backtracks": 0,
+    "constraint_checks": 164,
+    "prunings": 46,
+    "time_s": 0.0011653680012386758
+  },
+  {
+    "id": 190,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 36304,
+    "backtracks": 36279,
+    "constraint_checks": 39595,
+    "prunings": 32739,
+    "time_s": 0.10001197800011141
+  },
+  {
+    "id": 190,
+    "configuration": "FC",
+    "status": "TIMEOUT",
+    "nodes": 6224,
+    "backtracks": 6201,
+    "constraint_checks": 14180,
+    "prunings": 15455,
+    "time_s": 0.10001956899941433
+  },
+  {
+    "id": 190,
+    "configuration": "AC3",
+    "status": "TIMEOUT",
+    "nodes": 5873,
+    "backtracks": 5848,
+    "constraint_checks": 13485,
+    "prunings": 13943,
+    "time_s": 0.10001266800099984
+  },
+  {
+    "id": 190,
+    "configuration": "MRV_LCV",
+    "status": "TIMEOUT",
+    "nodes": 5629,
+    "backtracks": 5608,
+    "constraint_checks": 10798,
+    "prunings": 16843,
+    "time_s": 0.10001725499751046
+  },
+  {
+    "id": 191,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 32379,
+    "backtracks": 32364,
+    "constraint_checks": 46128,
+    "prunings": 42250,
+    "time_s": 0.10001343000112684
+  },
+  {
+    "id": 191,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 42,
+    "backtracks": 16,
+    "constraint_checks": 172,
+    "prunings": 111,
+    "time_s": 0.0022681700029352214
+  },
+  {
+    "id": 191,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 42,
+    "backtracks": 16,
+    "constraint_checks": 188,
+    "prunings": 107,
+    "time_s": 0.0011912349982594606
+  },
+  {
+    "id": 191,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 26,
+    "backtracks": 0,
+    "constraint_checks": 163,
+    "prunings": 46,
+    "time_s": 0.0011169550016347785
+  },
+  {
+    "id": 192,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 12828,
+    "backtracks": 12828,
+    "constraint_checks": 18654,
+    "prunings": 7431,
+    "time_s": 0.051269792002131
+  },
+  {
+    "id": 192,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 932,
+    "backtracks": 932,
+    "constraint_checks": 1923,
+    "prunings": 1494,
+    "time_s": 0.011778871998103568
+  },
+  {
+    "id": 192,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 6,
+    "prunings": 1,
+    "time_s": 0.00017490399841335602
+  },
+  {
+    "id": 192,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 0,
+    "backtracks": 0,
+    "constraint_checks": 6,
+    "prunings": 1,
+    "time_s": 0.00011997099863947369
+  },
+  {
+    "id": 193,
+    "configuration": "BT",
+    "status": "SAT",
+    "nodes": 20917,
+    "backtracks": 20898,
+    "constraint_checks": 24284,
+    "prunings": 21372,
+    "time_s": 0.06501608500184375
+  },
+  {
+    "id": 193,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 34,
+    "backtracks": 15,
+    "constraint_checks": 105,
+    "prunings": 82,
+    "time_s": 0.000668266999127809
+  },
+  {
+    "id": 193,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 34,
+    "backtracks": 15,
+    "constraint_checks": 115,
+    "prunings": 82,
+    "time_s": 0.0006956569995963946
+  },
+  {
+    "id": 193,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 22,
+    "backtracks": 3,
+    "constraint_checks": 98,
+    "prunings": 46,
+    "time_s": 0.0006890670010761824
+  },
+  {
+    "id": 195,
+    "configuration": "BT",
+    "status": "TIMEOUT",
+    "nodes": 37642,
+    "backtracks": 37629,
+    "constraint_checks": 37719,
+    "prunings": 45068,
+    "time_s": 0.10001070699945558
+  },
+  {
+    "id": 195,
+    "configuration": "FC",
+    "status": "SAT",
+    "nodes": 34,
+    "backtracks": 15,
+    "constraint_checks": 105,
+    "prunings": 82,
+    "time_s": 0.0006488770013675094
+  },
+  {
+    "id": 195,
+    "configuration": "AC3",
+    "status": "SAT",
+    "nodes": 34,
+    "backtracks": 15,
+    "constraint_checks": 109,
+    "prunings": 82,
+    "time_s": 0.0007727240008534864
+  },
+  {
+    "id": 195,
+    "configuration": "MRV_LCV",
+    "status": "SAT",
+    "nodes": 22,
+    "backtracks": 3,
+    "constraint_checks": 92,
+    "prunings": 46,
+    "time_s": 0.0006469639993156306
+  },
+  {
+    "id": 197,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 20648,
+    "backtracks": 20648,
+    "constraint_checks": 23801,
+    "prunings": 12900,
+    "time_s": 0.06213761999970302
+  },
+  {
+    "id": 197,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 1061,
+    "backtracks": 1061,
+    "constraint_checks": 1662,
+    "prunings": 1818,
+    "time_s": 0.010819364000781206
+  },
+  {
+    "id": 197,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 1061,
+    "backtracks": 1061,
+    "constraint_checks": 1666,
+    "prunings": 1818,
+    "time_s": 0.011265295997873181
+  },
+  {
+    "id": 197,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 761,
+    "backtracks": 761,
+    "constraint_checks": 1156,
+    "prunings": 1508,
+    "time_s": 0.00976892199832946
+  },
+  {
+    "id": 199,
+    "configuration": "BT",
+    "status": "UNSAT",
+    "nodes": 2485,
+    "backtracks": 2485,
+    "constraint_checks": 2488,
+    "prunings": 1944,
+    "time_s": 0.005773404001956806
+  },
+  {
+    "id": 199,
+    "configuration": "FC",
+    "status": "UNSAT",
+    "nodes": 611,
+    "backtracks": 611,
+    "constraint_checks": 875,
+    "prunings": 1060,
+    "time_s": 0.005457169001601869
+  },
+  {
+    "id": 199,
+    "configuration": "AC3",
+    "status": "UNSAT",
+    "nodes": 611,
+    "backtracks": 611,
+    "constraint_checks": 876,
+    "prunings": 1060,
+    "time_s": 0.006149311000626767
+  },
+  {
+    "id": 199,
+    "configuration": "MRV_LCV",
+    "status": "UNSAT",
+    "nodes": 382,
+    "backtracks": 382,
+    "constraint_checks": 576,
+    "prunings": 752,
+    "time_s": 0.004668300000048475
+  }
+]
