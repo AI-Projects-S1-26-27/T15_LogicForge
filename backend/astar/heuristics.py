@@ -15,9 +15,9 @@ further terms a partial plan still needs:
 * **Composite.** Pointwise maximum of the two bounds. The max of admissible
   heuristics is admissible, and it dominates either one alone.
 
-Neither number is a predicted graduation date. A learned heuristic is not
-included here: it would not be admissible, and Experiment E3 is where it
-gets compared later.
+These lower bounds are not promised graduation dates. The experimental learned
+option below predicts remaining terms with a bundled neural model; it is not
+guaranteed admissible and is not used as a horizon-infeasibility proof.
 """
 
 from __future__ import annotations
@@ -108,7 +108,55 @@ def credit_bound(problem: Problem, placed: dict[str, int], next_term: int) -> fl
         return _horizon_or_inf(problem, next_term, 0.0)
     if problem.max_credits <= 0:
         return math.inf
-    return _horizon_or_inf(problem, next_term, math.ceil(required / problem.max_credits))
+    mandatory, _ = _remaining_groups(problem, placed)
+    exclusive = [c for c in mandatory if problem.courses[c].get("exclusive_semester")]
+    bound = math.ceil(required / problem.max_credits)
+    if exclusive:
+        other = required - sum(problem.courses[c]["credits"] for c in exclusive)
+        bound = max(
+            bound, len(exclusive) + math.ceil(max(0, other) / problem.max_credits)
+        )
+    return _horizon_or_inf(problem, next_term, bound)
+
+
+def availability_bound(
+    problem: Problem, placed: dict[str, int], next_term: int
+) -> float:
+    """Earliest legal required-course slot plus parity capacity feasibility."""
+    mandatory, _ = _remaining_groups(problem, placed)
+    bound = 0
+    for code in mandatory:
+        info = problem.courses[code]
+        if info.get("latest_semester", problem.target_semester) < next_term:
+            return math.inf
+        valid = [
+            term
+            for term in range(
+                max(next_term, info.get("earliest_semester", next_term)),
+                min(
+                    problem.target_semester,
+                    info.get("latest_semester", problem.target_semester),
+                )
+                + 1,
+            )
+            if parity_allows(info.get("parity"), term)
+        ]
+        if not valid:
+            return math.inf
+        bound = max(bound, min(valid) - next_term + 1)
+    for parity in ("odd", "even"):
+        units = sum(
+            problem.courses[c]["credits"]
+            for c in mandatory
+            if problem.courses[c].get("parity") == parity
+        )
+        slots = sum(
+            parity_allows(parity, term)
+            for term in range(next_term, problem.target_semester + 1)
+        )
+        if units > slots * problem.max_credits:
+            return math.inf
+    return _horizon_or_inf(problem, next_term, bound)
 
 
 def _formula_depth(
@@ -186,7 +234,10 @@ def critical_path(problem: Problem, placed: dict[str, int], next_term: int) -> f
     heads = [
         code
         for code in mandatory
-        if _formula_depth(problem.courses[code].get("formula"), depth_of, problem, placed) == 0
+        if _formula_depth(
+            problem.courses[code].get("formula"), depth_of, problem, placed
+        )
+        == 0
     ]
     gap = 0.0
     if heads and not any(
@@ -202,22 +253,38 @@ def composite(problem: Problem, placed: dict[str, int], next_term: int) -> float
     chain = critical_path(problem, placed, next_term)
     if math.isinf(credits) or math.isinf(chain):
         return math.inf
-    return max(credits, chain)
+    return max(credits, chain, availability_bound(problem, placed, next_term))
+
+
+def learned_prediction(
+    problem: Problem, placed: dict[str, int], next_term: int
+) -> float:
+    """Secondary guidance through the corrected ml.zip inference adapter."""
+    from backend.ml.predict import learned_heuristic
+
+    return learned_heuristic(problem, placed, next_term)
+
+
+def learned(problem: Problem, placed: dict[str, int], next_term: int) -> float:
+    """Raw neural prediction; the planner uses it as secondary guidance only."""
+    return learned_prediction(problem, placed, next_term)
 
 
 HEURISTICS: dict[str, Heuristic] = {
     "credit_bound": credit_bound,
     "critical_path": critical_path,
     "composite": composite,
+    "learned": learned,
+    "learned_direct_research": learned,
 }
 
 
 def get_heuristic(name: str) -> Heuristic:
-    """Return one of the admissible heuristics by the name in ``AStarConfig``."""
+    """Return the selected heuristic by the name in ``AStarConfig``."""
     try:
         return HEURISTICS[name]
     except KeyError as exc:
         known = ", ".join(sorted(HEURISTICS))
         raise ValueError(
-            f"Unknown heuristic {name!r}. Admissible heuristics are: {known}."
+            f"Unknown heuristic {name!r}. Available heuristics are: {known}."
         ) from exc
