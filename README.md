@@ -1,165 +1,199 @@
-# LogicForge
-# GraphMind
-### A Constraint-Aware Degree Plan Generator
+# GraphMind — Academic Degree Planner
 
-**Team:** LogicForge · **Course:** CS F407/U407 — Artificial Intelligence, Sem I 2026–27 · **Institution:** BITS Pilani, Hyderabad Campus
-**Topic Areas:** Search & Problem Solving + Knowledge Representation & Reasoning · **Track:** Application
+A complete local dashboard for planning the four supplied B.E. programmes with CSP and A*, comparing their actual results, and checking the encoded degree/minor requirements against the provided course images and semester timetables.
 
----
+## Project details
 
-## 1. Overview
+| Field | Details |
+| --- | --- |
+| Project Name | GraphMind |
+| Team Name | LogicForge |
+| Course | CS F407 / U407 — Artificial Intelligence, Sem I 2026–27 |
+| Institution | BITS Pilani, Hyderabad Campus |
+| Declared Topic Areas | Search & Problem Solving + Knowledge Representation & Reasoning |
+| Declared Track | Application |
 
-GraphMind takes a student's completed coursework and generates a feasible, semester-by-semester plan to graduation — satisfying prerequisite chains, corequisites, per-semester credit limits, odd/even term offerings, degree-requirement categories, and minor requirements simultaneously.
+## Team members
 
-The problem is formulated and solved two ways:
-- as a **Constraint Satisfaction Problem** (backtracking, extended with forward checking and AC‑3), and
-- as an **informed search problem** (A* over a shared planning model).
+| Member Name | Member ID |
+| --- | --- |
+| Vedant Shah | 2024A7PS0135H |
+| Jenil Karia | 2024A7PS0100H |
+| Pratham Singla | 2024A8PS0486H |
+| Krishna Gupta | 2024A3PS0380H |
+| Aditya Sanadhaya | 2024AAPS0263H |
+| Mubeen Khan | 2024A8PS0489H |
+| Kshitij Mathur | 2024A8PS0462H |
+| Raj Parab | 2024A3PS0433H |
 
-The two formulations are compared on the same instances. When no valid plan exists, GraphMind identifies the constraints responsible for the infeasibility and reports possible relaxations, rather than returning nothing.
+## Start the submitted app
 
-> Full problem statement, course-concept mapping, and the submitted evaluation plan live in [`docs/proposal.pdf`](./docs/proposal.pdf) — read that before touching code. Scope, algorithms, and experiments here are expected to match that proposal; if something here would diverge from it, flag it in PR review rather than quietly changing scope.
-
-## 2. Features
-
-- **Dual-formulation planning** — CSP backtracking (FC + AC‑3 + MRV/degree + LCV) and A* search run against the same constraint model, so results are directly comparable.
-- **A\* admissible heuristic** — a lower bound on remaining terms, derived from remaining required credits and per-term credit capacity (`⌈remaining_credits / max_credits_per_term⌉`), plus a critical-path bound from the longest remaining prerequisite chain. This bounds the search; it is **not** a prediction of a student's actual graduation date, and is only as accurate as the admissibility proof holds for the final cost formulation.
-- **Propositional prerequisite logic** — prerequisites expressed as Boolean formulas (`CS F211 AND (MATH F211 OR MATH F213)`), evaluated by entailment against completed coursework.
-- **Independent verification** — every generated plan is re-checked by a verifier implemented separately from both solvers, by a team member who wrote neither.
-- **Infeasibility diagnosis** — when no plan exists, GraphMind identifies the constraints responsible for the infeasibility via deletion-based conflict extraction. This explains *which* constraints are in conflict and suggests a relaxation for each, re-solving to confirm it works. The returned set is *minimal* (dropping any one rule makes a plan possible), checked against brute force on small random instances in `tests/test_infeasibility_analyzer.py`. It is not guaranteed to be the *smallest* conflict when several exist; if a solver call times out the report says the set may not be minimal.
-- **Branch-aware curriculum data** — common courses, branch-specific requirements, and minor requirements are kept as separate data, so branches can be added or validated independently (see [`docs/data_schema.md`](./docs/data_schema.md)).
-
-## 3. Architecture
-
-```mermaid
-flowchart TD
-    subgraph INPUT["Input"]
-        TR["Student Transcript\n+ Target Graduation Term"]
-        CURR["Curriculum Data\n(common + branch + minor)"]
-    end
-
-    RESOLVER["Requirement Resolver\nprerequisite entailment, forward-chaining closure\n(Pair A)"]
-
-    MODEL["Shared Planning Model\nbackend/models/planning_problem.py\ncourses, terms, constraints, objective\n(built & consumed by Pair B + Pair C)"]
-
-    subgraph SOLVERS["Planning (two independent formulations)"]
-        CSP["CSP Solver\nbacktracking + forward checking + AC-3\n(Pair B)"]
-        ASTAR["A* Planner\nadmissible heuristic (credit-bound ⊕ critical-path)\n(Pair C)"]
-    end
-
-    VERIFIER["Independent Verifier\nre-checks every constraint from scratch\n(Pair D, no solver code imported)"]
-
-    INFEAS["Infeasibility Analyzer\nidentifies constraints responsible for infeasibility\n(Pair D)"]
-
-    OUT_PLAN["Verified Study Plan\n+ derivation trace"]
-    OUT_INFEAS["Infeasibility Report\n+ candidate relaxations"]
-
-    TR --> RESOLVER
-    CURR --> RESOLVER
-    RESOLVER --> MODEL
-
-    MODEL --> CSP
-    MODEL --> ASTAR
-    MODEL -.no feasible plan found.-> INFEAS
-
-    CSP --> VERIFIER
-    ASTAR --> VERIFIER
-
-    VERIFIER -- valid --> OUT_PLAN
-    VERIFIER -. invalid, diagnose .-> INFEAS
-    INFEAS --> OUT_INFEAS
-```
-
-Both solvers consume the **same** planning model — that's what makes the CSP-vs-A* comparison (Experiment E1) meaningful. The verifier is written independently of both solvers and re-checks every constraint from scratch; it does not trust either solver's own claim of correctness.
-
-Full module-by-module responsibilities, the planning-model schema, and the integration contract between pairs are in [`docs/architecture.md`](./docs/architecture.md).
-
-## 4. Team
-
-| # | Name | ID No. | Pair |
-|---|------|--------|------|
-| 1 | Pratham Singla | 2024A8PS0486H | A |
-| 2 | Krishna Gupta | 2024A3PS0380H | A |
-| 3 | Aditya Sanadhaya | 2024AAPS0263H | B |
-| 4 | Kshitij Mathur | 2024A8PS0462H | B |
-| 5 | Jenil Karia | 2024A7PS0100H | C |
-| 6 | Raj Parab | 2024A3PS0433H | C |
-| 7 | Mohammad Mubeen Mazar Khan | 2024A8PS0489H | D |
-| 8 | Vedant Shah | 2024A7PS0135H | D |
-
-### Pair ownership (4 pairs, each owns a component end to end)
-
-| Pair | Members | Owns |
-|---|---|---|
-| **A** | Krishna Gupta, Pratham Singla | Curriculum KB & validation; prerequisite formulas, entailment evaluator, forward-chaining closure |
-| **B** | Aditya Sanadhaya, Kshitij Mathur | CSP formulation; backtracking + forward checking + AC‑3 + MRV/LCV; Experiment E2 |
-| **C** | Raj Parab, Jenil Karia | A* planner, admissible heuristics, learned heuristic; Experiments E1, E3 |
-| **D** | Mubeen Khan, Vedant Shah | Independent plan verifier; infeasibility analyser; benchmarking & stats; integration/interface |
-
-Pair A is on the critical path and starts immediately (Week 1 toy curriculum unblocks B/C/D to work in parallel). **Pair D must never implement a solver** — their verifier has to stay independent of both the CSP and A* code so it can genuinely catch their bugs.
-
-Branching, PR rules, and commit conventions are in [`docs/contributing.md`](./docs/contributing.md) — read that before your first PR.
-
-## 5. Setup
+Requires **Python 3.10+**. The ZIP includes the production React build and neural weights. No Node.js, PyTorch or separate server installation is required to run it.
 
 ```bash
-git clone https://github.com/VedantLiteCoder0135/LogicForge.git
 cd LogicForge
-python -m venv venv && source venv/bin/activate   # or your preferred env manager
-pip install -r requirements.txt
+python run.py --check
+python run.py --open
 ```
 
-Launch the app:
+The `--open` option opens the dashboard in your default browser. It tries the next free port when an older server occupies the requested port, so it does not open the older app. You can also double-click `START_MAC.command` on macOS, `START_WINDOWS.bat` on Windows, or run `START_LINUX.sh` on Linux.
+
+Without `--open`, open **http://127.0.0.1:8000**. If that port is occupied, run `python run.py --port 8001` and open port 8001 instead. Stop the server with Ctrl+C.
+
+The current entrypoint is `run.py` (or `python -m backend.api.server`).
+
+## Using the planner
+
+1. **Planning Model:** Choose **Full degree** (plans all semesters 1 through 7/8 with a 25-credit cap) or **Remaining degree** (enter your last completed semester and passed electives).
+2. Choose CSE, EEE, ECE or E&I. In Remaining degree mode, required courses through **Last finished semester** are selected automatically for the chosen branch, with common first-year CS F111 and EEE F111 preserved across all branches.
+3. Choose thesis (16 units), thesis with concurrent electives (9 + 6–9 units), or Practice School (5 summer + 20 regular-semester units). When Practice School is selected, you can flexibly place PS-II in Semester 7 or Semester 8. Choose an optional minor and any required elective preferences.
+4. Leave **Auto-fill** enabled for a concrete recommendation set that meets remaining coursework requirements. Uncheck a suggested elective to exclude it and generate a replacement. Elective cards also permit pinning a course to a specific target semester.
+5. **Elective Rules & DEL Overflow:** Minimums are enforced: HuEl 9 units/3 courses, DEL 12 units/4 courses, OpEl 15 units/5 courses. Extra DELs beyond requirements automatically cascade into Open Electives (`Extra DEL → OpEl`).
+6. Review **Catalogue & offerings**. Each course has odd/even observations, a reference semester where available, prerequisite information and source evidence. Unlisted courses are allowed in either semester as labelled planning assumptions by default. Disable **Allow unlisted courses** for strict evidence-only planning. Observed odd/even restrictions still apply.
+7. Generate with CSP or A*. Inspect the independent schedule verification separately from the graduation assessment.
+8. Open **CSP vs A*** to run both actual algorithms on identical inputs after generating a verified plan. Inspect measured runtime, search nodes, backtracks, bundles, schedules and verification; apply either verified result.
+9. **Saved plans** supports names, duplicates, deletion, JSON backups/import and regenerated results. A verified schedule can be exported as CSV. Results reload only when their input fingerprint and curriculum signature still match; imported results are never trusted as verified.
+10. Open **`/evaluation.html`** in your browser to view the anonymous volunteer evaluation tasks (P01–P10) and empirical study results.
+
+For a quick presentation, import `docs/submission/demo_plans.json` using Saved plans → Import plans JSON. These are explicitly labeled demo scenarios with an assumed completed first year, not real student records. See `docs/submission/DEMO.md` for a walkthrough.
+
+## Exact curriculum scope and sources
+
+The dashboard's authority is **`data/curriculum/scoped_catalogue.json`**:
+
+- 384 distinct courses restricted to the supplied course images: four branch core/elective pools, common/institutional subjects, humanities, general awareness, projects and the five pictured minors.
+- Minors: Computing and Intelligence (non-CSE only), Data Science, Robotics and Automation, Semiconductor Devices and Technology, Finance.
+- Odd snapshot: **Hyderabad, Semester I 2026–27**.
+- Even snapshot: **Hyderabad, Semester II 2024–25**.
+- Observations: 67 odd-only, 103 even-only, 51 both-parity, 163 unconfirmed. Evidence includes page/excerpt and source PDF hashes.
+
+The timetable snapshots are from different years. They are used as repeating-parity planning observations, not confirmation of future registration availability. Several first-year F-series subjects are absent from the newer U-series timetable; no U-series substitution is made. The recommended programme semester is displayed separately from observed offering parity. Textbook-only references are excluded from offering extraction.
+
+Unlisted courses use an explicit both-semester planning assumption, enabled by default and recorded in the audit. Turn it off for strict planning or specify an individual availability confirmation. The older branch/minor JSON directories remain reproducible **research fixtures** for the original solvers and experiments; the dashboard does not select its courses from those broader legacy catalogues.
+
+## What is checked
+
+- Encoded prerequisite/corequisite formulas, odd/even offerings, horizon, credit caps, availability windows and final-semester project constraints.
+- Degree: 144 total units, 129 coursework units, 41 coursework courses, 42 total courses, all institutional/discipline cores and alternatives, general awareness, HuEl 9 units/3 courses, DEL 12/4, OpEl 15/5, and the route.
+- Minor: required cores/alternatives, total courses/units, at least 2 elective courses/6 units, at most 2 mandatory-major courses/6 units, at most one project. GPA ≥4.5 and declaration/approval remain external.
+- Projects: at most 3 DEL, 3 open and 5 overall; DEL subtype caps study 1, laboratory 2, design 2, special 1. Allied-branch DEL permissions are not assumed.
+- Thesis: either 16 units alone or 9 units with 6–9 concurrent elective units across at least two courses. PS-I is a separate summer placement with foundation completion checks, never regular-semester load or invented passed credit.
+
+The app does not certify registration or a degree award. It does not infer missing official prerequisite rules, calculate GPA, resolve lecture/exam clashes, encode a second major, or grant campus approval. A* uses a production bundle limit of 10, so global optimality is not claimed. Elective recommendation is deterministic rather than exhaustive combination optimization.
+
+## Learned guidance
+
+The included six-feature MLP predicts remaining terms and is now trained on 3,000 small synthetic states with exact optimal-horizon labels. See backend/ml/optimal_artifacts for data, proof fixtures and held-out-family metrics. Transfer to full curricula is experimental. In learned A* mode, the **composite bound remains the primary f score**; the neural model orders states tied on f and depth. The page shows raw prediction, primary bound, features, timing and nodes. This avoids out-of-distribution neural predictions overriding a valid lower bound. It is an experimental guidance policy, not a promised speedup.
+
+## Verification and development
 
 ```bash
-streamlit run frontend/app.py
+python -m pip install -r requirements.txt
+python -m pytest -q
+python scripts/benchmark_submission.py
 ```
 
-That's it — the Streamlit app calls `backend/services/planning_service.py` directly in-process, so there's no separate API server to run for local development. Runtime defaults (curriculum directory, per-term credit cap, etc.) live in `config/settings.py`; there is currently no `.env` file because nothing in the app reads one — if that changes (e.g. a deployed API is added later), this section and `docs/architecture.md` get updated together.
+The current suite has 379 passing tests, including exhaustive tiny-model checks, all four live branches, five minors, three routes, source parsing, HTTP validation, project quotas, DEL overflow, semester choices, and tampered-plan rejection. `docs/submission/benchmark.csv` contains measured five-run medians; timings are host-dependent and are not speedup guarantees. Browser acceptance covers real CSP/learned-A* requests, source uncertainty/overrides, Finance, comparison, JSON/CSV transfers, modals, saved-result signatures, animation and 320–1440px layout checks.
 
-## 6. Current Status
+To edit the frontend, install Node.js 18+ and run two terminals:
 
-Dates below are from the submitted proposal. Status is **not** auto-updated — each pair updates their own row in the same PR that meets the criterion, and nothing is marked done until the criterion is actually met.
+```bash
+# Repository root
+python run.py
+```
 
-### Weekly milestones
+```bash
+# Another terminal
+cd frontend
+npm ci
+npm run dev
+```
 
-| Week | Dates | Milestone | Completion criteria |
-|---|---|---|---|
-| 1 | 3–9 Oct | KB schema, loader, validation suite; toy curriculum | 10-course toy curriculum loads via `backend/data/loader.py`; validation suite runs and reports zero cycles/undefined course codes on the toy data |
-| 2 | 10–16 Oct | Prerequisite formulas + entailment evaluator; fixpoint closure | Entailment evaluator correctly resolves a hand-written Boolean prerequisite against a completed-course set; forward-chaining closure terminates and is idempotent on toy data |
-| 3 | 17–23 Oct | Real curriculum encoded & cross-checked; planning model constructed | At least one real branch's course list + requirements loads and passes validation; `backend/models/planning_problem.py` builds a model object from it |
-| 4 | 24–30 Oct | Backtracking solver producing valid plans; independent verifier | CSP solver returns a plan for at least one real toy/sample student profile; verifier independently confirms it against the same model with no shared code path |
-| 5 | 31 Oct–6 Nov | End-to-end system | A transcript run through the Streamlit app produces a verified plan, start to finish, for at least one real curriculum branch |
-| 6 | 7–13 Nov | Forward checking, AC‑3, MRV/LCV; propagation ablation (E2) | Each propagation technique can be toggled independently; E2 produces a backtrack-count/runtime comparison across the configurations defined in `docs/experiments.md` |
-| 7 | 14–20 Nov | A* + admissible heuristics; infeasibility analyser; solver comparison (E1) | A* returns a plan on the same instances as the CSP solver; E1 reports validity/optimality/time/nodes for both; infeasibility analyser returns a non-empty, re-checkable set of conflicting constraints on at least one deliberately infeasible instance |
-| 8 | 21–24 Nov | Learned heuristic integration; feature-complete | Learned heuristic loads and produces a value on real states; full feature set from §2 runs without a code path that raises on the sample transcripts |
-| 9 | 25–27 Nov | Benchmarks, user evaluation (E5), explanation interface, bug fixing | Benchmark suite (`docs/experiments.md`) run completes on all ~200 synthetic states and produces results under `experiments/results/`; at least the target number of volunteer users (6–10, per proposal) have run E5 |
-| 10 | 28–30 Nov | Final demo, report, submission | `docs/report/` compiled; live demo runs end to end without manual patching |
+Open http://localhost:3000. Vite proxies `/api` to port 8000. Rebuild the included production UI with `npm run build` from `frontend/`.
 
-Week 5 is intended to be a complete, if narrow, working system — everything after that extends something that already runs end to end, not a system still being assembled for the first time.
+To repeat browser acceptance checks against the running production app:
 
-### Component status
+```bash
+python -m pip install -r requirements-dev.txt
+python -m playwright install chromium
+python tests/browser/smoke.py --url http://127.0.0.1:8000
+```
 
-| Component | Owner | Completion criteria | Status |
-|---|---|---|---|
-| Curriculum loader + validation suite | Pair A | Loads real branch data; flags cycles/undefined codes/unreachable courses | ⬜ Not yet started |
-| Prerequisite entailment + forward chaining | Pair A | Resolves Boolean prerequisite formulas against a completed-course set; closure is idempotent | ⬜ Not yet started |
-| Shared planning model (`backend/models/`) | Pair B + Pair C | Builds from real curriculum data; used unmodified by both solvers | ⬜ Not yet started |
-| CSP solver (backtracking + FC + AC‑3 + ordering) | Pair B | Returns a valid plan on sample transcripts; propagation techniques independently toggleable for E2 | ⬜ Not yet started |
-| A* planner + heuristics | Pair C | Returns a plan on the same instances as the CSP solver; heuristic admissibility holds on test cases | ⬜ Not yet started |
-| Learned heuristic | Pair C | Trained on self-supervised data; evaluated against hand-crafted heuristics in E3 | ⬜ Not yet started |
-| Independent verifier | Pair D | Re-checks every constraint from a plan + model with no imports from `csp/` or `astar/` | ✅ `backend/verification/plan_checker.py`, 23 tests incl. an import-independence test |
-| Infeasibility analyzer | Pair D | Returns a non-empty, re-checkable conflicting-constraint set on a known-infeasible instance | ✅ `backend/explanations/infeasibility_analyzer.py`, minimality checked by brute force |
-| Streamlit frontend | Pair D | Transcript in → verified plan or infeasibility report out, via `planning_service.py` | 🟡 `frontend/app.py` + `planning_service.py` built; service tested end to end on CSE, Streamlit UI not yet run |
-| Benchmark + experiments E1–E5 | Pair D (+ owning pair per experiment, see `docs/experiments.md`) | Each experiment runs and produces the output defined in `docs/experiments.md` | 🟡 200-student benchmark, stats and E4 done (CSP only, A* not on `main`); E5 form ready, no users yet |
+Use `--browser-executable /path/to/chromium` for an existing Chromium installation. Screenshots and the test export are written to `work/browser-checks/` (or `--output`). The test uses a fresh browser context and hypothetical demo transcript.
 
-## 7. Documentation
+To repeat source extraction, install Poppler's `pdftotext` and run:
 
-| Doc | Covers |
-|---|---|
-| [`docs/proposal.pdf`](./docs/proposal.pdf) | Submitted proposal — problem statement, course concepts, methodology, evaluation plan, references |
-| [`docs/architecture.md`](./docs/architecture.md) | Full repository layout, module responsibilities, planning-model schema, integration contracts |
-| [`docs/data_schema.md`](./docs/data_schema.md) | Curriculum data format — common vs. branch vs. minor data, validation status per branch |
-| [`docs/contributing.md`](./docs/contributing.md) | Branching strategy, PR rules, commit conventions |
-| [`docs/experiments.md`](./docs/experiments.md) | E1–E5 defined explicitly, aligned with the submitted proposal |
-| [`docs/ai_usage.md`](./docs/ai_usage.md) | Running AI-tool-usage disclosure log (course requirement) |
-| [`docs/report/`](./docs/report/) | Final written report (owned by Pair D — every pair writes and owns their own section; see `docs/contributing.md`) |
+```bash
+python scripts/ingest_offerings.py --odd "TIMETABLE FIRST SEMESTER 2026 -27 (2).pdf" --even "TIMETABLE - II SEMESTER 2024 -25 (1).pdf"
+```
+
+The app itself has no PDF dependency. The original heavy research/training dependencies are in `requirements-experiments.txt`; the submitted runtime uses the standard library.
+
+## Submission material
+
+- `docs/submission/REPORT.md`: model, evidence, algorithms, validation and limits.
+- `docs/submission/DEMO.md`: presentation walkthrough.
+- `docs/submission/demo_plans.json`: importable example scenarios.
+- `docs/submission/benchmark.csv`: reproducible live measurements.
+- `scripts/benchmark_submission.py`: comparison runner.
+- `scripts/ingest_offerings.py`: evidence extraction with textbook-boundary regression coverage.
+- `tests/test_scoped_submission.py`: acceptance checks for the delivered scope.
+
+## Updated uploaded ML backend
+
+`backend/ml/` contains the corrected and integrated `ml.zip` pipeline. Training,
+API diagnostics and runtime inference share the canonical feature extractor.
+Run `python -m backend.ml.generate_training_data` followed by
+`python -m backend.ml.train_model` to regenerate portable JSON weights. The
+optional GBDT research comparison uses `requirements-ml.txt` and
+`python -m backend.ml.train_model --include-gbdt`.
+
+Current data: 224 verified-trajectory states / 32 scenarios across all four
+branches. The E&I branch is held out and exact train/test feature duplicates
+are removed from training. Labels are feasible suffix upper bounds, not proven
+optimal terms. See `backend/ml/README.md`, `artifacts/metrics.json` and the app's
+Learned heuristic page for measured error and limitations. Missing or invalid
+models fall back to composite guidance without blocking startup.
+
+## Choose an elective semester
+
+Each HuEl/DEL/OpEl card has **Schedule in semester**. Choose a future semester
+to add the course and fix its placement, or choose **Automatic** to let the
+planner place it. Existing degree categories are preserved. Confirmed parity,
+prerequisites, credit caps and capstone rules still apply. Pins are saved with
+plans and isolated by branch. Removing an elective removes its semester choice.
+Marking it passed clears its future pin. An explicit verified move updates a
+pinned course's semester choice.
+
+Generate opens Semester plan immediately, then scrolls to the verified future
+semesters. Completed semesters are collapsed behind **Show completed semesters**.
+A failed request shows constraints or validation reasons instead of blank future
+cards. A* generation retries a wider bundle search and can fall back to CSP;
+the actual solver and attempts are recorded, and CSP fallback is labelled. The
+CSP vs A* comparison disables fallback so it measures each algorithm separately.
+A shorter horizon is never silently expanded; change the target explicitly.
+
+## Elective minimums and additional DELs
+
+HuEl requires at least 3 courses and 9 credits. DEL requires at least 4 courses
+and 12 credits. OpEl requires at least 5 courses and 15 credits. These are
+minimums, not selection caps; adding further courses does not trigger a credit
+limit popup. Following the requested policy, once both DEL minimums are met,
+additional DEL courses count as OpEls. Standard four 3-credit DELs meet the
+requirement, so the fifth counts as open. If four lower-credit courses total
+less than 12, more DEL credits are still needed before overflow begins.
+Completed courses take priority, followed by explicit selection order. Each
+course counts once toward a degree category; its minor membership and semester
+choice are preserved. Removing an earlier DEL lets the next eligible DEL fill
+the requirement. Automatic recommendations use converted DELs before adding
+further open electives. Course cards show live category progress and conversion
+badges, and the generated audit uses the same allocation policy.
+
+## Proposal completion artifacts
+
+- Optional Remaining degree mode accepts a private completed-course transcript and models backlogs. Full-degree mode remains the default.
+- Every course card can display its placement derivation. Infeasible results include budgeted deletion-based conflict analysis with minimality/timeout flags.
+- `experiments/proposal/run_evaluation.py`: 200 synthetic profiles, identical CSP/A* candidate models, propagation/order and heuristic ablations, independent verification, bootstrap CIs and paired Wilcoxon statistics. Search timeouts are unresolved, not UNSAT.
+- `experiments/proposal/exact_validation.py`: 500 small-instance comparisons against a proved optimum and20 brute-force minimal-core checks. Includes direct-neural research mode in addition to safe production tie-breaking.
+- `python -m backend.ml.generate_optimal_data`: reproduce3000 exact label states and complete shorter-horizon UNSAT proofs.
+- `/evaluation.html` and `evaluation/README.md`: consent-based anonymous volunteer tasks and feedback export; `evaluation/analyse_feedback.py` analyses real returned files. E5 now includes10 user-supplied consenting responses and computed results in evaluation/volunteer_results.json.
