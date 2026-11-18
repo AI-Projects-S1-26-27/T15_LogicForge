@@ -1,0 +1,42 @@
+{
+  "feature_version": "graphmind-six-features-v1",
+  "features": [
+    "outstanding_credits",
+    "outstanding_courses",
+    "max_chain_depth",
+    "parity_locked_count",
+    "terms_remaining",
+    "unsatisfied_disjunctions"
+  ],
+  "dataset_size": 3000,
+  "train_rows": 520,
+  "test_rows": 750,
+  "held_out_branch": "synthetic family e_and_i (not a real branch evaluation)",
+  "split": "Held-out synthetic generator family; exact feature duplicates removed from training",
+  "label_kind": "exact_optimal_remaining_terms_small_instances",
+  "catalogue_signature": "6b09d2d03e37a054f93ceaa861d6f1c9cfe0cc421d7b59fe511c69c0a09cf539",
+  "models": {
+    "MLPRegressor": {
+      "rmse": 0.6409201176338484,
+      "mae": 0.5208242561317438,
+      "r2": 0.7245147703089605,
+      "upper_bound_label_exceedance_rate": 0.6253333333333333,
+      "latency_microseconds": 13.37993333193784,
+      "note": "Exact optimal labels on small synthetic instances; transfer to full curriculum is experimental."
+    },
+    "HistGradientBoostingRegressor": {
+      "rmse": 0.6224225948518701,
+      "mae": 0.46114195180985695,
+      "r2": 0.7401868005774659,
+      "upper_bound_label_exceedance_rate": 0.5933333333333334,
+      "latency_microseconds": 869.4259813346434,
+      "note": "Exact optimal labels on small synthetic instances; transfer to full curriculum is experimental."
+    }
+  },
+  "usage": "Secondary ordering among equal-f, equal-depth states only; composite remains the primary bound",
+  "fit": {
+    "epochs": 150,
+    "final_mse": 0.5096,
+    "n_samples": 520
+  }
+}
