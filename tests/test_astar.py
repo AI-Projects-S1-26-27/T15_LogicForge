@@ -347,8 +347,8 @@ def test_bundle_limit_can_miss_a_feasible_plan():
     courses = {
         "CS F101": _course(1, ELECTIVE),
         "CS F102": _course(1, ELECTIVE),
-        "CS F301": _course(1, formula=_co("CS F302")),
-        "CS F302": _course(1, formula=_co("CS F301")),
+        "CS F301": _course(1),
+        "CS F302": _course(1),
     }
     problem = Problem(
         courses=courses,

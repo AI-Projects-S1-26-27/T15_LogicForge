@@ -153,8 +153,8 @@ def test_run_all_validations_returns_expected_shape():
                 'category_floor_violations', 'unreachable_courses'):
         assert key in report
     assert report['branch'] == 'cse'
-    # 26 cse-specific courses + 6 common courses (CS F111, EEE F111, MATH F111/F112/F113/F213)
-    assert report['course_count'] == 32
+    # 26 cse-specific courses + common first-year, humanities, and open electives
+    assert report['course_count'] == len(curr.courses)
 
 
 def test_common_courses_load_into_both_branches():

@@ -31,10 +31,14 @@ def test_end_to_end_plan_is_verified_and_explained():
 
 
 def test_impossible_request_is_diagnosed():
-    response = make_plan("cse", ["CS F111"], current_semester=6, target_semester=7, max_credits=12)
-    assert response.status == "NO_PLAN"
+    from backend.services.problem_builder import build_problem_for_student
+    catalogue = build_problem_for_student('cse', [], 0)
+    # The remaining even-semester core cannot fit in the odd-only horizon.
+    completed = [code for code in catalogue.courses if code != 'CS F211']
+    response = make_plan('cse', completed, current_semester=6, target_semester=7, max_credits=12)
+    assert response.status == 'NO_PLAN'
     diag = response.infeasibility
-    assert diag.status == "infeasible" and diag.conflict
+    assert diag.status == 'infeasible' and diag.conflict
     assert any(r.fixes_alone for r in diag.relaxations)
 
 
