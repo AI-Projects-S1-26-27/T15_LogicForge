@@ -1,0 +1,42 @@
+{
+  "feature_version": "graphmind-six-features-v1",
+  "features": [
+    "outstanding_credits",
+    "outstanding_courses",
+    "max_chain_depth",
+    "parity_locked_count",
+    "terms_remaining",
+    "unsatisfied_disjunctions"
+  ],
+  "dataset_size": 224,
+  "train_rows": 70,
+  "test_rows": 56,
+  "held_out_branch": "e_and_i",
+  "split": "Entire branch held out; exact feature duplicates removed from training",
+  "label_kind": "verified_feasible_suffix_upper_bound",
+  "catalogue_signature": "6b09d2d03e37a054f93ceaa861d6f1c9cfe0cc421d7b59fe511c69c0a09cf539",
+  "models": {
+    "MLPRegressor": {
+      "rmse": 0.9402231261235647,
+      "mae": 0.6382204152548763,
+      "r2": 0.7789951182756079,
+      "upper_bound_label_exceedance_rate": 0.8571428571428571,
+      "latency_microseconds": 16.894625007677988,
+      "note": "Labels are feasible upper bounds; this is not an empirical admissibility or optimality certificate."
+    },
+    "HistGradientBoostingRegressor": {
+      "rmse": 1.2650914661020516,
+      "mae": 0.7589331256275632,
+      "r2": 0.5998858955989405,
+      "upper_bound_label_exceedance_rate": 0.42857142857142855,
+      "latency_microseconds": 768.4271428973132,
+      "note": "Labels are feasible upper bounds; this is not an empirical admissibility or optimality certificate."
+    }
+  },
+  "usage": "Secondary ordering among equal-f, equal-depth states only; composite remains the primary bound",
+  "fit": {
+    "epochs": 250,
+    "final_mse": 0.0028,
+    "n_samples": 70
+  }
+}
