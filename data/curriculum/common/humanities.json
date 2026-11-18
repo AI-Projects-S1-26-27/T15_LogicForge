@@ -1,0 +1,740 @@
+[
+  {
+    "code": "BITS F214",
+    "title": "Science, Technology and Modernity",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "BITS F226",
+    "title": "Soft Skills for Professionals",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "BITS F328",
+    "title": "Innovation Ecosystem and the Future of Work",
+    "credits": 4,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "BITS F385",
+    "title": "Introduction to Gender Studies",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "BITS F399",
+    "title": "Humanistic Theories of Science and Technology",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "BITS F419",
+    "title": "Management of Cross Cultural Engineering Teams",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F211",
+    "title": "Modern Political Concepts",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F212",
+    "title": "Environment, Development & Climate Change",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F213",
+    "title": "Development Theories",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F221",
+    "title": "Business Communication",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F222",
+    "title": "Language Lab Practice",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F223",
+    "title": "Introduction to Mass Communication",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F224",
+    "title": "Print and Audio-Visual Advertisement",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F231",
+    "title": "Dynamics of Social Change",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F232",
+    "title": "Introductory Psychology",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F233",
+    "title": "Public Policy",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F234",
+    "title": "Development Economics",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F241",
+    "title": "Creative Writing",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F242",
+    "title": "Cultural Studies",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F243",
+    "title": "Current Affairs",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F244",
+    "title": "Reporting and Writing for Media",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F245",
+    "title": "Effective Public Speaking",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F311",
+    "title": "Introduction to Conflict Management",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F312",
+    "title": "Applied Philosophy",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F313",
+    "title": "Marxian Thoughts",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F321",
+    "title": "Mass Media Content and Design",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F322",
+    "title": "Critical Analysis of Literature and Cinema",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F325",
+    "title": "Journalism",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F326",
+    "title": "Creative Thinking",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F327",
+    "title": "Selected Reading",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F331",
+    "title": "Techniques in Social Research",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F332",
+    "title": "Contemporary India",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F333",
+    "title": "Public Administration",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F334",
+    "title": "Global Business, Technology and Knowledge Sharing",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F343",
+    "title": "Short Film and Video Production",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "GS F344",
+    "title": "Copywriting",
+    "credits": 2,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F211",
+    "title": "Introduction to Arabic",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F221",
+    "title": "Readings from Drama",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F222",
+    "title": "Linguistics",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F223",
+    "title": "Appreciation of Indian Music",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F224",
+    "title": "English Skills for Academic",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F226",
+    "title": "Postmodernism",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F227",
+    "title": "Cross Cultural Skills",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F228",
+    "title": "Phonetics & Spoken English",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F229",
+    "title": "Introduction to Western Music",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F232",
+    "title": "Introduction to Development Studies",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F233",
+    "title": "Main Trends in Indian History",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F234",
+    "title": "Main Currents of Modern History",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F235",
+    "title": "Introductory Philosophy",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F236",
+    "title": "Symbolic Logic",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F237",
+    "title": "Contemporary Indian English Fiction",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F238",
+    "title": "Sports and Society",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F244",
+    "title": "Crime and New Media",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F245",
+    "title": "Gender, Science and Technology",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F246",
+    "title": "Philosophy of N\u0101g\u0101rjuna",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F247",
+    "title": "Social Informatics",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F248",
+    "title": "Introduction to Disability Studies",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F249",
+    "title": "Politics in India",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F250",
+    "title": "Comics and Visual Culture",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F251",
+    "title": "Introduction to Discourse and Conversational Analysis",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F252",
+    "title": "International Law",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F253",
+    "title": "Upcycling Theory",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F266",
+    "title": "Study Project",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F311",
+    "title": "Introduction to Videogame Studies",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F313",
+    "title": "Introduction to Contemporary Arts",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F314",
+    "title": "Maritime Studies and Blue Economy",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F315",
+    "title": "Society, Business, and Politics",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F316",
+    "title": "Popular Literature and Culture of South Asia",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F317",
+    "title": "Introduction to Globalization",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F318",
+    "title": "Introduction to Anthropology",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F319",
+    "title": "Lighting for Theatre and Films",
+    "credits": 2,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F323",
+    "title": "Organizational Psychology",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F325",
+    "title": "Cinematic Adaptation",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F326",
+    "title": "Humanities and Design",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F327",
+    "title": "Contemporary Drama",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F328",
+    "title": "Human Resource Development",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F329",
+    "title": "Musicology \u2013 An \u2013 Introduction",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F330",
+    "title": "Appreciation of Art",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F331",
+    "title": "Sankara\u2019s Thoughts",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F332",
+    "title": "Cinematic Art",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F333",
+    "title": "Comparative Religion",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F334",
+    "title": "Srimad Bhagavad Gita",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F335",
+    "title": "Literary Criticism",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F336",
+    "title": "Modern Fiction",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F337",
+    "title": "English Literary Forms and Movements",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F338",
+    "title": "Comparative Indian Literature",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F339",
+    "title": "Theatre Art Acting and Production",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F340",
+    "title": "Post Colonial Literatures",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F341",
+    "title": "Performance Design",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F342",
+    "title": "Advanced Communicative English",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F343",
+    "title": "Professional Ethics",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F344",
+    "title": "Heritage of India",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F345",
+    "title": "Gandhian Thoughts",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F346",
+    "title": "International Relations",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F347",
+    "title": "Introduction to Carnatic Music",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F348",
+    "title": "Introduction to Hindustani Music",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F349",
+    "title": "Ecocriticism",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F350",
+    "title": "Human Rights: History, Theory & Practice",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F351",
+    "title": "Social and Political Ecology",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F352",
+    "title": "Technology, Work and Society",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F353",
+    "title": "Philosophy of Aesthetics",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F354",
+    "title": "Introduction to Islamic Economy",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F355",
+    "title": "Dictatorship, Democracy & Development",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F356",
+    "title": "Social Movements and Protest Politics",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F364",
+    "title": "Political Economy of Gulf Cooperation Council States",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F365",
+    "title": "Science of Sustainable Happiness",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F368",
+    "title": "Asian Cinemas and Cultures",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F369",
+    "title": "Caste and Gender in India",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F371",
+    "title": "Cities-Life, Issues and Conflicts",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F372",
+    "title": "Introduction to Social Psychology",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F373",
+    "title": "Shakespeare and Popular Culture",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F374",
+    "title": "Urban Modernity and the Renewal of Paris",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F375",
+    "title": "Business and Politics in Colonial and Post Colonial India: a historical approach",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F378",
+    "title": "Cinemas of India: From Past to Present",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F380",
+    "title": "Performance Studies",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F381",
+    "title": "Environmental Sustainability Ventures",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F382",
+    "title": "Housing: programs, policies and practices",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F383",
+    "title": "Introduction to Museum Studies",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F384",
+    "title": "Indian National Movement",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F385",
+    "title": "Mental Health Literacy for Youth",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F386",
+    "title": "Ocean Humanities",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "HSS F399",
+    "title": "Introduction to American Literature",
+    "credits": 3,
+    "category": "Humanities Elective"
+  },
+  {
+    "code": "SANS F111",
+    "title": "Sanskrit",
+    "credits": 3,
+    "category": "Humanities Elective"
+  }
+]

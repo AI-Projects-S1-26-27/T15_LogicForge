@@ -1,0 +1,258 @@
+[
+  {
+    "code": "PHYS F111",
+    "title": "MECH OSCIL & WAVES",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "PHYS F112",
+    "title": "GENERAL PHYSICS LAB",
+    "credits": 1,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CHEM F111",
+    "title": "GENERAL CHEMISTRY",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CHEM F110",
+    "title": "CHEMISTRY LABORATORY",
+    "credits": 1,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "BIO F111",
+    "title": "GENERAL BIOLOGY",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "BIO F110",
+    "title": "BIOLOGICAL LABORATORY",
+    "credits": 1,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "BITS F110",
+    "title": "ENGINEERING GRAPHICS",
+    "credits": 2,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "BITS F111",
+    "title": "CONNECTION TO COMPUTING",
+    "credits": 2,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "BITS F112",
+    "title": "TECHNICAL REPORT WRITING",
+    "credits": 2,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "ME F112",
+    "title": "WORKSHOP PRACTICE",
+    "credits": 2,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "HSS F211",
+    "title": "LEADERSHIP SKILLS",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "HSS F221",
+    "title": "TECHNICAL REPORT WRITING ADVANCED",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "HSS F222",
+    "title": "LINGUISTICS",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "HSS F323",
+    "title": "ORGANIZATIONAL PSYCHOLOGY",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "PHIL F211",
+    "title": "PHILOSOPHY OF SCIENCE",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "PHIL F212",
+    "title": "CRITICAL THINKING",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "GS F211",
+    "title": "APPRECIATION OF INDIAN MUSIC",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "GS F212",
+    "title": "ENVIRONMENT & DEVELOPMENT",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "GS F241",
+    "title": "CREATIVE THINKING",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "GS F242",
+    "title": "CULTURAL STUDIES",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "GS F311",
+    "title": "CONFLICT RESOLUTION",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "GS F312",
+    "title": "POSTMODERNISM & MEDIA",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Humanities Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "ECON F211",
+    "title": "PRINCIPLES OF ECONOMICS",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Open Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "ECON F212",
+    "title": "ECONOMIC ANALYSIS OF PUBLIC POLICY",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Open Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "FIN F311",
+    "title": "DERIVATIVES & RISK MANAGEMENT",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Open Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "FIN F313",
+    "title": "SECURITY ANALYSIS & PORTFOLIO MGMT",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Open Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "MGTS F211",
+    "title": "PRINCIPLES OF MANAGEMENT",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Open Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "MATH F211",
+    "title": "MATHEMATICS-III",
+    "credits": 3,
+    "term_parity": "odd",
+    "category": "Open Elective",
+    "prerequisites": "MATH F111"
+  },
+  {
+    "code": "MATH F241",
+    "title": "NUMERICAL METHODS",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "Open Elective",
+    "prerequisites": "MATH F112"
+  },
+  {
+    "code": "BITS F312",
+    "title": "ENTREPRENEURSHIP",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "BIO F211",
+    "title": "BIOLOGICAL CHEMISTRY",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "CHEM F211",
+    "title": "PHYSICAL CHEMISTRY I",
+    "credits": 3,
+    "term_parity": "both",
+    "category": "First Year Core Elective",
+    "prerequisites": null
+  }
+]

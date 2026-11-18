@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "aeronautics",
+    "name": "Aeronautics",
+    "minimum_courses": 6,
+    "minimum_credits": 18,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "AN F311",
+        "title": "Principles of Aerodynamics",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "AN F312",
+        "title": "Aircraft Propulsion",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "AN F313",
+        "title": "Flight Mechanics and Controls",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "AN F314",
+        "title": "Introduction to Flight",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "AN F315",
+        "title": "Aircraft Structures",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F415",
+        "title": "Gas Dynamics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F418",
+        "title": "Rocket and Spacecraft Propulsion",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F452",
+        "title": "Composite Materials and Design",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F482",
+        "title": "Combustion",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F485",
+        "title": "Numerical Techniques for Fluid Flow & Heat Transfer",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "EEE F242",
+        "title": "Control Systems",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "EEE F417",
+        "title": "Computer Based Control Systems",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F376",
+        "title": "Design Project",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Aeronautics\n    Description      Aeronautics is an exhilarating field encompassing the fundamentals of\n                     aerodynamics (interaction of air with objects in motion), propulsion (power systems\n                     responsible for the generation of thrust for providing motion), structures (design of\n                     airframes and material characteristics), and flight mechanics (trajectory study and\n                     optimization), as applied to air-borne vehicles within the Earth\u2019s atmosphere, and\n                     to rockets and spacecrafts outside.\n    Courses &        06 courses (min) 18 units (min)\n    Units Req.\n                     Course Number         Course Title                                        L   P    U\n                     AN F311               Principles of Aerodynamics                          3   0    3\n    Core Courses\n                     AN F312               Aircraft Propulsion                                 3   0    3\n                     AN F313               Flight Mechanics and Controls                       3   0    3\n                     AN F314               Introduction to Flight                              3   0    3\n                     AN F315               Aircraft Structures                                 3   0    3\n                     ME F415               Gas Dynamics                                        3   0    3\n                     ME F418               Rocket and Spacecraft Propulsion                    3   0    3\n                     ME F452               Composite Materials and Design                      3   0    3\n    Electives        ME F482               Combustion                                          3   0    3\n                     ME F485               Numerical Techniques for Fluid Flow & Heat          3   0    3\n                                           Transfer\n                     EEE F242              Control Systems                                     3   0    3\n                     EEE F417              Computer Based Control Systems                      3   0    3\n                     ME F376               Design Project                                               3\n\n\n\n                                                  88",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "computational_economics",
+    "name": "Computational Economics",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "ECON F215",
+        "title": "Computational Methods for Economics",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "ECON F241",
+        "title": "Econometric Methods",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "ECON F242",
+        "title": "Microeconomics",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F314",
+        "title": "Game Theory and its Applications",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F464",
+        "title": "Machine Learning",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F320",
+        "title": "Foundations of Data Science",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECON F342",
+        "title": "Applied Econometrics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECON F419",
+        "title": "Advanced Microeconomics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECON F420",
+        "title": "Applied Macroeconometrics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MATH F424",
+        "title": "Applied Stochastic Process",
+        "credits": 4,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Computational Economics\nDescription    The joint field of economics, mathematics, and computer science have emerged from\n               converging intellectual needs for interdisciplinary teaching and research. The\n               contemporary tools and techniques used by computer scientists have become\n               increasingly important for economists working with data to address complex business\n               problems. Students interested in learning about computational mechanism design\n               with applications to economics and especially those whose interest is more generally\n               focused on data analytics will be highly benefitted from this programme. This\n               programme is designed to cater to the needs of the cutting-edge industry thereby\n               combining advanced computational tools with economic reasoning. It would help\n               students to develop a deep background in advanced tools for analysis of economic\n               data, which is essential for making sound economic decisions. The programme\n               combines the strengths of multiple departments to educate students in these\n               important computational skills linked to economics, and to prepare them for careers\n               in economics, finance, and business. Reflecting on this strong interdisciplinary\n               relationship, this programme will also be excellent preparation for graduate study in\n               economics or decision sciences.\nCourses &      05 courses (min)\nUnits Req.     15 units (min)\n               Course Number                            Course Title                     L    P   U\n               ECON F215                                Computational Methods for        3    0   3\n                                                        Economics\nCore Courses   ECON F241                                Econometric Methods              3    0   3\n               ECON F242                                Microeconomics                   3    0   3\n               BITS F314                                Game Theory and its              3    0   3\n                                                        Applications\nElectives      BITS F464                                Machine Learning                 3    0   3\n               CS F320                                  Foundations of Data Science      3    0   3\n               ECON F342                                Applied Econometrics             3    0   3\n               ECON F419                                Advanced Microeconomics          3    0   3\n               ECON F420                                Applied Macroeconometrics        3    0   3\n               MATH F424                                Applied Stochastic Process       3    1   4",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "computing_and_intelligence",
+    "name": "Computing and Intelligence",
+    "minimum_courses": 6,
+    "minimum_credits": 18,
+    "excluded_branches": [
+      "cse"
+    ],
+    "courses": [
+      {
+        "code": "BITS F232",
+        "title": "Foundations of Data Structures and Algorithms",
+        "credits": 4,
+        "category": "Minor Core"
+      },
+      {
+        "code": "CS F372",
+        "title": "Operating Systems",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "CS F407",
+        "title": "Artificial intelligence",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F311",
+        "title": "Image Processing",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F452",
+        "title": "Blockchain Technology",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F463",
+        "title": "Cryptography",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F464",
+        "title": "Machine Learning",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F212",
+        "title": "Database Systems",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F213",
+        "title": "Object Oriented Programming",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F301",
+        "title": "Principles of Programming Languages",
+        "credits": 2,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F303",
+        "title": "Computer Networks",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F314",
+        "title": "Software Development for Portable Devices",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F315",
+        "title": "Information and Communication Technologies and Development",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F415",
+        "title": "Data Mining",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "IS F311",
+        "title": "Computer Graphics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "IS F341",
+        "title": "Software Engineering",
+        "credits": 4,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Computing and Intelligence\nDescription    The Minor in Computing and Intelligence aims to enable the students majoring\n               in disciplines other than Computer Science to gain a deeper understanding of\n               computing and artificial intelligence and apply the same in solving problems\n               in diverse domains. While courses like Foundations of Data Structures and\n               Algorithms would help the students with abstract thinking and problem\n               solving, courses like Operating Systems, Artificial Intelligence etc., will give\n               them exposure to the fundamental aspects of computing and intelligent\n               systems. This minor programme is exclusively designed for first -degree\n               students of non-Computer Science disciplines.\nCourses &      06 courses (min)\nUnits          18 units (min)\nRequired\n               Course             Course Title                                           L   P    U\n               Number\n               BITS F232          Foundations of Data Structures and Algorithms          3   1    4\nCore Courses\n               CS F372            Operating Systems                                      3   0    3\n               CS F407            Artificial intelligence                                3   0    3\n\n                                               89\n\f                              Minor in Computing and Intelligence\n                  BITS F311        Image Processing                                        3   0   3\n\nElectives         BITS F452        Blockchain Technology                                   3   0   3\n                  BITS F463        Cryptography                                            3   0   3\n                  BITS F464        Machine Learning                                        3   0   3\n                  CS F212          Database Systems                                        3   1   4\n                  CS F213          Object Oriented Programming                             3   1   4\n                  CS F301          Principles of Programming Languages                     2   0   2\n                  CS F303          Computer Networks                                       3   1   4\n                  CS F314          Software Development for Portable Devices               2   1   3\n                  CS F315          Information and Communication Technologies and          3   0   3\n                                   Development\n                  CS F415          Data Mining                                             3   0   3\n                  IS F311          Computer Graphics                                       3   0   3\n                  IS F341          Software Engineering                                    3   1   4",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "data_science",
+    "name": "Data Science",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "BITS F464",
+        "title": "Machine Learning",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "CS F320",
+        "title": "Foundations of Data Science",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "MATH F432",
+        "title": "Applied statistical Methods",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F453",
+        "title": "Computational Learning Theory",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F454",
+        "title": "Bio-Inspired Intelligence: Algorithms and Applications",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "CS F317",
+        "title": "Reinforcement Learning",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F407",
+        "title": "Artificial Intelligence",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F415",
+        "title": "Data Mining",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F425",
+        "title": "Deep Learning",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F426",
+        "title": "Graph Mining",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F429",
+        "title": "Natural Language Processing",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F432",
+        "title": "Brain-inspired Deep Learning",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F433",
+        "title": "Computational Neuroscience",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS F469",
+        "title": "Information Retrieval",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CS G519",
+        "title": "Social Media Analytics",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MATH F212",
+        "title": "Optimization",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MATH F353",
+        "title": "Statistical Inference and applications",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MATH F424",
+        "title": "Applied Stochastic Processes",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MATH F471",
+        "title": "Nonlinear Optimization",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Data Science\n                    The minor in Data Science aims to enable students to learn the basic skills\n                    required by Data Scientist for today\u2019s world. Data Science is becoming ubiquitous\n                    to all kinds of industry and opening up new avenues of business. This minor will\nDescription\n                    help students to apply knowledge from Mathematics, Statistics and Computing\n                    for analyzing data collected from different kinds of sources in their respective\n                    engineering applications and make meaningful and actionable insights.\nCourses & Units\n                    5 courses (min) 15 units (min)\nRequired\n                    Course\n                                     Course Title                                         L    P   U\n                    Number\nCore Courses        BITS F464        Machine Learning                                     3    0   3\n                    CS F320          Foundations of Data Science                          3    0   3\n                    MATH F432        Applied statistical Methods                          3    0   3\n                    BITS F453        Computational Learning Theory                        3    0   3\n                                     Bio-Inspired       Intelligence: Algorithms   and\n                    BITS F454                                                             3    0   3\n                                     Applications\n                    CS F317          Reinforcement Learning                               3    0   3\n                    CS F407          Artificial Intelligence                              3    0   3\n                    CS F415          Data Mining                                          3    0   3\n                    CS F425          Deep Learning                                        3    0   3\nElectives           CS F426          Graph Mining                                         3    1   4\n                    CS F429          Natural Language Processing                          3    0   3\n                    CS F432          Brain-inspired Deep Learning                         3    0   3\n                    CS F433          Computational Neuroscience                           3    0   3\n                    CS F469          Information Retrieval                                3    0   3\n                    CS G519          Social Media Analytics                               3    1   4\n                    MATH F212        Optimization                                         3    0   3\n                    MATH F353        Statistical Inference and applications               3    0   3\n\n                                               90\n\f                                     Minor in Data Science\n                     MATH F424       Applied Stochastic Processes                           3       1       4\n                     MATH F471         Nonlinear Optimization                               3       0       3",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "english_studies",
+    "name": "English Studies",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "GS F241",
+        "title": "Creative Writing",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "HSS F337",
+        "title": "English Literary Forms and Movements",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "GS F221",
+        "title": "Business Communication",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F244",
+        "title": "Reporting and Writing for Media",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F245",
+        "title": "Effective Public Speaking",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F222",
+        "title": "Linguistics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F227",
+        "title": "Cross Cultural Skills",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F228",
+        "title": "Phonetics and Spoken English",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F342",
+        "title": "Advanced Communicative English",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F242",
+        "title": "Cultural Studies",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F322",
+        "title": "Critical Analysis of Literature and Cinema",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F221",
+        "title": "Readings from Drama",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F226",
+        "title": "Postmodernism",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F237",
+        "title": "Contemporary Indian English Fiction",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F316",
+        "title": "Popular Literature and Culture of South Asia",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F327",
+        "title": "Contemporary Drama",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F330",
+        "title": "Appreciation of Art",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F332",
+        "title": "Cinematic Arts",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F335",
+        "title": "Literary Criticism",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F336",
+        "title": "Modern Fiction",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F338",
+        "title": "Comparative Indian Literature",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F340",
+        "title": "Postcolonial Literatures",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F349",
+        "title": "Ecocriticism",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F373",
+        "title": "Shakespeare and Popular Culture",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F399",
+        "title": "Introduction to American Literature",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in English Studies\n                      English has a rich linguistic, literary and cultural heritage. The classic literary\n                      masterpieces of English are still widely read and appreciated. English has also\n                      evolved over centuries and is now considered as the pre-eminent means of\n                      communication in the various sectors such as business, diplomacy, mass media,\n                      education, etc., across the globe. The Minor in English Studies introduces students\n                      to the language and literary canons, and renders them with adequate exposure not\n                      only to the cultural and linguistic aspects but also to practical applications of\nDescription           English language and literature. In particular, the core and elective courses included\n                      in the Minor would encourage students to acquire a critical understanding of literary\n                      and linguistic analyses, and the capacity to engage meaningfully in analysis,\n                      interpretation, and explanation. The Minor also gives an opportunity for students to\n                      choose modules and develop their own interests in language or literature. Students\n                      who follow the Minor will have an enhanced understanding of the nature of the\n                      English language and literature and also of the tools needed for further independent\n                      exploration of literary and linguistic phenomena.\nCourses & Units\n                      5 courses (min) 15 units (min)\nRequired\n                      Course\n                                         Course Title                                           L       P       U\n                      Number\nCore Courses\n                      GS F241            Creative Writing                                       2       1       3\n                      HSS F337           English Literary Forms and Movements                   3       0       3\n                      GS F221            Business Communication                                 3       0       3\n                      GS F244            Reporting and Writing for Media                        3       0       3\nElectives Pool \u2013 I    GS F245            Effective Public Speaking                              3       0       3\n(Language)            HSS F222           Linguistics                                            3       0       3\n                      HSS F227           Cross Cultural Skills                                  3       0       3\n                      HSS F228           Phonetics and Spoken English                           3       0       3\n                      HSS F342           Advanced Communicative English                         3       0       3\n                      GS F242            Cultural Studies                                       3       0       3\n                      GS F322            Critical Analysis of Literature and Cinema             3       0       3\n                      HSS F221           Readings from Drama                                    3       0       3\n                      HSS F226           Postmodernism                                          3       0       3\n                      HSS F237           Contemporary Indian English Fiction                    3       0       3\n                      HSS F316           Popular Literature and Culture of South Asia           3       0       3\nElective Pool-II\n                      HSS F327           Contemporary Drama                                     3       0       3\n(Literature)\n                      HSS F330           Appreciation of Art                                    3       0       3\n                      HSS F332           Cinematic Arts                                         3       0       3\n                      HSS F335           Literary Criticism                                     3       0       3\n                      HSS F336           Modern Fiction                                         3       0       3\n                      HSS F338           Comparative Indian Literature                          3       0       3\n                      HSS F340           Postcolonial Literatures                               3       0       3\n\n\n                                                91\n\f                                          Minor in English Studies\n                        HSS F349             Ecocriticism                                        3   0           3\n                        HSS F373             Shakespeare and Popular Culture                     3   0           3\n                        HSS F399             Introduction to American Literature                 3   0           3",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "entrepreneurship",
+    "name": "Entrepreneurship",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "BITS F468",
+        "title": "New Venture Creation",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F482",
+        "title": "Creating and Leading Entrepreneurial Organizations",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "ECON F212",
+        "title": "Fundamentals of Finance and Accounting",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F322",
+        "title": "Venture Team Development and Organization",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F323",
+        "title": "Venture Finance",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F324",
+        "title": "Strategy for Entrepreneurs",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F325",
+        "title": "New Product and Service Design",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F326",
+        "title": "Design Thinking for Innovation and Entrepreneurship",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F427",
+        "title": "Digital Marketing",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Entrepreneurship\nDescription                Entrepreneurship has tremendous impact on development of economy as well\n                           as society addressing various market & societal problems through continuous\n                           value creation in terms of innovations and job creation. The minor in\n                           entrepreneurship aims to equip students from different disciplines with better\n                           understanding of entrepreneurial process, necessary skills and experience to\n                           translate ideas into real innovative products/services to new entrepreneurial\n                           ventures. In this programme, hands-on experiential learning is emphasized\n                           giving students an opportunity to learn in a team environment, design innovative\n                           products/services and create their own businesses. This will motivate students\n                           to pursue entrepreneurship as their career choice.\nCourses & Units            5 courses (min)\nRequired                   15 units (min)\n\n                           Course Number        Course Title                                     L       P       U\n                           BITS F468            New Venture Creation                             3       0       3\n\nCore Courses               BITS F482\n                                                Creating and Leading Entrepreneurial\n                           or                                                                    3       0       3\n                                                Organizations\n                           ECON F414\n                           ECON F212            Fundamentals of Finance and Accounting           3       0       3\n                           BITS F322            Venture Team Development and Organization        3       0       3\n                           BITS F323            Venture Finance                                  3       0       3\nElectives\n(minimum of 2 courses      BITS F324            Strategy for Entrepreneurs                       3       0       3\nand additional units       BITS F325            New Product and Service Design                   3       0       3\nrequired to make the\ntotal to 15)                                    Design Thinking for Innovation &\n                           BITS F326                                                             3       0       3\n                                                Entrepreneurship\n                           BITS F427            Digital Marketing                                3       0       3",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "film_and_media",
+    "name": "Film and Media",
+    "minimum_courses": 6,
+    "minimum_credits": 18,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "GS F223",
+        "title": "Introduction to Mass Communication",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "GS F244",
+        "title": "Reporting and Writing for Media",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "GS F322",
+        "title": "Critical Analysis of Literature and Cinema",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "GS F224",
+        "title": "Print and Audio Visual Advertising",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F242",
+        "title": "Cultural Studies",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F321",
+        "title": "Mass Media Content and Design",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F343",
+        "title": "Short Film and Video Production",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F332",
+        "title": "Cinematic Arts",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Film and Media\n                           Film and its derivative forms of media such as television and advertising are\n                           dominant cultural forces in the contemporary world. The minor in Film and\n                           Media aims to provide:\nDescription                i.   An introduction to media studies with a specific focus on film studies\n                           ii. A basic introduction to Print and Digital Media including film making and\n                               film appreciation\n                           iii. Hands-on training in writing for media and film production\n\nCourses & Units Required   6 courses (min) 18 units (min)\n\n                                 Course\n                                                               Course Title                  L   P           U\n                                number\nCore Courses               GS F223            Introduction to Mass Communication             3   0           3\n                           GS F244            Reporting and Writing for Media                3   0           3\n                           GS F322            Critical Analysis of Literature and Cinema     3   0           3\n                           GS F224            Print and Audio Visual Advertising             3   0           3\nElective Courses\n                           GS F242            Cultural Studies                               3   0           3\n\n                                                   92\n\f                                        Minor in Film and Media\n                            GS F321         Mass Media Content and Design                    3       0           3\n                            GS F343         Short Film and Video Production                  3       0           3\n                            HSS F332        Cinematic Arts                                   3       0           3",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "finance",
+    "name": "Finance",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "ECON F212",
+        "title": "Fundamentals of Finance and Accounting",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "FIN F315",
+        "title": "Financial Management",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "ECON F241",
+        "title": "Econometric methods",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECON F312",
+        "title": "Money banking and Financial markets",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECON F355",
+        "title": "Business Analysis & Valuation",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECON F411",
+        "title": "Project Appraisal",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECON F413",
+        "title": "Financial Engineering",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "FIN F242",
+        "title": "Introduction to Financial Mathematics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "FIN F243",
+        "title": "Functions & Working of Stock Exchanges",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "FIN F311",
+        "title": "Derivatives & Risk Management",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "FIN F312",
+        "title": "Fundamentals of Taxation and Audit",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "FIN F313",
+        "title": "Security Analysis & Portfolio Management",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "FIN F314",
+        "title": "Investment Banking & Financial Services",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "FIN F414",
+        "title": "Financial Risk Analytics and Management",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Finance\n\n                        The minor in Finance aims at providing the student a grounding in the basic\n                        concepts of accounting and finance so as to complement their existing disciplinary\n                        knowledge, enrich their educational experience, enable them to make better\n Description\n                        financial decisions, and expand their career opportunities. It will also give students\n                        an opportunity to learn more about investments and quantitative applications in\n                        finance.\n\n Courses & Units\n                        5 courses (min) 15 units (min)\n Required\n\n                        Course Number      Course Title                                          L   P       U\n Core Courses\n                        ECON F212          Fundamentals of Finance and Accounting                3   0           3\n                        FIN F315           Financial Management                                  3   0           3\n                        ECON F241          Econometric methods                                   3   0           3\n                        ECON F312          Money banking and Financial markets                   3   0           3\n                        ECON F355          Business Analysis & Valuation                         3   0           3\n                        ECON F411          Project Appraisal                                     3   0           3\n                        ECON F413          Financial Engineering                                 3   0           3\n                        FIN F242           Introduction to Financial Mathematics                 3   0           3\n Elective Courses\n                        FIN F243           Functions & Working of Stock Exchanges                3   0           3\n                        FIN F311           Derivatives & Risk Management                         3   0           3\n                        FIN F312           Fundamentals of Taxation and Audit                    3   0           3\n                        FIN F313           Security Analysis & Portfolio Management              3   0           3\n                        FIN F314           Investment Banking & Financial Services               3   0           3\n                        FIN F414           Financial Risk Analytics and Management               3   0           3",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "management",
+    "name": "Management",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "BITS F428",
+        "title": "Essentials of Strategic Management",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "MGTS F211",
+        "title": "Principles of Management",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "MGTS F314",
+        "title": "Essentials of Financial Management",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F326",
+        "title": "Design Thinking for Innovation and Entrepreneurship",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECON F415",
+        "title": "New Venture Creation",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECON F434",
+        "title": "International Business",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECON F435",
+        "title": "Marketing Research",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F328",
+        "title": "Human Resources Development",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MF F219",
+        "title": "Operations Management",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MF F319",
+        "title": "Supply Chain Management",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F443",
+        "title": "Quality Control, Assurance and Reliability",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MGTS F311",
+        "title": "Marketing",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MGTS F313",
+        "title": "Product and Brand Management",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MGTS F315",
+        "title": "Foundations of Business Analytics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MGTS F316",
+        "title": "Managerial and Leadership Skills",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MGTS F351",
+        "title": "Organizational Behaviour",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Management\nDescription         \u201cMinor in Management\u201d is designed for the student who wants a general\n                    introduction to the functioning of a business and develops a business acumen.\n                    By gaining an understanding of the areas of management, the student will\n                    have a competitive advantage in the marketplace and throughout their career.\n                    The student shall be better equipped to handle their projects in practice school\n                    by understanding organizational and managerial issues. It would also enable\n                    him/her to combine their technical and managerial skills and explore the field\n                    of business consulting, role of management trainees, etc. Those interested in\n                    pursuing an MBA would get an opportunity to explore the manage ment field\n                    and assess its fit with their career interest.\nCourses &           05 courses (min)\nUnits               15 units (min)\nRequired\n                    Course Number      Course Title                                              L       P   U\n                    BITS F428          Essentials of Strategic Management                        3       0       3\nCore Courses\n                    MGTS F211          Principles of Management                                  3       0       3\n                    MGTS F314          Essentials of Financial Management                        3       0       3\n\n\n                                                   93\n\f                                        Minor in Management\n                   BITS F326          Design Thinking for Innovation and\n                                                                                           3       0       3\n                                      Entrepreneurship\nElectives          ECON F415          New Venture Creation                                 3       0       3\n                   ECON F434          International Business\n                                                                                           3       0       3\n                   ECON F435          Marketing Research\n                                                                                           3       0       3\n                   HSS F328           Human Resources Development\n                                                                                           3       0       3\n                   MF F219            Operations Management\n                                                                                           3       0       3\n                   MF F319            Supply Chain Management\n                                                                                           3       0       3\n                   ME F443            Quality Control, Assurance and Reliability\n                                                                                           3       0       3\n                   MGTS F311          Marketing                                            3       0       3\n\n                   MGTS F313          Product and Brand Management                         3       0       3\n                   MGTS F315          Foundations of Business Analytics\n                                                                                           3       0       3\n                   MGTS F316          Managerial and Leadership Skills\n                                                                                           3       0       3\n                   MGTS F351          Organizational Behaviour\n                                                                                           3       0       3",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "materials_science_and_engineering",
+    "name": "Materials Science and Engineering",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "CHE F243",
+        "title": "Materials Science and Engineering",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "MST F331",
+        "title": "Materials Characterization",
+        "credits": 4,
+        "category": "Minor Core"
+      },
+      {
+        "code": "MST F332",
+        "title": "Materials Processing",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F416",
+        "title": "Introduction to Nanoscience",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CHE F433",
+        "title": "Corrosion Engineering",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CHEM F223",
+        "title": "Colloid and Surface Chemistry",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CHEM F326",
+        "title": "Solid State Chemistry",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "CHEM F336",
+        "title": "Nanochemistry",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F452",
+        "title": "Composite Materials and Design",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MST F333",
+        "title": "Introduction to Biomaterials",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MST F334",
+        "title": "Materials for Catalytic Applications",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MST F335",
+        "title": "Coating and thin film technology",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MST F336",
+        "title": "Glass Technology",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MST F337",
+        "title": "Materials for Energy Applications",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MST F338",
+        "title": "Metals and Alloys",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MST F339",
+        "title": "Polymer Materials",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F379",
+        "title": "Thin Film Technology",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F414",
+        "title": "Physics of Advanced Materials",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F416",
+        "title": "Soft condensed Matter Physics",
+        "credits": 4,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Materials Science and Engineering\n\n                         Materials Science and Engineering is an interdisciplinary subject that makes use\n                         of knowledge from Physics, Chemistry, Engineering, Mathematics, Biology and\n                         Biotechnology, but which has its own special character. It is always evolving \u2013\nDescription              new and exciting materials such as nanomaterials, high-temperature and\n                         lightweight materials, green materials and sustainable biomaterials for tissue\n                         engineering are continually emerging. The field of Material Science combines a\n                         wide knowledge base and puts it to diverse practical and commercial use.\n\nCourses & Units\n                         5 courses (min) 15 units (min)\nRequired\n\n                         Course Number Course Title                                            L       P   U\n\n                         CHE F243 /                                                            3       0   3\n                                           Materials Science and Engineering\nCore Courses             ME F213                                                               2       0   2\n\n                         MST F331          Materials Characterization                          3       1   4\n\n                         MST F332          Materials Processing                                3       0   3\n\n                         BITS F416         Introduction to Nanoscience                         3       0   3\n\n                         CHE F433          Corrosion Engineering                               3       0   3\n\n                         CHEM F223         Colloid and Surface Chemistry                       3       0   3\nElective Courses\n                         CHEM F326         Solid State Chemistry                               3       0   3\n\n                         CHEM F336         Nanochemistry                                       3       1   4\n\n                         ME F452           Composite Materials and Design                      3       0   3\n\n\n                                                  94\n\f                       Minor in Materials Science and Engineering\n\n                    MST F333          Introduction to Biomaterials                       3       0       3\n\n                    MST F334          Materials for Catalytic Applications               3       0       3\n\n                    MST F335          Coating and thin film technology                   3       0       3\n\n                    MST F336          Glass Technology                                   3       0       3\n\n                    MST F337          Materials for Energy Applications                  3       0       3\n\n                    MST F338          Metals and Alloys                                  3       0       3\n\n                    MST F339          Polymer Materials                                  3       0       3\n\n                    PHY F379          Thin Film Technology                               3       0       3\n\n                    PHY F414          Physics of Advanced Materials                      3       1       4\n\n                    PHY F416          Soft condensed Matter Physics                      3       1       4",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "philosophy_economics_and_politics",
+    "name": "Philosophy, Economics, and Politics",
+    "minimum_courses": 6,
+    "minimum_credits": 18,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "ECON F211",
+        "title": "Principles of Economics",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "GS F211",
+        "title": "Modern Political Concepts",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "HSS F235",
+        "title": "Introductory Philosophy",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F385",
+        "title": "Introduction to Gender Studies",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F231",
+        "title": "Dynamics of Social Change",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F234",
+        "title": "Development Economics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F243",
+        "title": "Current Affairs",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F312",
+        "title": "Applied Philosophy",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F313",
+        "title": "Marxian Thoughts",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F332",
+        "title": "Contemporary India",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "GS F333",
+        "title": "Public Administration",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F236",
+        "title": "Symbolic Logic",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F315",
+        "title": "Society, Business, and Politics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F322",
+        "title": "Social and Political Ecology",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F331",
+        "title": "Sankara\u2019s Thoughts",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F333",
+        "title": "Comparative Religion",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F343",
+        "title": "Professional Ethics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F345",
+        "title": "Gandhian Thoughts",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F346",
+        "title": "International Relations",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F350",
+        "title": "Human Rights: History, Theory and Practice",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F353",
+        "title": "Philosophy of Aesthetics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F354",
+        "title": "Introduction to Islamic Economy",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F355",
+        "title": "Dictatorship, Democracy & Development",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F356",
+        "title": "Social Movements and Protest Politics",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Philosophy, Economics, and Politics\n                   The minor in Philosophy, Economics & Politics & (PEP) aims at introducing students\n                   to a wide range of approaches to understand the social and human world we live\n                   in and to develop skills useful for a range of career opportunities in national and\n                   international organizations. It would particularly interest and enthuse those\n                   students who wish to complement their core expertise in science and engineering\nDescription        with a good grasp of the humanities and social sciences. As a multi-disciplinary\n                   minor, this option will provide a judicious mix of knowledge in social sciences\n                   (economics, sociology and politics) and the humanities (philosophy) that would\n                   enable students to draw connections among political, economic, and social\n                   phenomena as well as equip them with the necessary skills to think through\n                   complex challenges of our society in a creative and critical manner.\nCourses & Units\n                   6 courses (min) 18 units (min)\nRequired\n                   Course Number      Course Title                                           L       P       U\n                   ECON F211          Principles of Economics                                3       0       3\nCore Courses\n                   GS F211            Modern Political Concepts                              3       0       3\n                   HSS F235           Introductory Philosophy                                3       0       3\n                   BITS F 385         Introduction to Gender Studies                         3       0       3\n                   GS F231            Dynamics of Social Change                              3       0       3\n                   GS F234            Development Economics                                  3       0       3\n                   GS F243            Current Affairs                                        3       0       3\n                   GS F312            Applied Philosophy                                     3       0       3\nElective Courses   GS F313            Marxian Thoughts                                       3       0       3\n                   GS F332            Contemporary India                                     3       0       3\n                   GS F333            Public Administration                                  3       0       3\n                   HSS F236           Symbolic Logic                                         3       0       3\n                   HSS F315           Society, Business, and Politics                        3       0       3\n                   HSS F322           Social and Political Ecology                           3       0       3\n\n\n                                            95\n\f                         Minor in Philosophy, Economics, and Politics\n                     HSS F331           Sankara\u2019s Thoughts                                       3       0       3\n                     HSS F333           Comparative Religion                                     3       0       3\n                     HSS F343           Professional Ethics                                      3       0       3\n                     HSS F345           Gandhian Thoughts                                        3       0       3\n                     HSS F346           International Relations                                  3       0       3\n                     HSS F350           Human Rights: History, Theory and Practice               3       0       3\n                     HSS F353           Philosophy of Aesthetics                                 3       0       3\n                     HSS F354           Introduction to Islamic Economy                          3       0       3\n                     HSS F355           Dictatorship, Democracy & Development                    3       0       3\n                     HSS F356           Social Movements and Protest Politics                    3       0       3",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "PHY F212",
+        "title": "Electromagnetic Theory \u2013 1",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "PHY F242",
+        "title": "Quantum Mechanics \u2013 1",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "PHY F312",
+        "title": "Statistical Mechanics",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F316",
+        "title": "Nonlinear Dynamics and Chaos",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F386",
+        "title": "Quantum Information and Computing",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F211",
+        "title": "Classical Mechanics",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F213",
+        "title": "Optics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F214",
+        "title": "Electricity Magnetism and Optics Lab",
+        "credits": 2,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F215",
+        "title": "Introduction to Astronomy and Astrophysics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F241",
+        "title": "Electromagnetic Theory \u2013 2",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F243",
+        "title": "Mathematical Method of Physics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F244",
+        "title": "Modern Physics Lab",
+        "credits": 2,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F311",
+        "title": "Quantum Mechanics \u2013 2",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F313",
+        "title": "Computational Physics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F315",
+        "title": "Theory of Relativity",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F341",
+        "title": "Solid State Physics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F342",
+        "title": "Atomic and Molecular Physics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F343",
+        "title": "Nuclear and Particle Physics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F346",
+        "title": "Laser Science and Technology",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F418",
+        "title": "Lasers and Applications",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F426",
+        "title": "Physics of Semiconductors Devices",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F427",
+        "title": "Atmospheric Physics",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "PHY F428",
+        "title": "Quantum Information Theory",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Physics\n\n                   The theories in physics are all-pervading and their applications are found in varied\n                   branches of engineering and sciences. The minor in Physics aims to introduce the\n                   student to fundamental theories in physics. The core courses cover the basics and\nDescription        by choosing from the large pool of electives, the student will be able to pursue to a\n                   deeper level the areas of her/his interest. This minor would equip the students with\n                   the skill and knowledge which will help them in gaining insights in their own\n                   primary area of study.\n\nCourses & Units\n                   5 courses (min) 15 units (min)\nRequired\n\n                   Course Number      Course Title                                           L       P       U\n\n                   PHY F212 or\n                   ECE F212/ EEE      Electromagnetic Theory \u2013 1 or\n                                                                                             3       0       3\nCore Courses       F212/ INSTR        Electromagnetic Theory\n                   F212\n\n                   PHY F242           Quantum Mechanics \u2013 1                                  3       0       3\n\n                   PHY F312           Statistical Mechanics                                  3       0       3\n\n                   BITS F316          Nonlinear Dynamics and Chaos                           3       0       3\n\n                   BITS F386          Quantum Information and Computing                      3       0       3\n\n                   PHY F211           Classical Mechanics                                    3       1       4\n\n                   PHY F213           Optics                                                 3       0       3\n\n                   PHY F214           Electricity Magnetism and Optics Lab                   0       2       2\n\n                   PHY F215           Introduction to Astronomy and Astrophysics             3       0       3\nElective Courses\n                   PHY F241           Electromagnetic Theory \u2013 2                             3       1       4\n\n                   PHY F243           Mathematical Method of Physics                         3       0       3\n\n                   PHY F244           Modern Physics Lab                                     0       2       2\n\n                   PHY F311           Quantum Mechanics \u2013 2                                  3       0       3\n\n                   PHY F313           Computational Physics                                  3       0       3\n\n                   PHY F315           Theory of Relativity                                   3       0       3\n                                               96\n\f                                         Minor in Physics\n\n                    PHY F341            Solid State Physics                                     3       0       3\n\n                    PHY F342            Atomic and Molecular Physics                            3       0       3\n\n                    PHY F343            Nuclear and Particle Physics                            3       0       3\n\n                    PHY F346            Laser Science and Technology                            3       0       3\n\n                    PHY F418            Lasers and Applications                                 3       1       4\n\n                    PHY F426            Physics of Semiconductors Devices                       3       1       4\n\n                    PHY F427            Atmospheric Physics                                     3       0       3\n\n                    PHY F428            Quantum Information Theory                              3       0       3",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "public_policy",
+    "name": "Public Policy",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "GS F233",
+        "title": "Public Policy",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "GS F333",
+        "title": "Public Administration",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "HSS F232",
+        "title": "Introduction to Development Studies",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F317",
+        "title": "Introduction to Globalisation",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F322",
+        "title": "Social and Political Ecology",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F361",
+        "title": "Urban Policy and Governance",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "HSS F362",
+        "title": "Local Governance and Participation",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Public Policy\n\n                   The Minor in Public Policy aims at providing the students a clear and contextualised\n                   understanding of conceptual and empirical aspects of public policy, the nature of public\n                   policy interventions in India and their varying impacts. Also, it intends to provide the\nDescription\n                   students an understanding of the dynamics of policymaking, central aspects of\n                   governance and core features and functions of institutions, and equip them with skills of\n                   policy analysis.\n\nCourses & Units\n                   5 courses (min) 15 units (min)\nRequired\n\n                   Course Number      Course Title                                          L       P       U\n\nCore Courses          GS F233         Public Policy                                         3       0           3\n\n                      GS F333         Public Administration                                 3       0           3\n                      HSS F232        Introduction to Development Studies                   3       0           3\n                      HSS F317        Introduction to Globalisation                         3       0           3\nElective Courses      HSS F322        Social and Political Ecology                          3       0           3\n                      HSS F361        Urban Policy and Governance                           3       0           3\n                      HSS F362        Local Governance and Participation                    3       0           3",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "robotics_and_automation",
+    "name": "Robotics and Automation",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "BITS F441",
+        "title": "Robotics",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F327",
+        "title": "Artificial Intelligence for Robotics",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BITS F312",
+        "title": "Neural Network & Fuzzy Logic",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F415",
+        "title": "Introduction To MEMS",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F442",
+        "title": "Remote Sensing and Image Processing",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "BITS F464",
+        "title": "Machine Learning",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ECE F434",
+        "title": "Digital Signal Processing",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "EEE F411",
+        "title": "Internet of Things (IoT)",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "EEE F422",
+        "title": "Modern Control Systems",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "EEE G512",
+        "title": "Embedded System Design",
+        "credits": 4,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "INSTR F343",
+        "title": "Industrial Instrumentation and Control",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "INSTR G611",
+        "title": "Advanced Control Systems",
+        "credits": 5,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F244",
+        "title": "Kinematics & Dynamics of Machinery",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F432",
+        "title": "Computer Aided Manufacturing",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MF F311",
+        "title": "Mechatronics & Automation",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MSE G511",
+        "title": "Mechatronics",
+        "credits": 5,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "EEE F242",
+        "title": "Control Systems",
+        "credits": 3,
+        "category": "Minor Core"
+      }
+    ],
+    "structure": "Minor in Robotics and Automation\n\nDescription        This minor aims to impart specialized knowledge and skills in robotics and automation\n                   required by engineers to the current demands of various industrial sectors. Automobile,\n                   aerospace & defense, logistics engineering and factory automation companies are\n                   currently asking for engineering graduates with add-on skills in these areas. Feedback\n                   has established that several sectors of industry need the newly recruited employees with\n                   knowledge and skills in 'automation', 'robotics', and 'mechatronics'. Currently, the need\n                   of core courses of any B.E. programme of the Institute limits sufficient coverage of these\n                   topics in the existing core and hence the only way students can complement their\n                   learning with these specialized courses is through a minor programme. This minor\n                   programme has been designed by keeping that need in focus. This minor programme\n                   consists of a fairly generic core so as to be relevant to students of any discipline and a\n\n                                                97\n\f                                Minor in Robotics and Automation\n                  broad set of elective courses covering application of the fundamentals of robotics and\n                  automation to various industry sectors.\n\nCourses & Units   05 courses (min) 15 units (min)\nRequired\n\n                  Course Number       Course Title                                      L   P    U\n\n                  BITS F441           Robotics                                          3   0    3\n\nCore Courses      EEE/INSTR/ECE       Control Systems                                   3   0    3\n                  F242\n\n                  BITS F327           Artificial Intelligence for Robotics              2   1    3\n\n                  BITS F312           Neural Network & Fuzzy Logic                      3   0    3\n\n                  BITS F415           Introduction To MEMS                              3   1    4\n\n                  BITS F442           Remote Sensing and Image Processing               3   0    3\n\n                  BITS F464           Machine Learning                                  3   0    3\n\n                  ECE F434            Digital Signal Processing                         3   1    4\n\n                  EEE F411            Internet of Things (IoT)                          3   1    4\n\n                  EEE F422            Modern Control Systems                            3   0    3\nElectives\n                  EEE G512            Embedded System Design                            3   1    4\n\n                  INSTR F343          Industrial Instrumentation and Control            3   0    3\n\n                  INSTR G611          Advanced Control Systems                          3   2    5\n\n                  ME F244             Kinematics & Dynamics of Machinery                3   0    3\n\n                  ME F432             Computer Aided Manufacturing                      2   1    3\n\n                  MF F311             Mechatronics & Automation                         2   1    3\n\n                  MSE G511            Mechatronics                                      3   2    5",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  },
+  {
+    "id": "supply_chain_analytics",
+    "name": "Supply Chain Analytics",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "BITS F455",
+        "title": "Analytics for Supply Chain",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "MF F319",
+        "title": "Supply Chain Management",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "MF F422",
+        "title": "Supply Chain Modelling and Empirical Analysis",
+        "credits": 4,
+        "category": "Minor Core"
+      },
+      {
+        "code": "ME F443",
+        "title": "Quality Control Assurance and Reliability",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MF F321",
+        "title": "Procurement Management",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MF F418",
+        "title": "Lean Manufacturing",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MF F485",
+        "title": "Sustainable Manufacturing",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MATH F212",
+        "title": "Optimization",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "ME F320",
+        "title": "Engineering Optimization",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MF F320",
+        "title": "Engineering Optimization",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MATH F242",
+        "title": "Operations Research",
+        "credits": 3,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "MATH F353",
+        "title": "Statistical Inference and Applications",
+        "credits": 3,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Supply Chain Analytics\nDescription       Supply chain analytics help organizations to take better, faster and more informed\n                  decisions about their business operations. The global market for supply chain\n                  analytics is projected to exceed $10 billion by 2025 and has a compound annual\n                  growth rate (CAGR) of 16%. Today\u2019s supply chain analytics solutions already have\n                  impressive capabilities, and with future advancements will on ly become more of a\n                  game-changer for businesses across all industries. Supply chain analytics minor\n                  programme will enable the students to develop foundations and to broaden their\n                  knowledge base of supply chain in general and supply chain analytics in specific.\n                  It will cover three verticals such as supply chain management, supply chain\n                  modelling and empirical analysis (qualitative data analysis) & supply chain\n                  analytics (quantitative data analysis). The minor programme is designed to create\n                  supply chain professionals for present and future business environment.\nCourses & Units   05 courses (min)\nRequired          15 units (min)\n\n                                                 98\n\f                  Course Number               Course Title                                     L    P   U\n                  BITS F455                   Analytics for Supply Chain                       3    0    3\n                  MF F319                     Supply Chain Management                          3    0    3\nCore Courses\n                                              Supply Chain Modelling and Empirical\n                  MF F422                                                                      3    1    4\n                                              Analysis\n                  ME F443                     Quality Control Assurance and Reliability        3    0    3\n                  MF F321                     Procurement Management                           3    0    3\nElectives         MF F418                     Lean Manufacturing                               3    0    3\n                  MF F485                     Sustainable Manufacturing                        3    0    3\n                  MATH F212       OR          Optimization                       OR\n                  ME F320         OR          Engineering Optimization          OR             3    0    3\n                  MF F320                     Engineering Optimization\n                  MATH F242                   Operations Research                              3    0    3\n                  MATH F353                   Statistical Inference and Applications           3    0    3",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": [
+      [
+        "MATH F212",
+        "ME F320",
+        "MF F320"
+      ]
+    ]
+  },
+  {
+    "id": "water_and_sanitation",
+    "name": "Water and Sanitation",
+    "minimum_courses": 5,
+    "minimum_credits": 15,
+    "excluded_branches": [],
+    "courses": [
+      {
+        "code": "BIO F216",
+        "title": "Water Sanitation and Solid Waste Management",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BIO F217",
+        "title": "Laboratory for Water Sanitation and Solid Waste Management",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "BIO F266",
+        "title": "Study Project",
+        "credits": 3,
+        "category": "Minor Core"
+      },
+      {
+        "code": "SAN G511",
+        "title": "Sanitation Technology",
+        "credits": 5,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "SAN G512",
+        "title": "Sanitation and Public Health",
+        "credits": 5,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "SAN G513",
+        "title": "Sanitation Governance Behaviour Change and Advocacy",
+        "credits": 5,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "SAN G514",
+        "title": "Sanitation Finance and Project Management",
+        "credits": 5,
+        "category": "Minor Elective"
+      },
+      {
+        "code": "SAN G515",
+        "title": "Emergency Sanitation & Leadership",
+        "credits": 5,
+        "category": "Minor Elective"
+      }
+    ],
+    "structure": "Minor in Water and Sanitation\n                  Sustainable Development Goal 6 (SDG 6) focusses on Water and Sanitation and the tasks\n                  mentioned in SDG 6. Sanitation is also high on agenda of the Indian Government as\n                  evident from Swachh Bharat Mission. Trained Postgraduate and working professionals are\n                  of high demand. Bill and Melinda Gates foundation had significantly invested in Water,\nDescription       Sanitation and Hygiene programme and they had funded UNESCO IHE and its 8 partners\n                  in developing e learning alliance. The foundation\u2019s investment strategy in sanitation\n                  requires qualified and trained professionals. This minor would equip the students with\n                  the skill and knowledge which will help them in gaining insights in the area of water and\n                  sanitation.\nCourses & Units\n                  05 courses (min) 15 units (min)\nRequired\n                  Course Number      Course Title                                              L   P    U\n                  BIO F216           Water Sanitation and Solid Waste Management               3   0    3\n                                     Laboratory for Water Sanitation and Solid Waste\nCore Courses      BIO F217                                                                     1   2    3\n                                     management\n                  BIO F266           Study Project                                                      3\n                  SAN G511           Sanitation Technology                                     3   2    5\n                  SAN G512           Sanitation and Public Health                              3   2    5\n                                     Sanitation Governance Behaviour change             and\nElectives         SAN G513                                                                              5*\n                                     Advocacy\n                  SAN G514           Sanitation Finance and Project Management                          5*\n                  SAN G515           Emergency Sanitation & Leadership                                  5*\n\n\n\n\n                                                99",
+    "source": "DETAILS_OF_PROGRAMMES (1).pdf, printed pages 88\u201399",
+    "alternative_groups": []
+  }
+]
