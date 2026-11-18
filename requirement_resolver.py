@@ -44,10 +44,31 @@ class RequirementResolver:
     # ---- loading ----------------------------------------------------
 
     @classmethod
-    def load(cls, branch=None, minor=None, curriculum_dir=None):
+    def load(cls, branch=None, minor=None, curriculum_dir=None, **kwargs):
+        branch = branch or 'cse'
         curriculum_dir = curriculum_dir or _DEFAULT_CURRICULUM_DIR
         curriculum = load_curriculum(curriculum_dir, branch=branch, minor=minor)
         return cls(curriculum)
+
+    @property
+    def credits_by_code(self):
+        return {code: c.credits for code, c in self.curriculum.courses.items()}
+
+    @property
+    def category_by_code(self):
+        return {code: c.category for code, c in self.curriculum.courses.items()}
+
+    @property
+    def parity_by_code(self):
+        return {code: c.term_parity for code, c in self.curriculum.courses.items()}
+
+    @property
+    def formula_by_code(self):
+        return {code: c.parsed_prerequisites for code, c in self.curriculum.courses.items()}
+
+    @property
+    def category_minimums(self):
+        return {cat: req.credit_minimum for cat, req in self.curriculum.requirements.items()}
 
     def courses_in_scope(self):
         return set(self.curriculum.courses.keys())

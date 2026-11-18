@@ -1,50 +1,163 @@
 [
   {
     "code": "CS F111",
-    "title": "COMPUTER PROGRAMMING",
+    "title": "Computer Programming",
     "credits": 4,
-    "term_parity": "even",
     "category": "University Core (First Year)",
+    "recommended_semester": 2,
+    "term_parity": "both",
     "prerequisites": null
   },
   {
     "code": "EEE F111",
-    "title": "ELECTRICAL SCIENCES",
+    "title": "Electrical Sciences",
     "credits": 3,
-    "term_parity": "even",
     "category": "University Core (First Year)",
+    "recommended_semester": 2,
+    "term_parity": "both",
     "prerequisites": null
   },
   {
     "code": "MATH F111",
-    "title": "MATHEMATICS-I",
+    "title": "Mathematics I",
     "credits": 3,
-    "term_parity": "odd",
     "category": "University Core (First Year)",
+    "recommended_semester": 1,
+    "term_parity": "both",
     "prerequisites": null
   },
   {
     "code": "MATH F112",
-    "title": "MATHEMATICS-II",
+    "title": "Mathematics II",
     "credits": 3,
-    "term_parity": "even",
     "category": "University Core (First Year)",
+    "recommended_semester": 2,
+    "term_parity": "both",
     "prerequisites": null
   },
   {
     "code": "MATH F113",
-    "title": "PROBABILITY & STATISTICS",
+    "title": "Probability and Statistics",
     "credits": 3,
-    "term_parity": "even",
     "category": "University Core (First Year)",
+    "recommended_semester": 2,
+    "term_parity": "both",
     "prerequisites": null
   },
   {
     "code": "MATH F213",
     "title": "DISCRETE MATHEMATICS",
     "credits": 3,
-    "term_parity": "odd",
+    "term_parity": "both",
+    "category": "Legacy Elective",
+    "prerequisites": null
+  },
+  {
+    "code": "BIO F110",
+    "title": "Biology Laboratory",
+    "credits": 1,
     "category": "University Core (First Year)",
+    "recommended_semester": 1,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "BIO F111",
+    "title": "General Biology",
+    "credits": 3,
+    "category": "University Core (First Year)",
+    "recommended_semester": 1,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "CHEM F110",
+    "title": "Chemistry Laboratory",
+    "credits": 1,
+    "category": "University Core (First Year)",
+    "recommended_semester": 1,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "CHEM F111",
+    "title": "General Chemistry",
+    "credits": 3,
+    "category": "University Core (First Year)",
+    "recommended_semester": 1,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "PHY F110",
+    "title": "Physics Laboratory",
+    "credits": 1,
+    "category": "University Core (First Year)",
+    "recommended_semester": 1,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "PHY F111",
+    "title": "Mechanics, Oscillations and Waves",
+    "credits": 3,
+    "category": "University Core (First Year)",
+    "recommended_semester": 1,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "BITS F110",
+    "title": "Engineering Graphics",
+    "credits": 2,
+    "category": "University Core (First Year)",
+    "recommended_semester": 1,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "ME F112",
+    "title": "Workshop Practice",
+    "credits": 2,
+    "category": "University Core (First Year)",
+    "recommended_semester": 2,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "BITS F112",
+    "title": "Technical Report Writing",
+    "credits": 2,
+    "category": "University Core (First Year)",
+    "recommended_semester": 2,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "BITS F111",
+    "title": "Thermodynamics",
+    "credits": 3,
+    "category": "University Core (First Year)",
+    "recommended_semester": 2,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "MATH F211",
+    "title": "Mathematics III",
+    "credits": 3,
+    "category": "Institutional Core",
+    "recommended_semester": 3,
+    "term_parity": "both",
+    "prerequisites": null
+  },
+  {
+    "code": "BITS F225",
+    "title": "Environmental Studies",
+    "credits": 3,
+    "category": "Institutional Core",
+    "recommended_semester": 4,
+    "term_parity": "both",
     "prerequisites": null
   }
 ]
