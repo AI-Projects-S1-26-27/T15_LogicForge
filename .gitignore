@@ -67,3 +67,4 @@ benchmark_results/
 
 # Node (if you build a frontend/explanation UI)
 node_modules/.DS_Store
+frontend/node_modules/
