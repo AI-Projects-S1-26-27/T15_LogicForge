@@ -11,7 +11,7 @@ import time
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Set, Tuple
 
-from .model import Constraint, NOT_TAKEN, Problem
+from .model import Constraint, NOT_TAKEN, Problem, extract_formula_courses
 
 
 @dataclass
@@ -21,6 +21,7 @@ class SolverConfig:
     forward_checking: bool = False
     ac3: bool = False
     degree_tiebreak: bool = False
+    lcv: bool = False
     timeout_s: Optional[float] = None
 
 
@@ -261,6 +262,27 @@ def solve(
 
     def bounds_check(assignment: Dict[str, Any]) -> bool:
         """Check credit caps per semester and category minimums."""
+        for code, sem in assignment.items():
+            if sem == NOT_TAKEN:
+                continue
+            info = problem.courses[code]
+            if info.get('must_be_last') and any(value != NOT_TAKEN and value > sem for value in assignment.values()):
+                return False
+            if sem > info.get('latest_semester', problem.target_semester):
+                return False
+            if info.get('companion_minimum') is not None:
+                companions = [c for c, value in assignment.items() if c != code and value == sem]
+                if any(not problem.courses[c].get('eligible_companion', True) for c in companions): return False
+                units = sum(problem.courses[c]['credits'] for c in companions)
+                possible = [c for c in problem.variables if c not in assignment and sem in domains[c]]
+                if units > info['companion_maximum']:
+                    return False
+                if units + sum(problem.courses[c]['credits'] for c in possible) < info['companion_minimum'] or len(companions) + len(possible) < info.get('companion_count', 0):
+                    return False
+            if sem < problem.courses[code].get('earliest_semester', 1):
+                return False
+            if problem.courses[code].get('exclusive_semester') and any(other != code and value == sem for other, value in assignment.items()):
+                return False
         # 1. credit_cap checks
         for s in range(problem.current_semester + 1, problem.target_semester + 1):
             c_name = f"credit_cap:{s}"
@@ -445,10 +467,71 @@ def solve(
     def order_values(var: str) -> List[Any]:
         # Values ascending: integer semesters ascending, NOT_TAKEN at the end
         vals = list(domains[var])
+        if problem.courses[var].get('must_be_last'):
+            return sorted([v for v in vals if v != NOT_TAKEN], reverse=True) + ([NOT_TAKEN] if NOT_TAKEN in vals else [])
         sem_vals = sorted([v for v in vals if v != NOT_TAKEN])
         if NOT_TAKEN in vals:
             sem_vals.append(NOT_TAKEN)
-        return sem_vals
+
+        if not config.lcv or len(vals) <= 1:
+            return sem_vals
+
+        # LCV: Least Constraining Value orders values by how few options they eliminate for unassigned neighbors
+        unassigned = [v for v in problem.variables if v not in assignment and v != var]
+        cr_var = problem.courses[var]["credits"]
+
+        def count_conflicts(val: Any) -> int:
+            conflicts = 0
+            if val == NOT_TAKEN:
+                # NOT_TAKEN does not use semester credits, but may starve dependent courses that need var
+                for u in unassigned:
+                    u_formula = problem.courses[u].get("formula")
+                    if u_formula is not None and var in extract_formula_courses(u_formula):
+                        for u_sem in domains[u]:
+                            if u_sem != NOT_TAKEN:
+                                if not _eval_formula_optimistic(
+                                    u_formula, u_sem, assignment, domains, completed_codes,
+                                    out_of_scope_codes, problem.assume_out_of_scope_satisfied,
+                                    fixed_var=var, fixed_val=NOT_TAKEN
+                                ):
+                                    conflicts += 1
+                return conflicts
+
+            sem = val
+            # 1. Credit overload conflicts: check if assigning var to sem leaves insufficient credit capacity for u
+            new_sem_load = val_load[sem] + cr_var
+            if f"credit_cap:{sem}" in active_constraints:
+                for u in unassigned:
+                    if sem in domains[u]:
+                        cr_u = problem.courses[u]["credits"]
+                        if new_sem_load + cr_u > problem.max_credits:
+                            conflicts += 1
+
+            # 2. Prereq ordering conflicts:
+            # If u depends on var (var -> u), u cannot be placed in a semester <= sem (or < sem if CO)
+            for u in unassigned:
+                u_formula = problem.courses[u].get("formula")
+                if u_formula is not None and var in extract_formula_courses(u_formula):
+                    for u_sem in domains[u]:
+                        if u_sem != NOT_TAKEN:
+                            if not _eval_formula_optimistic(
+                                u_formula, u_sem, assignment, domains, completed_codes,
+                                out_of_scope_codes, problem.assume_out_of_scope_satisfied,
+                                fixed_var=var, fixed_val=sem
+                            ):
+                                conflicts += 1
+
+                # If var depends on u (u -> var), u cannot be placed in a semester >= sem
+                v_formula = problem.courses[var].get("formula")
+                if v_formula is not None and u in extract_formula_courses(v_formula):
+                    for u_sem in domains[u]:
+                        if u_sem != NOT_TAKEN and u_sem >= sem:
+                            conflicts += 1
+
+            return conflicts
+
+        # Sort by conflict count ascending; break ties with natural sem_vals order
+        return sorted(sem_vals, key=lambda v: (count_conflicts(v), 1 if v == NOT_TAKEN else 0))
 
     def is_consistent_plain(var: str, val: Any) -> bool:
         """Check constraints for plain backtracking as soon as violated."""

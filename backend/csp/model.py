@@ -55,9 +55,9 @@ class Problem:
     tests and synthetic benchmarks) or populated via build_problem().
     """
     courses: Dict[str, Dict[str, Any]]
-    completed: Set[str]
-    current_semester: int
-    target_semester: int
+    completed: Set[str] = field(default_factory=set)
+    current_semester: int = 0
+    target_semester: int = 8
     max_credits: int = 20
     min_credits: int = 0
     category_minimums: Dict[str, int] = field(default_factory=dict)
@@ -98,6 +98,12 @@ class Problem:
 
             valid_semesters: List[int] = []
             for s in range(self.current_semester + 1, self.target_semester + 1):
+                if s > info.get("latest_semester", self.target_semester):
+                    continue
+                if parity == "unavailable":
+                    continue
+                if s < info.get("earliest_semester", 1):
+                    continue
                 if parity == "odd" and s % 2 != 1:
                     continue
                 if parity == "even" and s % 2 != 0:
@@ -182,6 +188,7 @@ def build_problem(
     Course metadata (credits, category, parity, formula) is extracted from
     the resolver and the curriculum scope specification.
     """
+    scope_codes = set()
     # Load parity_by_code if not provided
     if parity_by_code is None:
         parity_by_code = {}
@@ -200,18 +207,23 @@ def build_problem(
                         scope_data = json.load(f)
                     for entry in scope_data.get("courses", []):
                         parity_by_code[entry["code"]] = entry.get("term_parity")
+                        scope_codes.add(entry["code"])
                     break
                 except Exception:
                     pass
 
     # Extract all in-scope courses
-    in_scope_codes = resolver.courses_in_scope()
+    all_codes = resolver.courses_in_scope()
+    in_scope_codes = [c for c in all_codes if c in scope_codes] if scope_codes else list(all_codes)
 
     courses: Dict[str, Dict[str, Any]] = {}
     for code in in_scope_codes:
         credits_val = resolver.credits_by_code.get(code, 0)
         category = resolver.category_by_code.get(code, "Unknown")
-        parity = parity_by_code.get(code)
+        term_p = parity_by_code.get(code)
+        if term_p is None and hasattr(resolver, "parity_by_code"):
+            term_p = resolver.parity_by_code.get(code)
+        parity = term_p if term_p in ("odd", "even") else None
         try:
             formula = resolver.formula_for(code)
         except (KeyError, AttributeError):
@@ -227,10 +239,13 @@ def build_problem(
     # Also capture completed courses metadata if available in resolver for category tracking
     for code in completed:
         if code not in courses:
+            term_p = parity_by_code.get(code)
+            if term_p is None and hasattr(resolver, "parity_by_code"):
+                term_p = resolver.parity_by_code.get(code)
             courses[code] = {
                 "credits": resolver.credits_by_code.get(code, 0),
                 "category": resolver.category_by_code.get(code, "Unknown"),
-                "parity": parity_by_code.get(code),
+                "parity": term_p if term_p in ("odd", "even") else None,
                 "formula": None,
             }
 
