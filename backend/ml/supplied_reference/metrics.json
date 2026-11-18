@@ -1,0 +1,27 @@
+{
+  "dataset_size": 102,
+  "features": [
+    "outstanding_credits",
+    "outstanding_courses",
+    "max_chain_depth",
+    "parity_locked_count",
+    "terms_remaining",
+    "unsatisfied_disjunctions"
+  ],
+  "models": {
+    "HistGradientBoostingRegressor": {
+      "rmse": 0.04240200099977534,
+      "mae": 0.01823092449857119,
+      "r2": 0.9927919364295076,
+      "admissibility_violation_rate": 0.9047619047619048,
+      "latency_microseconds": 29975.040400167927
+    },
+    "MLPRegressor": {
+      "rmse": 0.057740570359906915,
+      "mae": 0.034840960055589676,
+      "r2": 0.9866337776184082,
+      "admissibility_violation_rate": 0.5714285714285714,
+      "latency_microseconds": 1061.018600128591
+    }
+  }
+}
