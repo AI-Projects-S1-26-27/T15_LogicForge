@@ -34,6 +34,8 @@ def problem_from_curriculum(
     min_credits: int = 0,
     category_minimums: dict[str, int] | None = None,
     assume_out_of_scope_satisfied: bool = True,
+    required_courses: Iterable[str] = (),
+    additional_courses: Iterable[dict] = (),
 ) -> Problem:
     """Build a ``Problem`` from a loaded curriculum and a list of completed courses."""
     courses = {}
@@ -45,11 +47,23 @@ def problem_from_curriculum(
             "formula": course.parsed_prerequisites,
             "title": course.title,
         }
+    for item in additional_courses:
+        if item['code'] not in courses:
+            courses[item['code']] = dict(credits=item['credits'], title=item['title'], category=item['category'], parity=None, formula=None, earliest_semester=item.get('earliest_semester', 1), exclusive_semester=item.get('exclusive_semester', False))
     if category_minimums is None:
         category_minimums = {
             category: int(req.credit_minimum)
             for category, req in curriculum.requirements.items()
         }
+    # Keep each original category floor after moving forced choices to a mandatory category.
+    category_minimums = dict(category_minimums)
+    for code in set(required_courses):
+        if code not in courses:
+            raise ValueError(f"Unknown selected course: {code}")
+        info = courses[code]
+        category = info['category']
+        category_minimums[category] = max(0, category_minimums.get(category, 0) - info['credits'])
+        info['category'] = 'Required Choice'
     return Problem(
         courses=courses,
         completed=set(completed),

@@ -23,6 +23,7 @@ def plan_payload(request):
         problem_override=problem,
         timeout_s=15.0,
         diagnose=False,
+        astar_bundle_limit=10,
     )
     attempts = []
     if (

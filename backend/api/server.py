@@ -192,10 +192,17 @@ class RequestHandler(BaseHTTPRequestHandler):
         from backend.services.scoped_planner import InputError
 
         try:
-            length = int(self.headers.get("Content-Length", "0"))
+            try:
+                length = int(self.headers.get("Content-Length", "0"))
+            except ValueError:
+                raise InputError("Invalid Content-Length header.") from None
             if not 0 < length <= 1000000:
                 raise InputError("Request body must be from 1 byte to 1 MB.")
-            req = json.loads(self.rfile.read(length).decode("utf-8"))
+            try:
+                req = json.loads(self.rfile.read(length).decode("utf-8"))
+            except (ValueError, RecursionError):
+                self._send_json({"error": "Invalid JSON request."}, status=400)
+                return
             if parsed.path == "/api/schedule/edit":
                 from backend.services.scoped_api import edit_payload
 
@@ -250,8 +257,6 @@ class RequestHandler(BaseHTTPRequestHandler):
                 self._send_json(plan_payload(req))
         except InputError as exc:
             self._send_json({"error": str(exc), "issues": exc.issues}, status=400)
-        except (ValueError, TypeError, UnicodeDecodeError):
-            self._send_json({"error": "Invalid JSON request."}, status=400)
         except Exception as exc:
             self._send_json({"error": f"Planner could not complete: {exc}"}, status=500)
 
