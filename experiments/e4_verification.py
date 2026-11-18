@@ -41,12 +41,13 @@ def available_solvers(timeout_s: float) -> dict:
     from backend.csp.solver import SolverConfig, solve as csp_solve
 
     config = SolverConfig(mrv=True, forward_checking=True, ac3=True,
-                          degree_tiebreak=True, timeout_s=timeout_s)
+                          degree_tiebreak=True, lcv=True, timeout_s=timeout_s)
     solvers["csp"] = lambda p: csp_solve(p, config)
     try:
         from backend.astar import AStarConfig, solve as astar_solve
+        from config.settings import ASTAR
 
-        a_config = AStarConfig(heuristic="composite", timeout_seconds=timeout_s)
+        a_config = AStarConfig(heuristic="composite", bundle_breadth_limit=ASTAR.bundle_breadth_limit, timeout_seconds=timeout_s)
         solvers["astar"] = lambda p: astar_solve(p, a_config)
     except Exception as exc:  # A* is not merged into main yet
         print(f"A* not available here ({type(exc).__name__}: {exc}); running CSP only.")

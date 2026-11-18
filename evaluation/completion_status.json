@@ -1,0 +1,25 @@
+{
+  "software": "implemented and tested",
+  "E1_E2_E3_E4": "completed reproducible evaluations; 200 synthetic profiles (164 solver-ready,36 preparation blocked), raw results included",
+  "learned_training": {
+    "states": 3000,
+    "label": "exact optimal remaining terms on small synthetic instances",
+    "full_curriculum_guarantee": false
+  },
+  "E5": {
+    "status": "10 user-supplied consenting feedback records validated and analysed",
+    "prepared": [
+      "anonymous evaluation form",
+      "five tasks",
+      "local JSON export",
+      "analysis script"
+    ],
+    "required_participants": "6\u201310",
+    "legacy_feedback_provenance": "unverified; excluded",
+    "results": "evaluation/volunteer_results.json",
+    "task_completion": "49/50; P10 reported4/5"
+  },
+  "report": "excluded by user request",
+  "ppt": "excluded by user request",
+  "validation": "379 automated tests; transcript browser flow;500 exact-optimality runs;20 minimal-core checks"
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "case": 0,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 1,
+    "conflict": [
+      "horizon",
+      "credit_cap",
+      "prereq:C2"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 7
+  },
+  {
+    "case": 2,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 3,
+    "conflict": [
+      "horizon",
+      "credit_cap",
+      "parity:C0",
+      "prereq:C4"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 15
+  },
+  {
+    "case": 4,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 5,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 6,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 7,
+    "conflict": [
+      "horizon",
+      "prereq:C4",
+      "prereq:C5"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 7
+  },
+  {
+    "case": 8,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 9,
+    "conflict": [
+      "horizon",
+      "prereq:C2",
+      "prereq:C3"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 7
+  },
+  {
+    "case": 10,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 11,
+    "conflict": [
+      "horizon",
+      "prereq:C4",
+      "prereq:C5"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 7
+  },
+  {
+    "case": 12,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 13,
+    "conflict": [
+      "horizon",
+      "credit_cap",
+      "prereq:C2"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 7
+  },
+  {
+    "case": 14,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 15,
+    "conflict": [
+      "horizon",
+      "credit_cap",
+      "parity:C0",
+      "prereq:C4"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 15
+  },
+  {
+    "case": 16,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 17,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 18,
+    "conflict": [
+      "horizon",
+      "credit_cap"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 3
+  },
+  {
+    "case": 19,
+    "conflict": [
+      "horizon",
+      "prereq:C4",
+      "prereq:C5"
+    ],
+    "minimal_verified": true,
+    "proper_subsets_checked": 7
+  }
+]

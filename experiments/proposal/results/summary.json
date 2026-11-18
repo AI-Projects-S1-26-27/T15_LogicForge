@@ -1,0 +1,57 @@
+{
+  "catalogue_signature": "6b09d2d03e37a054f93ceaa861d6f1c9cfe0cc421d7b59fe511c69c0a09cf539",
+  "instances": 200,
+  "budgets_seconds": {
+    "E1": 0.25,
+    "E2": 0.1,
+    "E3": 0.15
+  },
+  "note": "Timeouts are censored, not UNSAT. E3 full-size runs do not claim optimality. Synthetic profiles, not volunteer data.",
+  "csp": {
+    "statuses": {
+      "NO_PLAN": 68,
+      "PLAN": 88,
+      "TIMEOUT": 8
+    },
+    "returned_validity": {
+      "n": 88,
+      "mean": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "level": 0.95
+    },
+    "runtime": {
+      "n": 164,
+      "mean": 0.029472614737753203,
+      "ci_low": 0.01987557165830367,
+      "ci_high": 0.03989378260984068,
+      "level": 0.95
+    }
+  },
+  "astar": {
+    "statuses": {
+      "NO_PLAN": 77,
+      "PLAN": 87
+    },
+    "returned_validity": {
+      "n": 87,
+      "mean": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "level": 0.95
+    },
+    "runtime": {
+      "n": 164,
+      "mean": 0.006502885682848722,
+      "ci_low": 0.004434816024402652,
+      "ci_high": 0.008996205609769166,
+      "level": 0.95
+    }
+  },
+  "paired_nodes_wilcoxon": {
+    "statistic": 170.5,
+    "p_value": 1.6020111893431313e-13,
+    "n": 87,
+    "method": "normal"
+  }
+}

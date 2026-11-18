@@ -1,0 +1,11 @@
+{
+  "consent": "on",
+  "participant": "P05",
+  "branch": "EEE",
+  "correctness": "yes",
+  "usefulness": 5,
+  "tasks_completed": 5,
+  "issues": "",
+  "schema_version": 1,
+  "timestamp": "2026-11-17T23:42:42.974Z"
+}
