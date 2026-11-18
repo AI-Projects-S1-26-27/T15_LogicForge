@@ -27,6 +27,7 @@ from backend.models.planning_problem import (
     assignment_is_valid,
     formula_satisfied,
     is_elective_category,
+    extract_formula_courses,
     parity_allows,
 )
 from backend.models.study_plan import StudyPlan
@@ -109,6 +110,10 @@ def _eligible(problem: Problem, placed: dict[str, int], term: int) -> list[str]:
     for code in problem.variables:
         if code in placed:
             continue
+        if term > problem.courses[code].get('latest_semester', problem.target_semester):
+            continue
+        if term < problem.courses[code].get('earliest_semester', 1):
+            continue
         if not parity_allows(problem.courses[code].get("parity"), term):
             continue
         pool.append(code)
@@ -134,12 +139,32 @@ def _enumerate_bundles(
     if limit is None:
         ordered = sorted(eligible)
     else:
-        ordered = sorted(eligible, key=lambda code: (-_credits(problem, code), code))
+        dependents = {code: set() for code in problem.variables}
+        for target, info in problem.courses.items():
+            for dep in extract_formula_courses(info.get('formula')):
+                if dep in dependents: dependents[dep].add(target)
+        def urgency(code):
+            info = problem.courses[code]
+            slots = sum(parity_allows(info.get('parity'), s) for s in range(term, min(problem.target_semester, info.get('latest_semester', problem.target_semester)) + 1))
+            return (slots, -len(dependents[code]), info.get('recommended_semester', 9), -_credits(problem, code), code)
+        ordered = sorted(eligible, key=urgency)
 
     found: list[tuple[str, ...]] = []
     seen: set[tuple[str, ...]] = set()
 
     def bundle_ok(chosen: tuple[str, ...]) -> bool:
+        if len(chosen) > 1 and any(problem.courses[c].get('exclusive_semester') for c in chosen):
+            return False
+        for code in chosen:
+            info = problem.courses[code]
+            if info.get('must_be_last') and any(c not in placed and c not in chosen and not is_elective_category(problem.courses[c].get('category')) for c in problem.variables):
+                return False
+            if info.get('companion_minimum') is not None:
+                companions = [c for c in chosen if c != code]
+                if any(not problem.courses[c].get('eligible_companion', True) for c in companions): return False
+                units = sum(problem.courses[c]['credits'] for c in companions)
+                if not info['companion_minimum'] <= units <= info['companion_maximum'] or len(companions) < info.get('companion_count', 0):
+                    return False
         hypothetical = dict(placed)
         for code in chosen:
             hypothetical[code] = term
@@ -222,6 +247,7 @@ def _result(
             "time_s": time.perf_counter() - started,
             "terms_used": terms_used,
             "heuristic": heuristic_name,
+            "learned_policy": "MLP orders equal-f, equal-depth states; composite remains the primary lower bound" if heuristic_name == "learned" else None,
             "root_h": None if math.isinf(root_h) else root_h,
             "bundle_breadth_limit": limit,
             "complete_search": limit is None,
@@ -232,7 +258,10 @@ def _result(
 def solve(problem: Problem, config: AStarConfig | None = None) -> Result:
     """Search for a minimum-term plan. See ``AStarConfig`` for the switches."""
     cfg = config or AStarConfig()
-    heuristic = get_heuristic(cfg.heuristic)
+    # Learned guidance only breaks equal-f, equal-depth ties. The trained model
+    # cannot establish infeasibility or distort the composite lower bound.
+    from .heuristics import learned_prediction
+    heuristic = get_heuristic('composite' if cfg.heuristic == 'learned' else cfg.heuristic)
     started = time.perf_counter()
     nodes = 0
     bundles_seen = 0
@@ -258,10 +287,11 @@ def solve(problem: Problem, config: AStarConfig | None = None) -> Result:
     counter = 0
     start_state = (root_term, tuple())
     best_g: dict[tuple, int] = {start_state: 0}
-    # Priority tuple: (f_score, g_cost, elective_count, counter, state)
+    # Priority tuple: (f_score, -g_cost, elective_count, counter, state).
+    # Deeper states win equal-f ties; f remains the primary A* ordering.
     # Breaking ties with elective_count ensures that for the same term count,
     # plans that don't take unneeded electives are preferred.
-    heap: list[tuple] = [(root_h, 0, 0, counter, start_state)]
+    heap: list[tuple] = [(root_h, 0, 0.0, 0, counter, start_state)]
 
     while heap:
         if timed_out() or nodes >= cfg.max_nodes:
@@ -269,7 +299,8 @@ def solve(problem: Problem, config: AStarConfig | None = None) -> Result:
                 "TIMEOUT", problem, None, 0, cfg.heuristic, nodes, bundles_seen,
                 started, root_h, cfg.bundle_breadth_limit,
             )
-        _score, g_cost, _elec, _tie, state = heapq.heappop(heap)
+        _score, negative_g, _guidance, _elec, _tie, state = heapq.heappop(heap)
+        g_cost = -negative_g
         if g_cost != best_g.get(state):
             continue
         nodes += 1
@@ -310,7 +341,7 @@ def solve(problem: Problem, config: AStarConfig | None = None) -> Result:
                     if is_elective_category(problem.courses[c].get("category"))
                 )
                 heapq.heappush(
-                    heap, (new_g + estimate, new_g, elec_count, counter, successor)
+                    heap, (new_g + estimate, -new_g, learned_prediction(problem, updated, next_term + 1) if cfg.heuristic == 'learned' else 0.0, elec_count, counter, successor)
                 )
 
     return _result(
