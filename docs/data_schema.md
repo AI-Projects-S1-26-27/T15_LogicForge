@@ -1,3 +1,5 @@
+> Submission dashboard data schema: see `docs/submission/REPORT.md` and `data/curriculum/scoped_catalogue.json`. The historical research/Streamlit documentation below describes the original experiment fixtures, not the current dashboard curriculum authority.
+
 # Curriculum Data Schema
 
 GraphMind's curriculum data is split into three clearly separate layers so that branches and minors can be added and validated **independently**, and so the system never silently treats an unvalidated branch as supported.
