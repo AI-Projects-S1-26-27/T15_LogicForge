@@ -1,0 +1,27 @@
+{
+  "feature_version": "graphmind-six-features-v1",
+  "features": [
+    "outstanding_credits",
+    "outstanding_courses",
+    "max_chain_depth",
+    "parity_locked_count",
+    "terms_remaining",
+    "unsatisfied_disjunctions"
+  ],
+  "catalogue_signature": "6b09d2d03e37a054f93ceaa861d6f1c9cfe0cc421d7b59fe511c69c0a09cf539",
+  "label_kind": "verified_feasible_suffix_upper_bound",
+  "rows": 224,
+  "episodes": 32,
+  "branches": [
+    "cse",
+    "e_and_i",
+    "ece",
+    "eee"
+  ],
+  "assumptions": [
+    "Unlisted courses explicitly allowed in either semester as planning assumptions",
+    "Current semester 2 with common first year passed"
+  ],
+  "failures": [],
+  "source": "Corrected ml.zip pipeline using the submission CSP and independent plan checker"
+}
